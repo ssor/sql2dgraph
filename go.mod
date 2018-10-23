@@ -11,9 +11,9 @@ require (
 	github.com/mkideal/pkg v0.0.0-20170503154153-3e188c9e7ecc // indirect
 	github.com/pkg/errors v0.8.0 // indirect
 	github.com/ssor/zlog v1.0.2
-	github.com/tidwall/gjson v1.1.3 // indirect
+	github.com/tidwall/gjson v1.1.3
 	github.com/tidwall/match v0.0.0-20171002075945-1731857f09b1 // indirect
 	github.com/xwb1989/sqlparser v0.0.0-20180606152119-120387863bf2
 	google.golang.org/grpc v1.15.0 // indirect
-	gopkg.in/yaml.v2 v2.2.1 // indirect
+	gopkg.in/yaml.v2 v2.2.1
 )
