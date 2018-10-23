@@ -1,0 +1,65 @@
+{set{
+_:offices0 <officeCode> "1" .
+_:offices0 <city> "San Francisco" .
+_:offices0 <phone> "+1 650 219 4782" .
+_:offices0 <addressLine1> "100 Market Street" .
+_:offices0 <addressLine2> "Suite 300" .
+_:offices0 <state> "CA" .
+_:offices0 <country> "USA" .
+_:offices0 <postalCode> "94080" .
+_:offices0 <territory> "NA" .
+_:offices1 <officeCode> "2" .
+_:offices1 <city> "Boston" .
+_:offices1 <phone> "+1 215 837 0825" .
+_:offices1 <addressLine1> "1550 Court Place" .
+_:offices1 <addressLine2> "Suite 102" .
+_:offices1 <state> "MA" .
+_:offices1 <country> "USA" .
+_:offices1 <postalCode> "02107" .
+_:offices1 <territory> "NA" .
+_:offices2 <officeCode> "3" .
+_:offices2 <city> "NYC" .
+_:offices2 <phone> "+1 212 555 3000" .
+_:offices2 <addressLine1> "523 East 53rd Street" .
+_:offices2 <addressLine2> "apt. 5A" .
+_:offices2 <state> "NY" .
+_:offices2 <country> "USA" .
+_:offices2 <postalCode> "10022" .
+_:offices2 <territory> "NA" .
+_:offices3 <officeCode> "4" .
+_:offices3 <city> "Paris" .
+_:offices3 <phone> "+33 14 723 4404" .
+_:offices3 <addressLine1> "43 Rue Jouffroy D'abbans" .
+_:offices3 <addressLine2> "" .
+_:offices3 <state> "" .
+_:offices3 <country> "France" .
+_:offices3 <postalCode> "75017" .
+_:offices3 <territory> "EMEA" .
+_:offices4 <officeCode> "5" .
+_:offices4 <city> "Tokyo" .
+_:offices4 <phone> "+81 33 224 5000" .
+_:offices4 <addressLine1> "4-1 Kioicho" .
+_:offices4 <addressLine2> "" .
+_:offices4 <state> "Chiyoda-Ku" .
+_:offices4 <country> "Japan" .
+_:offices4 <postalCode> "102-8578" .
+_:offices4 <territory> "Japan" .
+_:offices5 <officeCode> "6" .
+_:offices5 <city> "Sydney" .
+_:offices5 <phone> "+61 2 9264 2451" .
+_:offices5 <addressLine1> "5-11 Wentworth Avenue" .
+_:offices5 <addressLine2> "Floor #2" .
+_:offices5 <state> "" .
+_:offices5 <country> "Australia" .
+_:offices5 <postalCode> "NSW 2010" .
+_:offices5 <territory> "APAC" .
+_:offices6 <officeCode> "7" .
+_:offices6 <city> "London" .
+_:offices6 <phone> "+44 20 7877 2041" .
+_:offices6 <addressLine1> "25 Old Broad Street" .
+_:offices6 <addressLine2> "Level 7" .
+_:offices6 <state> "" .
+_:offices6 <country> "UK" .
+_:offices6 <postalCode> "EC2N 1HN" .
+_:offices6 <territory> "EMEA" .
+}}

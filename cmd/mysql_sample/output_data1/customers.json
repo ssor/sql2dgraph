@@ -1,0 +1,1588 @@
+{set{
+_:customers0 <customerNumber> "103" .
+_:customers0 <customerName> "Atelier graphique" .
+_:customers0 <contactLastName> "Schmitt" .
+_:customers0 <contactFirstName> "Carine " .
+_:customers0 <phone> "40.32.2555" .
+_:customers0 <addressLine1> "54, rue Royale" .
+_:customers0 <addressLine2> "" .
+_:customers0 <city> "Nantes" .
+_:customers0 <state> "" .
+_:customers0 <postalCode> "44000" .
+_:customers0 <country> "France" .
+_:customers0 <salesRepEmployeeNumber> "1370" .
+_:customers0 <creditLimit> "21000.00" .
+_:customers1 <customerNumber> "112" .
+_:customers1 <customerName> "Signal Gift Stores" .
+_:customers1 <contactLastName> "King" .
+_:customers1 <contactFirstName> "Jean" .
+_:customers1 <phone> "7025551838" .
+_:customers1 <addressLine1> "8489 Strong St." .
+_:customers1 <addressLine2> "" .
+_:customers1 <city> "Las Vegas" .
+_:customers1 <state> "NV" .
+_:customers1 <postalCode> "83030" .
+_:customers1 <country> "USA" .
+_:customers1 <salesRepEmployeeNumber> "1166" .
+_:customers1 <creditLimit> "71800.00" .
+_:customers2 <customerNumber> "114" .
+_:customers2 <customerName> "Australian Collectors, Co." .
+_:customers2 <contactLastName> "Ferguson" .
+_:customers2 <contactFirstName> "Peter" .
+_:customers2 <phone> "03 9520 4555" .
+_:customers2 <addressLine1> "636 St Kilda Road" .
+_:customers2 <addressLine2> "Level 3" .
+_:customers2 <city> "Melbourne" .
+_:customers2 <state> "Victoria" .
+_:customers2 <postalCode> "3004" .
+_:customers2 <country> "Australia" .
+_:customers2 <salesRepEmployeeNumber> "1611" .
+_:customers2 <creditLimit> "117300.00" .
+_:customers3 <customerNumber> "119" .
+_:customers3 <customerName> "La Rochelle Gifts" .
+_:customers3 <contactLastName> "Labrune" .
+_:customers3 <contactFirstName> "Janine " .
+_:customers3 <phone> "40.67.8555" .
+_:customers3 <addressLine1> "67, rue des Cinquante Otages" .
+_:customers3 <addressLine2> "" .
+_:customers3 <city> "Nantes" .
+_:customers3 <state> "" .
+_:customers3 <postalCode> "44000" .
+_:customers3 <country> "France" .
+_:customers3 <salesRepEmployeeNumber> "1370" .
+_:customers3 <creditLimit> "118200.00" .
+_:customers4 <customerNumber> "121" .
+_:customers4 <customerName> "Baane Mini Imports" .
+_:customers4 <contactLastName> "Bergulfsen" .
+_:customers4 <contactFirstName> "Jonas " .
+_:customers4 <phone> "07-98 9555" .
+_:customers4 <addressLine1> "Erling Skakkes gate 78" .
+_:customers4 <addressLine2> "" .
+_:customers4 <city> "Stavern" .
+_:customers4 <state> "" .
+_:customers4 <postalCode> "4110" .
+_:customers4 <country> "Norway" .
+_:customers4 <salesRepEmployeeNumber> "1504" .
+_:customers4 <creditLimit> "81700.00" .
+_:customers5 <customerNumber> "124" .
+_:customers5 <customerName> "Mini Gifts Distributors Ltd." .
+_:customers5 <contactLastName> "Nelson" .
+_:customers5 <contactFirstName> "Susan" .
+_:customers5 <phone> "4155551450" .
+_:customers5 <addressLine1> "5677 Strong St." .
+_:customers5 <addressLine2> "" .
+_:customers5 <city> "San Rafael" .
+_:customers5 <state> "CA" .
+_:customers5 <postalCode> "97562" .
+_:customers5 <country> "USA" .
+_:customers5 <salesRepEmployeeNumber> "1165" .
+_:customers5 <creditLimit> "210500.00" .
+_:customers6 <customerNumber> "125" .
+_:customers6 <customerName> "Havel & Zbyszek Co" .
+_:customers6 <contactLastName> "Piestrzeniewicz" .
+_:customers6 <contactFirstName> "Zbyszek " .
+_:customers6 <phone> "(26) 642-7555" .
+_:customers6 <addressLine1> "ul. Filtrowa 68" .
+_:customers6 <addressLine2> "" .
+_:customers6 <city> "Warszawa" .
+_:customers6 <state> "" .
+_:customers6 <postalCode> "01-012" .
+_:customers6 <country> "Poland" .
+_:customers6 <salesRepEmployeeNumber> "0" .
+_:customers6 <creditLimit> "0.00" .
+_:customers7 <customerNumber> "128" .
+_:customers7 <customerName> "Blauer See Auto, Co." .
+_:customers7 <contactLastName> "Keitel" .
+_:customers7 <contactFirstName> "Roland" .
+_:customers7 <phone> "+49 69 66 90 2555" .
+_:customers7 <addressLine1> "Lyonerstr. 34" .
+_:customers7 <addressLine2> "" .
+_:customers7 <city> "Frankfurt" .
+_:customers7 <state> "" .
+_:customers7 <postalCode> "60528" .
+_:customers7 <country> "Germany" .
+_:customers7 <salesRepEmployeeNumber> "1504" .
+_:customers7 <creditLimit> "59700.00" .
+_:customers8 <customerNumber> "129" .
+_:customers8 <customerName> "Mini Wheels Co." .
+_:customers8 <contactLastName> "Murphy" .
+_:customers8 <contactFirstName> "Julie" .
+_:customers8 <phone> "6505555787" .
+_:customers8 <addressLine1> "5557 North Pendale Street" .
+_:customers8 <addressLine2> "" .
+_:customers8 <city> "San Francisco" .
+_:customers8 <state> "CA" .
+_:customers8 <postalCode> "94217" .
+_:customers8 <country> "USA" .
+_:customers8 <salesRepEmployeeNumber> "1165" .
+_:customers8 <creditLimit> "64600.00" .
+_:customers9 <customerNumber> "131" .
+_:customers9 <customerName> "Land of Toys Inc." .
+_:customers9 <contactLastName> "Lee" .
+_:customers9 <contactFirstName> "Kwai" .
+_:customers9 <phone> "2125557818" .
+_:customers9 <addressLine1> "897 Long Airport Avenue" .
+_:customers9 <addressLine2> "" .
+_:customers9 <city> "NYC" .
+_:customers9 <state> "NY" .
+_:customers9 <postalCode> "10022" .
+_:customers9 <country> "USA" .
+_:customers9 <salesRepEmployeeNumber> "1323" .
+_:customers9 <creditLimit> "114900.00" .
+_:customers10 <customerNumber> "141" .
+_:customers10 <customerName> "Euro+ Shopping Channel" .
+_:customers10 <contactLastName> "Freyre" .
+_:customers10 <contactFirstName> "Diego " .
+_:customers10 <phone> "(91) 555 94 44" .
+_:customers10 <addressLine1> "C/ Moralzarzal, 86" .
+_:customers10 <addressLine2> "" .
+_:customers10 <city> "Madrid" .
+_:customers10 <state> "" .
+_:customers10 <postalCode> "28034" .
+_:customers10 <country> "Spain" .
+_:customers10 <salesRepEmployeeNumber> "1370" .
+_:customers10 <creditLimit> "227600.00" .
+_:customers11 <customerNumber> "144" .
+_:customers11 <customerName> "Volvo Model Replicas, Co" .
+_:customers11 <contactLastName> "Berglund" .
+_:customers11 <contactFirstName> "Christina " .
+_:customers11 <phone> "0921-12 3555" .
+_:customers11 <addressLine1> "Berguvsvägen  8" .
+_:customers11 <addressLine2> "" .
+_:customers11 <city> "Luleå" .
+_:customers11 <state> "" .
+_:customers11 <postalCode> "S-958 22" .
+_:customers11 <country> "Sweden" .
+_:customers11 <salesRepEmployeeNumber> "1504" .
+_:customers11 <creditLimit> "53100.00" .
+_:customers12 <customerNumber> "145" .
+_:customers12 <customerName> "Danish Wholesale Imports" .
+_:customers12 <contactLastName> "Petersen" .
+_:customers12 <contactFirstName> "Jytte " .
+_:customers12 <phone> "31 12 3555" .
+_:customers12 <addressLine1> "Vinbæltet 34" .
+_:customers12 <addressLine2> "" .
+_:customers12 <city> "Kobenhavn" .
+_:customers12 <state> "" .
+_:customers12 <postalCode> "1734" .
+_:customers12 <country> "Denmark" .
+_:customers12 <salesRepEmployeeNumber> "1401" .
+_:customers12 <creditLimit> "83400.00" .
+_:customers13 <customerNumber> "146" .
+_:customers13 <customerName> "Saveley & Henriot, Co." .
+_:customers13 <contactLastName> "Saveley" .
+_:customers13 <contactFirstName> "Mary " .
+_:customers13 <phone> "78.32.5555" .
+_:customers13 <addressLine1> "2, rue du Commerce" .
+_:customers13 <addressLine2> "" .
+_:customers13 <city> "Lyon" .
+_:customers13 <state> "" .
+_:customers13 <postalCode> "69004" .
+_:customers13 <country> "France" .
+_:customers13 <salesRepEmployeeNumber> "1337" .
+_:customers13 <creditLimit> "123900.00" .
+_:customers14 <customerNumber> "148" .
+_:customers14 <customerName> "Dragon Souveniers, Ltd." .
+_:customers14 <contactLastName> "Natividad" .
+_:customers14 <contactFirstName> "Eric" .
+_:customers14 <phone> "+65 221 7555" .
+_:customers14 <addressLine1> "Bronz Sok." .
+_:customers14 <addressLine2> "Bronz Apt. 3/6 Tesvikiye" .
+_:customers14 <city> "Singapore" .
+_:customers14 <state> "" .
+_:customers14 <postalCode> "079903" .
+_:customers14 <country> "Singapore" .
+_:customers14 <salesRepEmployeeNumber> "1621" .
+_:customers14 <creditLimit> "103800.00" .
+_:customers15 <customerNumber> "151" .
+_:customers15 <customerName> "Muscle Machine Inc" .
+_:customers15 <contactLastName> "Young" .
+_:customers15 <contactFirstName> "Jeff" .
+_:customers15 <phone> "2125557413" .
+_:customers15 <addressLine1> "4092 Furth Circle" .
+_:customers15 <addressLine2> "Suite 400" .
+_:customers15 <city> "NYC" .
+_:customers15 <state> "NY" .
+_:customers15 <postalCode> "10022" .
+_:customers15 <country> "USA" .
+_:customers15 <salesRepEmployeeNumber> "1286" .
+_:customers15 <creditLimit> "138500.00" .
+_:customers16 <customerNumber> "157" .
+_:customers16 <customerName> "Diecast Classics Inc." .
+_:customers16 <contactLastName> "Leong" .
+_:customers16 <contactFirstName> "Kelvin" .
+_:customers16 <phone> "2155551555" .
+_:customers16 <addressLine1> "7586 Pompton St." .
+_:customers16 <addressLine2> "" .
+_:customers16 <city> "Allentown" .
+_:customers16 <state> "PA" .
+_:customers16 <postalCode> "70267" .
+_:customers16 <country> "USA" .
+_:customers16 <salesRepEmployeeNumber> "1216" .
+_:customers16 <creditLimit> "100600.00" .
+_:customers17 <customerNumber> "161" .
+_:customers17 <customerName> "Technics Stores Inc." .
+_:customers17 <contactLastName> "Hashimoto" .
+_:customers17 <contactFirstName> "Juri" .
+_:customers17 <phone> "6505556809" .
+_:customers17 <addressLine1> "9408 Furth Circle" .
+_:customers17 <addressLine2> "" .
+_:customers17 <city> "Burlingame" .
+_:customers17 <state> "CA" .
+_:customers17 <postalCode> "94217" .
+_:customers17 <country> "USA" .
+_:customers17 <salesRepEmployeeNumber> "1165" .
+_:customers17 <creditLimit> "84600.00" .
+_:customers18 <customerNumber> "166" .
+_:customers18 <customerName> "Handji Gifts& Co" .
+_:customers18 <contactLastName> "Victorino" .
+_:customers18 <contactFirstName> "Wendy" .
+_:customers18 <phone> "+65 224 1555" .
+_:customers18 <addressLine1> "106 Linden Road Sandown" .
+_:customers18 <addressLine2> "2nd Floor" .
+_:customers18 <city> "Singapore" .
+_:customers18 <state> "" .
+_:customers18 <postalCode> "069045" .
+_:customers18 <country> "Singapore" .
+_:customers18 <salesRepEmployeeNumber> "1612" .
+_:customers18 <creditLimit> "97900.00" .
+_:customers19 <customerNumber> "167" .
+_:customers19 <customerName> "Herkku Gifts" .
+_:customers19 <contactLastName> "Oeztan" .
+_:customers19 <contactFirstName> "Veysel" .
+_:customers19 <phone> "+47 2267 3215" .
+_:customers19 <addressLine1> "Brehmen St. 121" .
+_:customers19 <addressLine2> "PR 334 Sentrum" .
+_:customers19 <city> "Bergen" .
+_:customers19 <state> "" .
+_:customers19 <postalCode> "N 5804" .
+_:customers19 <country> "Norway  " .
+_:customers19 <salesRepEmployeeNumber> "1504" .
+_:customers19 <creditLimit> "96800.00" .
+_:customers20 <customerNumber> "168" .
+_:customers20 <customerName> "American Souvenirs Inc" .
+_:customers20 <contactLastName> "Franco" .
+_:customers20 <contactFirstName> "Keith" .
+_:customers20 <phone> "2035557845" .
+_:customers20 <addressLine1> "149 Spinnaker Dr." .
+_:customers20 <addressLine2> "Suite 101" .
+_:customers20 <city> "New Haven" .
+_:customers20 <state> "CT" .
+_:customers20 <postalCode> "97823" .
+_:customers20 <country> "USA" .
+_:customers20 <salesRepEmployeeNumber> "1286" .
+_:customers20 <creditLimit> "0.00" .
+_:customers21 <customerNumber> "169" .
+_:customers21 <customerName> "Porto Imports Co." .
+_:customers21 <contactLastName> "de Castro" .
+_:customers21 <contactFirstName> "Isabel " .
+_:customers21 <phone> "(1) 356-5555" .
+_:customers21 <addressLine1> "Estrada da saúde n. 58" .
+_:customers21 <addressLine2> "" .
+_:customers21 <city> "Lisboa" .
+_:customers21 <state> "" .
+_:customers21 <postalCode> "1756" .
+_:customers21 <country> "Portugal" .
+_:customers21 <salesRepEmployeeNumber> "0" .
+_:customers21 <creditLimit> "0.00" .
+_:customers22 <customerNumber> "171" .
+_:customers22 <customerName> "Daedalus Designs Imports" .
+_:customers22 <contactLastName> "Rancé" .
+_:customers22 <contactFirstName> "Martine " .
+_:customers22 <phone> "20.16.1555" .
+_:customers22 <addressLine1> "184, chaussée de Tournai" .
+_:customers22 <addressLine2> "" .
+_:customers22 <city> "Lille" .
+_:customers22 <state> "" .
+_:customers22 <postalCode> "59000" .
+_:customers22 <country> "France" .
+_:customers22 <salesRepEmployeeNumber> "1370" .
+_:customers22 <creditLimit> "82900.00" .
+_:customers23 <customerNumber> "172" .
+_:customers23 <customerName> "La Corne D'abondance, Co." .
+_:customers23 <contactLastName> "Bertrand" .
+_:customers23 <contactFirstName> "Marie" .
+_:customers23 <phone> "(1) 42.34.2555" .
+_:customers23 <addressLine1> "265, boulevard Charonne" .
+_:customers23 <addressLine2> "" .
+_:customers23 <city> "Paris" .
+_:customers23 <state> "" .
+_:customers23 <postalCode> "75012" .
+_:customers23 <country> "France" .
+_:customers23 <salesRepEmployeeNumber> "1337" .
+_:customers23 <creditLimit> "84300.00" .
+_:customers24 <customerNumber> "173" .
+_:customers24 <customerName> "Cambridge Collectables Co." .
+_:customers24 <contactLastName> "Tseng" .
+_:customers24 <contactFirstName> "Jerry" .
+_:customers24 <phone> "6175555555" .
+_:customers24 <addressLine1> "4658 Baden Av." .
+_:customers24 <addressLine2> "" .
+_:customers24 <city> "Cambridge" .
+_:customers24 <state> "MA" .
+_:customers24 <postalCode> "51247" .
+_:customers24 <country> "USA" .
+_:customers24 <salesRepEmployeeNumber> "1188" .
+_:customers24 <creditLimit> "43400.00" .
+_:customers25 <customerNumber> "175" .
+_:customers25 <customerName> "Gift Depot Inc." .
+_:customers25 <contactLastName> "King" .
+_:customers25 <contactFirstName> "Julie" .
+_:customers25 <phone> "2035552570" .
+_:customers25 <addressLine1> "25593 South Bay Ln." .
+_:customers25 <addressLine2> "" .
+_:customers25 <city> "Bridgewater" .
+_:customers25 <state> "CT" .
+_:customers25 <postalCode> "97562" .
+_:customers25 <country> "USA" .
+_:customers25 <salesRepEmployeeNumber> "1323" .
+_:customers25 <creditLimit> "84300.00" .
+_:customers26 <customerNumber> "177" .
+_:customers26 <customerName> "Osaka Souveniers Co." .
+_:customers26 <contactLastName> "Kentary" .
+_:customers26 <contactFirstName> "Mory" .
+_:customers26 <phone> "+81 06 6342 5555" .
+_:customers26 <addressLine1> "1-6-20 Dojima" .
+_:customers26 <addressLine2> "" .
+_:customers26 <city> "Kita-ku" .
+_:customers26 <state> "Osaka" .
+_:customers26 <postalCode> " 530-0003" .
+_:customers26 <country> "Japan" .
+_:customers26 <salesRepEmployeeNumber> "1621" .
+_:customers26 <creditLimit> "81200.00" .
+_:customers27 <customerNumber> "181" .
+_:customers27 <customerName> "Vitachrome Inc." .
+_:customers27 <contactLastName> "Frick" .
+_:customers27 <contactFirstName> "Michael" .
+_:customers27 <phone> "2125551500" .
+_:customers27 <addressLine1> "2678 Kingston Rd." .
+_:customers27 <addressLine2> "Suite 101" .
+_:customers27 <city> "NYC" .
+_:customers27 <state> "NY" .
+_:customers27 <postalCode> "10022" .
+_:customers27 <country> "USA" .
+_:customers27 <salesRepEmployeeNumber> "1286" .
+_:customers27 <creditLimit> "76400.00" .
+_:customers28 <customerNumber> "186" .
+_:customers28 <customerName> "Toys of Finland, Co." .
+_:customers28 <contactLastName> "Karttunen" .
+_:customers28 <contactFirstName> "Matti" .
+_:customers28 <phone> "90-224 8555" .
+_:customers28 <addressLine1> "Keskuskatu 45" .
+_:customers28 <addressLine2> "" .
+_:customers28 <city> "Helsinki" .
+_:customers28 <state> "" .
+_:customers28 <postalCode> "21240" .
+_:customers28 <country> "Finland" .
+_:customers28 <salesRepEmployeeNumber> "1501" .
+_:customers28 <creditLimit> "96500.00" .
+_:customers29 <customerNumber> "187" .
+_:customers29 <customerName> "AV Stores, Co." .
+_:customers29 <contactLastName> "Ashworth" .
+_:customers29 <contactFirstName> "Rachel" .
+_:customers29 <phone> "(171) 555-1555" .
+_:customers29 <addressLine1> "Fauntleroy Circus" .
+_:customers29 <addressLine2> "" .
+_:customers29 <city> "Manchester" .
+_:customers29 <state> "" .
+_:customers29 <postalCode> "EC2 5NT" .
+_:customers29 <country> "UK" .
+_:customers29 <salesRepEmployeeNumber> "1501" .
+_:customers29 <creditLimit> "136800.00" .
+_:customers30 <customerNumber> "189" .
+_:customers30 <customerName> "Clover Collections, Co." .
+_:customers30 <contactLastName> "Cassidy" .
+_:customers30 <contactFirstName> "Dean" .
+_:customers30 <phone> "+353 1862 1555" .
+_:customers30 <addressLine1> "25 Maiden Lane" .
+_:customers30 <addressLine2> "Floor No. 4" .
+_:customers30 <city> "Dublin" .
+_:customers30 <state> "" .
+_:customers30 <postalCode> "2" .
+_:customers30 <country> "Ireland" .
+_:customers30 <salesRepEmployeeNumber> "1504" .
+_:customers30 <creditLimit> "69400.00" .
+_:customers31 <customerNumber> "198" .
+_:customers31 <customerName> "Auto-Moto Classics Inc." .
+_:customers31 <contactLastName> "Taylor" .
+_:customers31 <contactFirstName> "Leslie" .
+_:customers31 <phone> "6175558428" .
+_:customers31 <addressLine1> "16780 Pompton St." .
+_:customers31 <addressLine2> "" .
+_:customers31 <city> "Brickhaven" .
+_:customers31 <state> "MA" .
+_:customers31 <postalCode> "58339" .
+_:customers31 <country> "USA" .
+_:customers31 <salesRepEmployeeNumber> "1216" .
+_:customers31 <creditLimit> "23000.00" .
+_:customers32 <customerNumber> "201" .
+_:customers32 <customerName> "UK Collectables, Ltd." .
+_:customers32 <contactLastName> "Devon" .
+_:customers32 <contactFirstName> "Elizabeth" .
+_:customers32 <phone> "(171) 555-2282" .
+_:customers32 <addressLine1> "12, Berkeley Gardens Blvd" .
+_:customers32 <addressLine2> "" .
+_:customers32 <city> "Liverpool" .
+_:customers32 <state> "" .
+_:customers32 <postalCode> "WX1 6LT" .
+_:customers32 <country> "UK" .
+_:customers32 <salesRepEmployeeNumber> "1501" .
+_:customers32 <creditLimit> "92700.00" .
+_:customers33 <customerNumber> "202" .
+_:customers33 <customerName> "Canadian Gift Exchange Network" .
+_:customers33 <contactLastName> "Tamuri" .
+_:customers33 <contactFirstName> "Yoshi " .
+_:customers33 <phone> "(604) 555-3392" .
+_:customers33 <addressLine1> "1900 Oak St." .
+_:customers33 <addressLine2> "" .
+_:customers33 <city> "Vancouver" .
+_:customers33 <state> "BC" .
+_:customers33 <postalCode> "V3F 2K1" .
+_:customers33 <country> "Canada" .
+_:customers33 <salesRepEmployeeNumber> "1323" .
+_:customers33 <creditLimit> "90300.00" .
+_:customers34 <customerNumber> "204" .
+_:customers34 <customerName> "Online Mini Collectables" .
+_:customers34 <contactLastName> "Barajas" .
+_:customers34 <contactFirstName> "Miguel" .
+_:customers34 <phone> "6175557555" .
+_:customers34 <addressLine1> "7635 Spinnaker Dr." .
+_:customers34 <addressLine2> "" .
+_:customers34 <city> "Brickhaven" .
+_:customers34 <state> "MA" .
+_:customers34 <postalCode> "58339" .
+_:customers34 <country> "USA" .
+_:customers34 <salesRepEmployeeNumber> "1188" .
+_:customers34 <creditLimit> "68700.00" .
+_:customers35 <customerNumber> "205" .
+_:customers35 <customerName> "Toys4GrownUps.com" .
+_:customers35 <contactLastName> "Young" .
+_:customers35 <contactFirstName> "Julie" .
+_:customers35 <phone> "6265557265" .
+_:customers35 <addressLine1> "78934 Hillside Dr." .
+_:customers35 <addressLine2> "" .
+_:customers35 <city> "Pasadena" .
+_:customers35 <state> "CA" .
+_:customers35 <postalCode> "90003" .
+_:customers35 <country> "USA" .
+_:customers35 <salesRepEmployeeNumber> "1166" .
+_:customers35 <creditLimit> "90700.00" .
+_:customers36 <customerNumber> "206" .
+_:customers36 <customerName> "Asian Shopping Network, Co" .
+_:customers36 <contactLastName> "Walker" .
+_:customers36 <contactFirstName> "Brydey" .
+_:customers36 <phone> "+612 9411 1555" .
+_:customers36 <addressLine1> "Suntec Tower Three" .
+_:customers36 <addressLine2> "8 Temasek" .
+_:customers36 <city> "Singapore" .
+_:customers36 <state> "" .
+_:customers36 <postalCode> "038988" .
+_:customers36 <country> "Singapore" .
+_:customers36 <salesRepEmployeeNumber> "0" .
+_:customers36 <creditLimit> "0.00" .
+_:customers37 <customerNumber> "209" .
+_:customers37 <customerName> "Mini Caravy" .
+_:customers37 <contactLastName> "Citeaux" .
+_:customers37 <contactFirstName> "Frédérique " .
+_:customers37 <phone> "88.60.1555" .
+_:customers37 <addressLine1> "24, place Kléber" .
+_:customers37 <addressLine2> "" .
+_:customers37 <city> "Strasbourg" .
+_:customers37 <state> "" .
+_:customers37 <postalCode> "67000" .
+_:customers37 <country> "France" .
+_:customers37 <salesRepEmployeeNumber> "1370" .
+_:customers37 <creditLimit> "53800.00" .
+_:customers38 <customerNumber> "211" .
+_:customers38 <customerName> "King Kong Collectables, Co." .
+_:customers38 <contactLastName> "Gao" .
+_:customers38 <contactFirstName> "Mike" .
+_:customers38 <phone> "+852 2251 1555" .
+_:customers38 <addressLine1> "Bank of China Tower" .
+_:customers38 <addressLine2> "1 Garden Road" .
+_:customers38 <city> "Central Hong Kong" .
+_:customers38 <state> "" .
+_:customers38 <postalCode> "" .
+_:customers38 <country> "Hong Kong" .
+_:customers38 <salesRepEmployeeNumber> "1621" .
+_:customers38 <creditLimit> "58600.00" .
+_:customers39 <customerNumber> "216" .
+_:customers39 <customerName> "Enaco Distributors" .
+_:customers39 <contactLastName> "Saavedra" .
+_:customers39 <contactFirstName> "Eduardo " .
+_:customers39 <phone> "(93) 203 4555" .
+_:customers39 <addressLine1> "Rambla de Cataluña, 23" .
+_:customers39 <addressLine2> "" .
+_:customers39 <city> "Barcelona" .
+_:customers39 <state> "" .
+_:customers39 <postalCode> "08022" .
+_:customers39 <country> "Spain" .
+_:customers39 <salesRepEmployeeNumber> "1702" .
+_:customers39 <creditLimit> "60300.00" .
+_:customers40 <customerNumber> "219" .
+_:customers40 <customerName> "Boards & Toys Co." .
+_:customers40 <contactLastName> "Young" .
+_:customers40 <contactFirstName> "Mary" .
+_:customers40 <phone> "3105552373" .
+_:customers40 <addressLine1> "4097 Douglas Av." .
+_:customers40 <addressLine2> "" .
+_:customers40 <city> "Glendale" .
+_:customers40 <state> "CA" .
+_:customers40 <postalCode> "92561" .
+_:customers40 <country> "USA" .
+_:customers40 <salesRepEmployeeNumber> "1166" .
+_:customers40 <creditLimit> "11000.00" .
+_:customers41 <customerNumber> "223" .
+_:customers41 <customerName> "Natürlich Autos" .
+_:customers41 <contactLastName> "Kloss" .
+_:customers41 <contactFirstName> "Horst " .
+_:customers41 <phone> "0372-555188" .
+_:customers41 <addressLine1> "Taucherstraße 10" .
+_:customers41 <addressLine2> "" .
+_:customers41 <city> "Cunewalde" .
+_:customers41 <state> "" .
+_:customers41 <postalCode> "01307" .
+_:customers41 <country> "Germany" .
+_:customers41 <salesRepEmployeeNumber> "0" .
+_:customers41 <creditLimit> "0.00" .
+_:customers42 <customerNumber> "227" .
+_:customers42 <customerName> "Heintze Collectables" .
+_:customers42 <contactLastName> "Ibsen" .
+_:customers42 <contactFirstName> "Palle" .
+_:customers42 <phone> "86 21 3555" .
+_:customers42 <addressLine1> "Smagsloget 45" .
+_:customers42 <addressLine2> "" .
+_:customers42 <city> "Århus" .
+_:customers42 <state> "" .
+_:customers42 <postalCode> "8200" .
+_:customers42 <country> "Denmark" .
+_:customers42 <salesRepEmployeeNumber> "1401" .
+_:customers42 <creditLimit> "120800.00" .
+_:customers43 <customerNumber> "233" .
+_:customers43 <customerName> "Québec Home Shopping Network" .
+_:customers43 <contactLastName> "Fresnière" .
+_:customers43 <contactFirstName> "Jean " .
+_:customers43 <phone> "(514) 555-8054" .
+_:customers43 <addressLine1> "43 rue St. Laurent" .
+_:customers43 <addressLine2> "" .
+_:customers43 <city> "Montréal" .
+_:customers43 <state> "Québec" .
+_:customers43 <postalCode> "H1J 1C3" .
+_:customers43 <country> "Canada" .
+_:customers43 <salesRepEmployeeNumber> "1286" .
+_:customers43 <creditLimit> "48700.00" .
+_:customers44 <customerNumber> "237" .
+_:customers44 <customerName> "ANG Resellers" .
+_:customers44 <contactLastName> "Camino" .
+_:customers44 <contactFirstName> "Alejandra " .
+_:customers44 <phone> "(91) 745 6555" .
+_:customers44 <addressLine1> "Gran Vía, 1" .
+_:customers44 <addressLine2> "" .
+_:customers44 <city> "Madrid" .
+_:customers44 <state> "" .
+_:customers44 <postalCode> "28001" .
+_:customers44 <country> "Spain" .
+_:customers44 <salesRepEmployeeNumber> "0" .
+_:customers44 <creditLimit> "0.00" .
+_:customers45 <customerNumber> "239" .
+_:customers45 <customerName> "Collectable Mini Designs Co." .
+_:customers45 <contactLastName> "Thompson" .
+_:customers45 <contactFirstName> "Valarie" .
+_:customers45 <phone> "7605558146" .
+_:customers45 <addressLine1> "361 Furth Circle" .
+_:customers45 <addressLine2> "" .
+_:customers45 <city> "San Diego" .
+_:customers45 <state> "CA" .
+_:customers45 <postalCode> "91217" .
+_:customers45 <country> "USA" .
+_:customers45 <salesRepEmployeeNumber> "1166" .
+_:customers45 <creditLimit> "105000.00" .
+_:customers46 <customerNumber> "240" .
+_:customers46 <customerName> "giftsbymail.co.uk" .
+_:customers46 <contactLastName> "Bennett" .
+_:customers46 <contactFirstName> "Helen " .
+_:customers46 <phone> "(198) 555-8888" .
+_:customers46 <addressLine1> "Garden House" .
+_:customers46 <addressLine2> "Crowther Way 23" .
+_:customers46 <city> "Cowes" .
+_:customers46 <state> "Isle of Wight" .
+_:customers46 <postalCode> "PO31 7PJ" .
+_:customers46 <country> "UK" .
+_:customers46 <salesRepEmployeeNumber> "1501" .
+_:customers46 <creditLimit> "93900.00" .
+_:customers47 <customerNumber> "242" .
+_:customers47 <customerName> "Alpha Cognac" .
+_:customers47 <contactLastName> "Roulet" .
+_:customers47 <contactFirstName> "Annette " .
+_:customers47 <phone> "61.77.6555" .
+_:customers47 <addressLine1> "1 rue Alsace-Lorraine" .
+_:customers47 <addressLine2> "" .
+_:customers47 <city> "Toulouse" .
+_:customers47 <state> "" .
+_:customers47 <postalCode> "31000" .
+_:customers47 <country> "France" .
+_:customers47 <salesRepEmployeeNumber> "1370" .
+_:customers47 <creditLimit> "61100.00" .
+_:customers48 <customerNumber> "247" .
+_:customers48 <customerName> "Messner Shopping Network" .
+_:customers48 <contactLastName> "Messner" .
+_:customers48 <contactFirstName> "Renate " .
+_:customers48 <phone> "069-0555984" .
+_:customers48 <addressLine1> "Magazinweg 7" .
+_:customers48 <addressLine2> "" .
+_:customers48 <city> "Frankfurt" .
+_:customers48 <state> "" .
+_:customers48 <postalCode> "60528" .
+_:customers48 <country> "Germany" .
+_:customers48 <salesRepEmployeeNumber> "0" .
+_:customers48 <creditLimit> "0.00" .
+_:customers49 <customerNumber> "249" .
+_:customers49 <customerName> "Amica Models & Co." .
+_:customers49 <contactLastName> "Accorti" .
+_:customers49 <contactFirstName> "Paolo " .
+_:customers49 <phone> "011-4988555" .
+_:customers49 <addressLine1> "Via Monte Bianco 34" .
+_:customers49 <addressLine2> "" .
+_:customers49 <city> "Torino" .
+_:customers49 <state> "" .
+_:customers49 <postalCode> "10100" .
+_:customers49 <country> "Italy" .
+_:customers49 <salesRepEmployeeNumber> "1401" .
+_:customers49 <creditLimit> "113000.00" .
+_:customers50 <customerNumber> "250" .
+_:customers50 <customerName> "Lyon Souveniers" .
+_:customers50 <contactLastName> "Da Silva" .
+_:customers50 <contactFirstName> "Daniel" .
+_:customers50 <phone> "+33 1 46 62 7555" .
+_:customers50 <addressLine1> "27 rue du Colonel Pierre Avia" .
+_:customers50 <addressLine2> "" .
+_:customers50 <city> "Paris" .
+_:customers50 <state> "" .
+_:customers50 <postalCode> "75508" .
+_:customers50 <country> "France" .
+_:customers50 <salesRepEmployeeNumber> "1337" .
+_:customers50 <creditLimit> "68100.00" .
+_:customers51 <customerNumber> "256" .
+_:customers51 <customerName> "Auto Associés & Cie." .
+_:customers51 <contactLastName> "Tonini" .
+_:customers51 <contactFirstName> "Daniel " .
+_:customers51 <phone> "30.59.8555" .
+_:customers51 <addressLine1> "67, avenue de l'Europe" .
+_:customers51 <addressLine2> "" .
+_:customers51 <city> "Versailles" .
+_:customers51 <state> "" .
+_:customers51 <postalCode> "78000" .
+_:customers51 <country> "France" .
+_:customers51 <salesRepEmployeeNumber> "1370" .
+_:customers51 <creditLimit> "77900.00" .
+_:customers52 <customerNumber> "259" .
+_:customers52 <customerName> "Toms Spezialitäten, Ltd" .
+_:customers52 <contactLastName> "Pfalzheim" .
+_:customers52 <contactFirstName> "Henriette " .
+_:customers52 <phone> "0221-5554327" .
+_:customers52 <addressLine1> "Mehrheimerstr. 369" .
+_:customers52 <addressLine2> "" .
+_:customers52 <city> "Köln" .
+_:customers52 <state> "" .
+_:customers52 <postalCode> "50739" .
+_:customers52 <country> "Germany" .
+_:customers52 <salesRepEmployeeNumber> "1504" .
+_:customers52 <creditLimit> "120400.00" .
+_:customers53 <customerNumber> "260" .
+_:customers53 <customerName> "Royal Canadian Collectables, Ltd." .
+_:customers53 <contactLastName> "Lincoln" .
+_:customers53 <contactFirstName> "Elizabeth " .
+_:customers53 <phone> "(604) 555-4555" .
+_:customers53 <addressLine1> "23 Tsawassen Blvd." .
+_:customers53 <addressLine2> "" .
+_:customers53 <city> "Tsawassen" .
+_:customers53 <state> "BC" .
+_:customers53 <postalCode> "T2F 8M4" .
+_:customers53 <country> "Canada" .
+_:customers53 <salesRepEmployeeNumber> "1323" .
+_:customers53 <creditLimit> "89600.00" .
+_:customers54 <customerNumber> "273" .
+_:customers54 <customerName> "Franken Gifts, Co" .
+_:customers54 <contactLastName> "Franken" .
+_:customers54 <contactFirstName> "Peter " .
+_:customers54 <phone> "089-0877555" .
+_:customers54 <addressLine1> "Berliner Platz 43" .
+_:customers54 <addressLine2> "" .
+_:customers54 <city> "München" .
+_:customers54 <state> "" .
+_:customers54 <postalCode> "80805" .
+_:customers54 <country> "Germany" .
+_:customers54 <salesRepEmployeeNumber> "0" .
+_:customers54 <creditLimit> "0.00" .
+_:customers55 <customerNumber> "276" .
+_:customers55 <customerName> "Anna's Decorations, Ltd" .
+_:customers55 <contactLastName> "O'Hara" .
+_:customers55 <contactFirstName> "Anna" .
+_:customers55 <phone> "02 9936 8555" .
+_:customers55 <addressLine1> "201 Miller Street" .
+_:customers55 <addressLine2> "Level 15" .
+_:customers55 <city> "North Sydney" .
+_:customers55 <state> "NSW" .
+_:customers55 <postalCode> "2060" .
+_:customers55 <country> "Australia" .
+_:customers55 <salesRepEmployeeNumber> "1611" .
+_:customers55 <creditLimit> "107800.00" .
+_:customers56 <customerNumber> "278" .
+_:customers56 <customerName> "Rovelli Gifts" .
+_:customers56 <contactLastName> "Rovelli" .
+_:customers56 <contactFirstName> "Giovanni " .
+_:customers56 <phone> "035-640555" .
+_:customers56 <addressLine1> "Via Ludovico il Moro 22" .
+_:customers56 <addressLine2> "" .
+_:customers56 <city> "Bergamo" .
+_:customers56 <state> "" .
+_:customers56 <postalCode> "24100" .
+_:customers56 <country> "Italy" .
+_:customers56 <salesRepEmployeeNumber> "1401" .
+_:customers56 <creditLimit> "119600.00" .
+_:customers57 <customerNumber> "282" .
+_:customers57 <customerName> "Souveniers And Things Co." .
+_:customers57 <contactLastName> "Huxley" .
+_:customers57 <contactFirstName> "Adrian" .
+_:customers57 <phone> "+61 2 9495 8555" .
+_:customers57 <addressLine1> "Monitor Money Building" .
+_:customers57 <addressLine2> "815 Pacific Hwy" .
+_:customers57 <city> "Chatswood" .
+_:customers57 <state> "NSW" .
+_:customers57 <postalCode> "2067" .
+_:customers57 <country> "Australia" .
+_:customers57 <salesRepEmployeeNumber> "1611" .
+_:customers57 <creditLimit> "93300.00" .
+_:customers58 <customerNumber> "286" .
+_:customers58 <customerName> "Marta's Replicas Co." .
+_:customers58 <contactLastName> "Hernandez" .
+_:customers58 <contactFirstName> "Marta" .
+_:customers58 <phone> "6175558555" .
+_:customers58 <addressLine1> "39323 Spinnaker Dr." .
+_:customers58 <addressLine2> "" .
+_:customers58 <city> "Cambridge" .
+_:customers58 <state> "MA" .
+_:customers58 <postalCode> "51247" .
+_:customers58 <country> "USA" .
+_:customers58 <salesRepEmployeeNumber> "1216" .
+_:customers58 <creditLimit> "123700.00" .
+_:customers59 <customerNumber> "293" .
+_:customers59 <customerName> "BG&E Collectables" .
+_:customers59 <contactLastName> "Harrison" .
+_:customers59 <contactFirstName> "Ed" .
+_:customers59 <phone> "+41 26 425 50 01" .
+_:customers59 <addressLine1> "Rte des Arsenaux 41 " .
+_:customers59 <addressLine2> "" .
+_:customers59 <city> "Fribourg" .
+_:customers59 <state> "" .
+_:customers59 <postalCode> "1700" .
+_:customers59 <country> "Switzerland" .
+_:customers59 <salesRepEmployeeNumber> "0" .
+_:customers59 <creditLimit> "0.00" .
+_:customers60 <customerNumber> "298" .
+_:customers60 <customerName> "Vida Sport, Ltd" .
+_:customers60 <contactLastName> "Holz" .
+_:customers60 <contactFirstName> "Mihael" .
+_:customers60 <phone> "0897-034555" .
+_:customers60 <addressLine1> "Grenzacherweg 237" .
+_:customers60 <addressLine2> "" .
+_:customers60 <city> "Genève" .
+_:customers60 <state> "" .
+_:customers60 <postalCode> "1203" .
+_:customers60 <country> "Switzerland" .
+_:customers60 <salesRepEmployeeNumber> "1702" .
+_:customers60 <creditLimit> "141300.00" .
+_:customers61 <customerNumber> "299" .
+_:customers61 <customerName> "Norway Gifts By Mail, Co." .
+_:customers61 <contactLastName> "Klaeboe" .
+_:customers61 <contactFirstName> "Jan" .
+_:customers61 <phone> "+47 2212 1555" .
+_:customers61 <addressLine1> "Drammensveien 126A" .
+_:customers61 <addressLine2> "PB 211 Sentrum" .
+_:customers61 <city> "Oslo" .
+_:customers61 <state> "" .
+_:customers61 <postalCode> "N 0106" .
+_:customers61 <country> "Norway  " .
+_:customers61 <salesRepEmployeeNumber> "1504" .
+_:customers61 <creditLimit> "95100.00" .
+_:customers62 <customerNumber> "303" .
+_:customers62 <customerName> "Schuyler Imports" .
+_:customers62 <contactLastName> "Schuyler" .
+_:customers62 <contactFirstName> "Bradley" .
+_:customers62 <phone> "+31 20 491 9555" .
+_:customers62 <addressLine1> "Kingsfordweg 151" .
+_:customers62 <addressLine2> "" .
+_:customers62 <city> "Amsterdam" .
+_:customers62 <state> "" .
+_:customers62 <postalCode> "1043 GR" .
+_:customers62 <country> "Netherlands" .
+_:customers62 <salesRepEmployeeNumber> "0" .
+_:customers62 <creditLimit> "0.00" .
+_:customers63 <customerNumber> "307" .
+_:customers63 <customerName> "Der Hund Imports" .
+_:customers63 <contactLastName> "Andersen" .
+_:customers63 <contactFirstName> "Mel" .
+_:customers63 <phone> "030-0074555" .
+_:customers63 <addressLine1> "Obere Str. 57" .
+_:customers63 <addressLine2> "" .
+_:customers63 <city> "Berlin" .
+_:customers63 <state> "" .
+_:customers63 <postalCode> "12209" .
+_:customers63 <country> "Germany" .
+_:customers63 <salesRepEmployeeNumber> "0" .
+_:customers63 <creditLimit> "0.00" .
+_:customers64 <customerNumber> "311" .
+_:customers64 <customerName> "Oulu Toy Supplies, Inc." .
+_:customers64 <contactLastName> "Koskitalo" .
+_:customers64 <contactFirstName> "Pirkko" .
+_:customers64 <phone> "981-443655" .
+_:customers64 <addressLine1> "Torikatu 38" .
+_:customers64 <addressLine2> "" .
+_:customers64 <city> "Oulu" .
+_:customers64 <state> "" .
+_:customers64 <postalCode> "90110" .
+_:customers64 <country> "Finland" .
+_:customers64 <salesRepEmployeeNumber> "1501" .
+_:customers64 <creditLimit> "90500.00" .
+_:customers65 <customerNumber> "314" .
+_:customers65 <customerName> "Petit Auto" .
+_:customers65 <contactLastName> "Dewey" .
+_:customers65 <contactFirstName> "Catherine " .
+_:customers65 <phone> "(02) 5554 67" .
+_:customers65 <addressLine1> "Rue Joseph-Bens 532" .
+_:customers65 <addressLine2> "" .
+_:customers65 <city> "Bruxelles" .
+_:customers65 <state> "" .
+_:customers65 <postalCode> "B-1180" .
+_:customers65 <country> "Belgium" .
+_:customers65 <salesRepEmployeeNumber> "1401" .
+_:customers65 <creditLimit> "79900.00" .
+_:customers66 <customerNumber> "319" .
+_:customers66 <customerName> "Mini Classics" .
+_:customers66 <contactLastName> "Frick" .
+_:customers66 <contactFirstName> "Steve" .
+_:customers66 <phone> "9145554562" .
+_:customers66 <addressLine1> "3758 North Pendale Street" .
+_:customers66 <addressLine2> "" .
+_:customers66 <city> "White Plains" .
+_:customers66 <state> "NY" .
+_:customers66 <postalCode> "24067" .
+_:customers66 <country> "USA" .
+_:customers66 <salesRepEmployeeNumber> "1323" .
+_:customers66 <creditLimit> "102700.00" .
+_:customers67 <customerNumber> "320" .
+_:customers67 <customerName> "Mini Creations Ltd." .
+_:customers67 <contactLastName> "Huang" .
+_:customers67 <contactFirstName> "Wing" .
+_:customers67 <phone> "5085559555" .
+_:customers67 <addressLine1> "4575 Hillside Dr." .
+_:customers67 <addressLine2> "" .
+_:customers67 <city> "New Bedford" .
+_:customers67 <state> "MA" .
+_:customers67 <postalCode> "50553" .
+_:customers67 <country> "USA" .
+_:customers67 <salesRepEmployeeNumber> "1188" .
+_:customers67 <creditLimit> "94500.00" .
+_:customers68 <customerNumber> "321" .
+_:customers68 <customerName> "Corporate Gift Ideas Co." .
+_:customers68 <contactLastName> "Brown" .
+_:customers68 <contactFirstName> "Julie" .
+_:customers68 <phone> "6505551386" .
+_:customers68 <addressLine1> "7734 Strong St." .
+_:customers68 <addressLine2> "" .
+_:customers68 <city> "San Francisco" .
+_:customers68 <state> "CA" .
+_:customers68 <postalCode> "94217" .
+_:customers68 <country> "USA" .
+_:customers68 <salesRepEmployeeNumber> "1165" .
+_:customers68 <creditLimit> "105000.00" .
+_:customers69 <customerNumber> "323" .
+_:customers69 <customerName> "Down Under Souveniers, Inc" .
+_:customers69 <contactLastName> "Graham" .
+_:customers69 <contactFirstName> "Mike" .
+_:customers69 <phone> "+64 9 312 5555" .
+_:customers69 <addressLine1> "162-164 Grafton Road" .
+_:customers69 <addressLine2> "Level 2" .
+_:customers69 <city> "Auckland  " .
+_:customers69 <state> "" .
+_:customers69 <postalCode> "" .
+_:customers69 <country> "New Zealand" .
+_:customers69 <salesRepEmployeeNumber> "1612" .
+_:customers69 <creditLimit> "88000.00" .
+_:customers70 <customerNumber> "324" .
+_:customers70 <customerName> "Stylish Desk Decors, Co." .
+_:customers70 <contactLastName> "Brown" .
+_:customers70 <contactFirstName> "Ann " .
+_:customers70 <phone> "(171) 555-0297" .
+_:customers70 <addressLine1> "35 King George" .
+_:customers70 <addressLine2> "" .
+_:customers70 <city> "London" .
+_:customers70 <state> "" .
+_:customers70 <postalCode> "WX3 6FW" .
+_:customers70 <country> "UK" .
+_:customers70 <salesRepEmployeeNumber> "1501" .
+_:customers70 <creditLimit> "77000.00" .
+_:customers71 <customerNumber> "328" .
+_:customers71 <customerName> "Tekni Collectables Inc." .
+_:customers71 <contactLastName> "Brown" .
+_:customers71 <contactFirstName> "William" .
+_:customers71 <phone> "2015559350" .
+_:customers71 <addressLine1> "7476 Moss Rd." .
+_:customers71 <addressLine2> "" .
+_:customers71 <city> "Newark" .
+_:customers71 <state> "NJ" .
+_:customers71 <postalCode> "94019" .
+_:customers71 <country> "USA" .
+_:customers71 <salesRepEmployeeNumber> "1323" .
+_:customers71 <creditLimit> "43000.00" .
+_:customers72 <customerNumber> "333" .
+_:customers72 <customerName> "Australian Gift Network, Co" .
+_:customers72 <contactLastName> "Calaghan" .
+_:customers72 <contactFirstName> "Ben" .
+_:customers72 <phone> "61-7-3844-6555" .
+_:customers72 <addressLine1> "31 Duncan St. West End" .
+_:customers72 <addressLine2> "" .
+_:customers72 <city> "South Brisbane" .
+_:customers72 <state> "Queensland" .
+_:customers72 <postalCode> "4101" .
+_:customers72 <country> "Australia" .
+_:customers72 <salesRepEmployeeNumber> "1611" .
+_:customers72 <creditLimit> "51600.00" .
+_:customers73 <customerNumber> "334" .
+_:customers73 <customerName> "Suominen Souveniers" .
+_:customers73 <contactLastName> "Suominen" .
+_:customers73 <contactFirstName> "Kalle" .
+_:customers73 <phone> "+358 9 8045 555" .
+_:customers73 <addressLine1> "Software Engineering Center" .
+_:customers73 <addressLine2> "SEC Oy" .
+_:customers73 <city> "Espoo" .
+_:customers73 <state> "" .
+_:customers73 <postalCode> "FIN-02271" .
+_:customers73 <country> "Finland" .
+_:customers73 <salesRepEmployeeNumber> "1501" .
+_:customers73 <creditLimit> "98800.00" .
+_:customers74 <customerNumber> "335" .
+_:customers74 <customerName> "Cramer Spezialitäten, Ltd" .
+_:customers74 <contactLastName> "Cramer" .
+_:customers74 <contactFirstName> "Philip " .
+_:customers74 <phone> "0555-09555" .
+_:customers74 <addressLine1> "Maubelstr. 90" .
+_:customers74 <addressLine2> "" .
+_:customers74 <city> "Brandenburg" .
+_:customers74 <state> "" .
+_:customers74 <postalCode> "14776" .
+_:customers74 <country> "Germany" .
+_:customers74 <salesRepEmployeeNumber> "0" .
+_:customers74 <creditLimit> "0.00" .
+_:customers75 <customerNumber> "339" .
+_:customers75 <customerName> "Classic Gift Ideas, Inc" .
+_:customers75 <contactLastName> "Cervantes" .
+_:customers75 <contactFirstName> "Francisca" .
+_:customers75 <phone> "2155554695" .
+_:customers75 <addressLine1> "782 First Street" .
+_:customers75 <addressLine2> "" .
+_:customers75 <city> "Philadelphia" .
+_:customers75 <state> "PA" .
+_:customers75 <postalCode> "71270" .
+_:customers75 <country> "USA" .
+_:customers75 <salesRepEmployeeNumber> "1188" .
+_:customers75 <creditLimit> "81100.00" .
+_:customers76 <customerNumber> "344" .
+_:customers76 <customerName> "CAF Imports" .
+_:customers76 <contactLastName> "Fernandez" .
+_:customers76 <contactFirstName> "Jesus" .
+_:customers76 <phone> "+34 913 728 555" .
+_:customers76 <addressLine1> "Merchants House" .
+_:customers76 <addressLine2> "27-30 Merchant's Quay" .
+_:customers76 <city> "Madrid" .
+_:customers76 <state> "" .
+_:customers76 <postalCode> "28023" .
+_:customers76 <country> "Spain" .
+_:customers76 <salesRepEmployeeNumber> "1702" .
+_:customers76 <creditLimit> "59600.00" .
+_:customers77 <customerNumber> "347" .
+_:customers77 <customerName> "Men 'R' US Retailers, Ltd." .
+_:customers77 <contactLastName> "Chandler" .
+_:customers77 <contactFirstName> "Brian" .
+_:customers77 <phone> "2155554369" .
+_:customers77 <addressLine1> "6047 Douglas Av." .
+_:customers77 <addressLine2> "" .
+_:customers77 <city> "Los Angeles" .
+_:customers77 <state> "CA" .
+_:customers77 <postalCode> "91003" .
+_:customers77 <country> "USA" .
+_:customers77 <salesRepEmployeeNumber> "1166" .
+_:customers77 <creditLimit> "57700.00" .
+_:customers78 <customerNumber> "348" .
+_:customers78 <customerName> "Asian Treasures, Inc." .
+_:customers78 <contactLastName> "McKenna" .
+_:customers78 <contactFirstName> "Patricia " .
+_:customers78 <phone> "2967 555" .
+_:customers78 <addressLine1> "8 Johnstown Road" .
+_:customers78 <addressLine2> "" .
+_:customers78 <city> "Cork" .
+_:customers78 <state> "Co. Cork" .
+_:customers78 <postalCode> "" .
+_:customers78 <country> "Ireland" .
+_:customers78 <salesRepEmployeeNumber> "0" .
+_:customers78 <creditLimit> "0.00" .
+_:customers79 <customerNumber> "350" .
+_:customers79 <customerName> "Marseille Mini Autos" .
+_:customers79 <contactLastName> "Lebihan" .
+_:customers79 <contactFirstName> "Laurence " .
+_:customers79 <phone> "91.24.4555" .
+_:customers79 <addressLine1> "12, rue des Bouchers" .
+_:customers79 <addressLine2> "" .
+_:customers79 <city> "Marseille" .
+_:customers79 <state> "" .
+_:customers79 <postalCode> "13008" .
+_:customers79 <country> "France" .
+_:customers79 <salesRepEmployeeNumber> "1337" .
+_:customers79 <creditLimit> "65000.00" .
+_:customers80 <customerNumber> "353" .
+_:customers80 <customerName> "Reims Collectables" .
+_:customers80 <contactLastName> "Henriot" .
+_:customers80 <contactFirstName> "Paul " .
+_:customers80 <phone> "26.47.1555" .
+_:customers80 <addressLine1> "59 rue de l'Abbaye" .
+_:customers80 <addressLine2> "" .
+_:customers80 <city> "Reims" .
+_:customers80 <state> "" .
+_:customers80 <postalCode> "51100" .
+_:customers80 <country> "France" .
+_:customers80 <salesRepEmployeeNumber> "1337" .
+_:customers80 <creditLimit> "81100.00" .
+_:customers81 <customerNumber> "356" .
+_:customers81 <customerName> "SAR Distributors, Co" .
+_:customers81 <contactLastName> "Kuger" .
+_:customers81 <contactFirstName> "Armand" .
+_:customers81 <phone> "+27 21 550 3555" .
+_:customers81 <addressLine1> "1250 Pretorius Street" .
+_:customers81 <addressLine2> "" .
+_:customers81 <city> "Hatfield" .
+_:customers81 <state> "Pretoria" .
+_:customers81 <postalCode> "0028" .
+_:customers81 <country> "South Africa" .
+_:customers81 <salesRepEmployeeNumber> "0" .
+_:customers81 <creditLimit> "0.00" .
+_:customers82 <customerNumber> "357" .
+_:customers82 <customerName> "GiftsForHim.com" .
+_:customers82 <contactLastName> "MacKinlay" .
+_:customers82 <contactFirstName> "Wales" .
+_:customers82 <phone> "64-9-3763555" .
+_:customers82 <addressLine1> "199 Great North Road" .
+_:customers82 <addressLine2> "" .
+_:customers82 <city> "Auckland" .
+_:customers82 <state> "" .
+_:customers82 <postalCode> "" .
+_:customers82 <country> "New Zealand" .
+_:customers82 <salesRepEmployeeNumber> "1612" .
+_:customers82 <creditLimit> "77700.00" .
+_:customers83 <customerNumber> "361" .
+_:customers83 <customerName> "Kommission Auto" .
+_:customers83 <contactLastName> "Josephs" .
+_:customers83 <contactFirstName> "Karin" .
+_:customers83 <phone> "0251-555259" .
+_:customers83 <addressLine1> "Luisenstr. 48" .
+_:customers83 <addressLine2> "" .
+_:customers83 <city> "Münster" .
+_:customers83 <state> "" .
+_:customers83 <postalCode> "44087" .
+_:customers83 <country> "Germany" .
+_:customers83 <salesRepEmployeeNumber> "0" .
+_:customers83 <creditLimit> "0.00" .
+_:customers84 <customerNumber> "362" .
+_:customers84 <customerName> "Gifts4AllAges.com" .
+_:customers84 <contactLastName> "Yoshido" .
+_:customers84 <contactFirstName> "Juri" .
+_:customers84 <phone> "6175559555" .
+_:customers84 <addressLine1> "8616 Spinnaker Dr." .
+_:customers84 <addressLine2> "" .
+_:customers84 <city> "Boston" .
+_:customers84 <state> "MA" .
+_:customers84 <postalCode> "51003" .
+_:customers84 <country> "USA" .
+_:customers84 <salesRepEmployeeNumber> "1216" .
+_:customers84 <creditLimit> "41900.00" .
+_:customers85 <customerNumber> "363" .
+_:customers85 <customerName> "Online Diecast Creations Co." .
+_:customers85 <contactLastName> "Young" .
+_:customers85 <contactFirstName> "Dorothy" .
+_:customers85 <phone> "6035558647" .
+_:customers85 <addressLine1> "2304 Long Airport Avenue" .
+_:customers85 <addressLine2> "" .
+_:customers85 <city> "Nashua" .
+_:customers85 <state> "NH" .
+_:customers85 <postalCode> "62005" .
+_:customers85 <country> "USA" .
+_:customers85 <salesRepEmployeeNumber> "1216" .
+_:customers85 <creditLimit> "114200.00" .
+_:customers86 <customerNumber> "369" .
+_:customers86 <customerName> "Lisboa Souveniers, Inc" .
+_:customers86 <contactLastName> "Rodriguez" .
+_:customers86 <contactFirstName> "Lino " .
+_:customers86 <phone> "(1) 354-2555" .
+_:customers86 <addressLine1> "Jardim das rosas n. 32" .
+_:customers86 <addressLine2> "" .
+_:customers86 <city> "Lisboa" .
+_:customers86 <state> "" .
+_:customers86 <postalCode> "1675" .
+_:customers86 <country> "Portugal" .
+_:customers86 <salesRepEmployeeNumber> "0" .
+_:customers86 <creditLimit> "0.00" .
+_:customers87 <customerNumber> "376" .
+_:customers87 <customerName> "Precious Collectables" .
+_:customers87 <contactLastName> "Urs" .
+_:customers87 <contactFirstName> "Braun" .
+_:customers87 <phone> "0452-076555" .
+_:customers87 <addressLine1> "Hauptstr. 29" .
+_:customers87 <addressLine2> "" .
+_:customers87 <city> "Bern" .
+_:customers87 <state> "" .
+_:customers87 <postalCode> "3012" .
+_:customers87 <country> "Switzerland" .
+_:customers87 <salesRepEmployeeNumber> "1702" .
+_:customers87 <creditLimit> "0.00" .
+_:customers88 <customerNumber> "379" .
+_:customers88 <customerName> "Collectables For Less Inc." .
+_:customers88 <contactLastName> "Nelson" .
+_:customers88 <contactFirstName> "Allen" .
+_:customers88 <phone> "6175558555" .
+_:customers88 <addressLine1> "7825 Douglas Av." .
+_:customers88 <addressLine2> "" .
+_:customers88 <city> "Brickhaven" .
+_:customers88 <state> "MA" .
+_:customers88 <postalCode> "58339" .
+_:customers88 <country> "USA" .
+_:customers88 <salesRepEmployeeNumber> "1188" .
+_:customers88 <creditLimit> "70700.00" .
+_:customers89 <customerNumber> "381" .
+_:customers89 <customerName> "Royale Belge" .
+_:customers89 <contactLastName> "Cartrain" .
+_:customers89 <contactFirstName> "Pascale " .
+_:customers89 <phone> "(071) 23 67 2555" .
+_:customers89 <addressLine1> "Boulevard Tirou, 255" .
+_:customers89 <addressLine2> "" .
+_:customers89 <city> "Charleroi" .
+_:customers89 <state> "" .
+_:customers89 <postalCode> "B-6000" .
+_:customers89 <country> "Belgium" .
+_:customers89 <salesRepEmployeeNumber> "1401" .
+_:customers89 <creditLimit> "23500.00" .
+_:customers90 <customerNumber> "382" .
+_:customers90 <customerName> "Salzburg Collectables" .
+_:customers90 <contactLastName> "Pipps" .
+_:customers90 <contactFirstName> "Georg " .
+_:customers90 <phone> "6562-9555" .
+_:customers90 <addressLine1> "Geislweg 14" .
+_:customers90 <addressLine2> "" .
+_:customers90 <city> "Salzburg" .
+_:customers90 <state> "" .
+_:customers90 <postalCode> "5020" .
+_:customers90 <country> "Austria" .
+_:customers90 <salesRepEmployeeNumber> "1401" .
+_:customers90 <creditLimit> "71700.00" .
+_:customers91 <customerNumber> "385" .
+_:customers91 <customerName> "Cruz & Sons Co." .
+_:customers91 <contactLastName> "Cruz" .
+_:customers91 <contactFirstName> "Arnold" .
+_:customers91 <phone> "+63 2 555 3587" .
+_:customers91 <addressLine1> "15 McCallum Street" .
+_:customers91 <addressLine2> "NatWest Center #13-03" .
+_:customers91 <city> "Makati City" .
+_:customers91 <state> "" .
+_:customers91 <postalCode> "1227 MM" .
+_:customers91 <country> "Philippines" .
+_:customers91 <salesRepEmployeeNumber> "1621" .
+_:customers91 <creditLimit> "81500.00" .
+_:customers92 <customerNumber> "386" .
+_:customers92 <customerName> "L'ordine Souveniers" .
+_:customers92 <contactLastName> "Moroni" .
+_:customers92 <contactFirstName> "Maurizio " .
+_:customers92 <phone> "0522-556555" .
+_:customers92 <addressLine1> "Strada Provinciale 124" .
+_:customers92 <addressLine2> "" .
+_:customers92 <city> "Reggio Emilia" .
+_:customers92 <state> "" .
+_:customers92 <postalCode> "42100" .
+_:customers92 <country> "Italy" .
+_:customers92 <salesRepEmployeeNumber> "1401" .
+_:customers92 <creditLimit> "121400.00" .
+_:customers93 <customerNumber> "398" .
+_:customers93 <customerName> "Tokyo Collectables, Ltd" .
+_:customers93 <contactLastName> "Shimamura" .
+_:customers93 <contactFirstName> "Akiko" .
+_:customers93 <phone> "+81 3 3584 0555" .
+_:customers93 <addressLine1> "2-2-8 Roppongi" .
+_:customers93 <addressLine2> "" .
+_:customers93 <city> "Minato-ku" .
+_:customers93 <state> "Tokyo" .
+_:customers93 <postalCode> "106-0032" .
+_:customers93 <country> "Japan" .
+_:customers93 <salesRepEmployeeNumber> "1621" .
+_:customers93 <creditLimit> "94400.00" .
+_:customers94 <customerNumber> "406" .
+_:customers94 <customerName> "Auto Canal+ Petit" .
+_:customers94 <contactLastName> "Perrier" .
+_:customers94 <contactFirstName> "Dominique" .
+_:customers94 <phone> "(1) 47.55.6555" .
+_:customers94 <addressLine1> "25, rue Lauriston" .
+_:customers94 <addressLine2> "" .
+_:customers94 <city> "Paris" .
+_:customers94 <state> "" .
+_:customers94 <postalCode> "75016" .
+_:customers94 <country> "France" .
+_:customers94 <salesRepEmployeeNumber> "1337" .
+_:customers94 <creditLimit> "95000.00" .
+_:customers95 <customerNumber> "409" .
+_:customers95 <customerName> "Stuttgart Collectable Exchange" .
+_:customers95 <contactLastName> "Müller" .
+_:customers95 <contactFirstName> "Rita " .
+_:customers95 <phone> "0711-555361" .
+_:customers95 <addressLine1> "Adenauerallee 900" .
+_:customers95 <addressLine2> "" .
+_:customers95 <city> "Stuttgart" .
+_:customers95 <state> "" .
+_:customers95 <postalCode> "70563" .
+_:customers95 <country> "Germany" .
+_:customers95 <salesRepEmployeeNumber> "0" .
+_:customers95 <creditLimit> "0.00" .
+_:customers96 <customerNumber> "412" .
+_:customers96 <customerName> "Extreme Desk Decorations, Ltd" .
+_:customers96 <contactLastName> "McRoy" .
+_:customers96 <contactFirstName> "Sarah" .
+_:customers96 <phone> "04 499 9555" .
+_:customers96 <addressLine1> "101 Lambton Quay" .
+_:customers96 <addressLine2> "Level 11" .
+_:customers96 <city> "Wellington" .
+_:customers96 <state> "" .
+_:customers96 <postalCode> "" .
+_:customers96 <country> "New Zealand" .
+_:customers96 <salesRepEmployeeNumber> "1612" .
+_:customers96 <creditLimit> "86800.00" .
+_:customers97 <customerNumber> "415" .
+_:customers97 <customerName> "Bavarian Collectables Imports, Co." .
+_:customers97 <contactLastName> "Donnermeyer" .
+_:customers97 <contactFirstName> "Michael" .
+_:customers97 <phone> " +49 89 61 08 9555" .
+_:customers97 <addressLine1> "Hansastr. 15" .
+_:customers97 <addressLine2> "" .
+_:customers97 <city> "Munich" .
+_:customers97 <state> "" .
+_:customers97 <postalCode> "80686" .
+_:customers97 <country> "Germany" .
+_:customers97 <salesRepEmployeeNumber> "1504" .
+_:customers97 <creditLimit> "77000.00" .
+_:customers98 <customerNumber> "424" .
+_:customers98 <customerName> "Classic Legends Inc." .
+_:customers98 <contactLastName> "Hernandez" .
+_:customers98 <contactFirstName> "Maria" .
+_:customers98 <phone> "2125558493" .
+_:customers98 <addressLine1> "5905 Pompton St." .
+_:customers98 <addressLine2> "Suite 750" .
+_:customers98 <city> "NYC" .
+_:customers98 <state> "NY" .
+_:customers98 <postalCode> "10022" .
+_:customers98 <country> "USA" .
+_:customers98 <salesRepEmployeeNumber> "1286" .
+_:customers98 <creditLimit> "67500.00" .
+_:customers99 <customerNumber> "443" .
+_:customers99 <customerName> "Feuer Online Stores, Inc" .
+_:customers99 <contactLastName> "Feuer" .
+_:customers99 <contactFirstName> "Alexander " .
+_:customers99 <phone> "0342-555176" .
+_:customers99 <addressLine1> "Heerstr. 22" .
+_:customers99 <addressLine2> "" .
+_:customers99 <city> "Leipzig" .
+_:customers99 <state> "" .
+_:customers99 <postalCode> "04179" .
+_:customers99 <country> "Germany" .
+_:customers99 <salesRepEmployeeNumber> "0" .
+_:customers99 <creditLimit> "0.00" .
+_:customers100 <customerNumber> "447" .
+_:customers100 <customerName> "Gift Ideas Corp." .
+_:customers100 <contactLastName> "Lewis" .
+_:customers100 <contactFirstName> "Dan" .
+_:customers100 <phone> "2035554407" .
+_:customers100 <addressLine1> "2440 Pompton St." .
+_:customers100 <addressLine2> "" .
+_:customers100 <city> "Glendale" .
+_:customers100 <state> "CT" .
+_:customers100 <postalCode> "97561" .
+_:customers100 <country> "USA" .
+_:customers100 <salesRepEmployeeNumber> "1323" .
+_:customers100 <creditLimit> "49700.00" .
+_:customers101 <customerNumber> "448" .
+_:customers101 <customerName> "Scandinavian Gift Ideas" .
+_:customers101 <contactLastName> "Larsson" .
+_:customers101 <contactFirstName> "Martha" .
+_:customers101 <phone> "0695-34 6555" .
+_:customers101 <addressLine1> "Åkergatan 24" .
+_:customers101 <addressLine2> "" .
+_:customers101 <city> "Bräcke" .
+_:customers101 <state> "" .
+_:customers101 <postalCode> "S-844 67" .
+_:customers101 <country> "Sweden" .
+_:customers101 <salesRepEmployeeNumber> "1504" .
+_:customers101 <creditLimit> "116400.00" .
+_:customers102 <customerNumber> "450" .
+_:customers102 <customerName> "The Sharp Gifts Warehouse" .
+_:customers102 <contactLastName> "Frick" .
+_:customers102 <contactFirstName> "Sue" .
+_:customers102 <phone> "4085553659" .
+_:customers102 <addressLine1> "3086 Ingle Ln." .
+_:customers102 <addressLine2> "" .
+_:customers102 <city> "San Jose" .
+_:customers102 <state> "CA" .
+_:customers102 <postalCode> "94217" .
+_:customers102 <country> "USA" .
+_:customers102 <salesRepEmployeeNumber> "1165" .
+_:customers102 <creditLimit> "77600.00" .
+_:customers103 <customerNumber> "452" .
+_:customers103 <customerName> "Mini Auto Werke" .
+_:customers103 <contactLastName> "Mendel" .
+_:customers103 <contactFirstName> "Roland " .
+_:customers103 <phone> "7675-3555" .
+_:customers103 <addressLine1> "Kirchgasse 6" .
+_:customers103 <addressLine2> "" .
+_:customers103 <city> "Graz" .
+_:customers103 <state> "" .
+_:customers103 <postalCode> "8010" .
+_:customers103 <country> "Austria" .
+_:customers103 <salesRepEmployeeNumber> "1401" .
+_:customers103 <creditLimit> "45300.00" .
+_:customers104 <customerNumber> "455" .
+_:customers104 <customerName> "Super Scale Inc." .
+_:customers104 <contactLastName> "Murphy" .
+_:customers104 <contactFirstName> "Leslie" .
+_:customers104 <phone> "2035559545" .
+_:customers104 <addressLine1> "567 North Pendale Street" .
+_:customers104 <addressLine2> "" .
+_:customers104 <city> "New Haven" .
+_:customers104 <state> "CT" .
+_:customers104 <postalCode> "97823" .
+_:customers104 <country> "USA" .
+_:customers104 <salesRepEmployeeNumber> "1286" .
+_:customers104 <creditLimit> "95400.00" .
+_:customers105 <customerNumber> "456" .
+_:customers105 <customerName> "Microscale Inc." .
+_:customers105 <contactLastName> "Choi" .
+_:customers105 <contactFirstName> "Yu" .
+_:customers105 <phone> "2125551957" .
+_:customers105 <addressLine1> "5290 North Pendale Street" .
+_:customers105 <addressLine2> "Suite 200" .
+_:customers105 <city> "NYC" .
+_:customers105 <state> "NY" .
+_:customers105 <postalCode> "10022" .
+_:customers105 <country> "USA" .
+_:customers105 <salesRepEmployeeNumber> "1286" .
+_:customers105 <creditLimit> "39800.00" .
+_:customers106 <customerNumber> "458" .
+_:customers106 <customerName> "Corrida Auto Replicas, Ltd" .
+_:customers106 <contactLastName> "Sommer" .
+_:customers106 <contactFirstName> "Martín " .
+_:customers106 <phone> "(91) 555 22 82" .
+_:customers106 <addressLine1> "C/ Araquil, 67" .
+_:customers106 <addressLine2> "" .
+_:customers106 <city> "Madrid" .
+_:customers106 <state> "" .
+_:customers106 <postalCode> "28023" .
+_:customers106 <country> "Spain" .
+_:customers106 <salesRepEmployeeNumber> "1702" .
+_:customers106 <creditLimit> "104600.00" .
+_:customers107 <customerNumber> "459" .
+_:customers107 <customerName> "Warburg Exchange" .
+_:customers107 <contactLastName> "Ottlieb" .
+_:customers107 <contactFirstName> "Sven " .
+_:customers107 <phone> "0241-039123" .
+_:customers107 <addressLine1> "Walserweg 21" .
+_:customers107 <addressLine2> "" .
+_:customers107 <city> "Aachen" .
+_:customers107 <state> "" .
+_:customers107 <postalCode> "52066" .
+_:customers107 <country> "Germany" .
+_:customers107 <salesRepEmployeeNumber> "0" .
+_:customers107 <creditLimit> "0.00" .
+_:customers108 <customerNumber> "462" .
+_:customers108 <customerName> "FunGiftIdeas.com" .
+_:customers108 <contactLastName> "Benitez" .
+_:customers108 <contactFirstName> "Violeta" .
+_:customers108 <phone> "5085552555" .
+_:customers108 <addressLine1> "1785 First Street" .
+_:customers108 <addressLine2> "" .
+_:customers108 <city> "New Bedford" .
+_:customers108 <state> "MA" .
+_:customers108 <postalCode> "50553" .
+_:customers108 <country> "USA" .
+_:customers108 <salesRepEmployeeNumber> "1216" .
+_:customers108 <creditLimit> "85800.00" .
+_:customers109 <customerNumber> "465" .
+_:customers109 <customerName> "Anton Designs, Ltd." .
+_:customers109 <contactLastName> "Anton" .
+_:customers109 <contactFirstName> "Carmen" .
+_:customers109 <phone> "+34 913 728555" .
+_:customers109 <addressLine1> "c/ Gobelas, 19-1 Urb. La Florida" .
+_:customers109 <addressLine2> "" .
+_:customers109 <city> "Madrid" .
+_:customers109 <state> "" .
+_:customers109 <postalCode> "28023" .
+_:customers109 <country> "Spain" .
+_:customers109 <salesRepEmployeeNumber> "0" .
+_:customers109 <creditLimit> "0.00" .
+_:customers110 <customerNumber> "471" .
+_:customers110 <customerName> "Australian Collectables, Ltd" .
+_:customers110 <contactLastName> "Clenahan" .
+_:customers110 <contactFirstName> "Sean" .
+_:customers110 <phone> "61-9-3844-6555" .
+_:customers110 <addressLine1> "7 Allen Street" .
+_:customers110 <addressLine2> "" .
+_:customers110 <city> "Glen Waverly" .
+_:customers110 <state> "Victoria" .
+_:customers110 <postalCode> "3150" .
+_:customers110 <country> "Australia" .
+_:customers110 <salesRepEmployeeNumber> "1611" .
+_:customers110 <creditLimit> "60300.00" .
+_:customers111 <customerNumber> "473" .
+_:customers111 <customerName> "Frau da Collezione" .
+_:customers111 <contactLastName> "Ricotti" .
+_:customers111 <contactFirstName> "Franco" .
+_:customers111 <phone> "+39 022515555" .
+_:customers111 <addressLine1> "20093 Cologno Monzese" .
+_:customers111 <addressLine2> "Alessandro Volta 16" .
+_:customers111 <city> "Milan" .
+_:customers111 <state> "" .
+_:customers111 <postalCode> "" .
+_:customers111 <country> "Italy" .
+_:customers111 <salesRepEmployeeNumber> "1401" .
+_:customers111 <creditLimit> "34800.00" .
+_:customers112 <customerNumber> "475" .
+_:customers112 <customerName> "West Coast Collectables Co." .
+_:customers112 <contactLastName> "Thompson" .
+_:customers112 <contactFirstName> "Steve" .
+_:customers112 <phone> "3105553722" .
+_:customers112 <addressLine1> "3675 Furth Circle" .
+_:customers112 <addressLine2> "" .
+_:customers112 <city> "Burbank" .
+_:customers112 <state> "CA" .
+_:customers112 <postalCode> "94019" .
+_:customers112 <country> "USA" .
+_:customers112 <salesRepEmployeeNumber> "1166" .
+_:customers112 <creditLimit> "55400.00" .
+_:customers113 <customerNumber> "477" .
+_:customers113 <customerName> "Mit Vergnügen & Co." .
+_:customers113 <contactLastName> "Moos" .
+_:customers113 <contactFirstName> "Hanna " .
+_:customers113 <phone> "0621-08555" .
+_:customers113 <addressLine1> "Forsterstr. 57" .
+_:customers113 <addressLine2> "" .
+_:customers113 <city> "Mannheim" .
+_:customers113 <state> "" .
+_:customers113 <postalCode> "68306" .
+_:customers113 <country> "Germany" .
+_:customers113 <salesRepEmployeeNumber> "0" .
+_:customers113 <creditLimit> "0.00" .
+_:customers114 <customerNumber> "480" .
+_:customers114 <customerName> "Kremlin Collectables, Co." .
+_:customers114 <contactLastName> "Semenov" .
+_:customers114 <contactFirstName> "Alexander " .
+_:customers114 <phone> "+7 812 293 0521" .
+_:customers114 <addressLine1> "2 Pobedy Square" .
+_:customers114 <addressLine2> "" .
+_:customers114 <city> "Saint Petersburg" .
+_:customers114 <state> "" .
+_:customers114 <postalCode> "196143" .
+_:customers114 <country> "Russia" .
+_:customers114 <salesRepEmployeeNumber> "0" .
+_:customers114 <creditLimit> "0.00" .
+_:customers115 <customerNumber> "481" .
+_:customers115 <customerName> "Raanan Stores, Inc" .
+_:customers115 <contactLastName> "Altagar,G M" .
+_:customers115 <contactFirstName> "Raanan" .
+_:customers115 <phone> "+ 972 9 959 8555" .
+_:customers115 <addressLine1> "3 Hagalim Blv." .
+_:customers115 <addressLine2> "" .
+_:customers115 <city> "Herzlia" .
+_:customers115 <state> "" .
+_:customers115 <postalCode> "47625" .
+_:customers115 <country> "Israel" .
+_:customers115 <salesRepEmployeeNumber> "0" .
+_:customers115 <creditLimit> "0.00" .
+_:customers116 <customerNumber> "484" .
+_:customers116 <customerName> "Iberia Gift Imports, Corp." .
+_:customers116 <contactLastName> "Roel" .
+_:customers116 <contactFirstName> "José Pedro " .
+_:customers116 <phone> "(95) 555 82 82" .
+_:customers116 <addressLine1> "C/ Romero, 33" .
+_:customers116 <addressLine2> "" .
+_:customers116 <city> "Sevilla" .
+_:customers116 <state> "" .
+_:customers116 <postalCode> "41101" .
+_:customers116 <country> "Spain" .
+_:customers116 <salesRepEmployeeNumber> "1702" .
+_:customers116 <creditLimit> "65700.00" .
+_:customers117 <customerNumber> "486" .
+_:customers117 <customerName> "Motor Mint Distributors Inc." .
+_:customers117 <contactLastName> "Salazar" .
+_:customers117 <contactFirstName> "Rosa" .
+_:customers117 <phone> "2155559857" .
+_:customers117 <addressLine1> "11328 Douglas Av." .
+_:customers117 <addressLine2> "" .
+_:customers117 <city> "Philadelphia" .
+_:customers117 <state> "PA" .
+_:customers117 <postalCode> "71270" .
+_:customers117 <country> "USA" .
+_:customers117 <salesRepEmployeeNumber> "1323" .
+_:customers117 <creditLimit> "72600.00" .
+_:customers118 <customerNumber> "487" .
+_:customers118 <customerName> "Signal Collectibles Ltd." .
+_:customers118 <contactLastName> "Taylor" .
+_:customers118 <contactFirstName> "Sue" .
+_:customers118 <phone> "4155554312" .
+_:customers118 <addressLine1> "2793 Furth Circle" .
+_:customers118 <addressLine2> "" .
+_:customers118 <city> "Brisbane" .
+_:customers118 <state> "CA" .
+_:customers118 <postalCode> "94217" .
+_:customers118 <country> "USA" .
+_:customers118 <salesRepEmployeeNumber> "1165" .
+_:customers118 <creditLimit> "60300.00" .
+_:customers119 <customerNumber> "489" .
+_:customers119 <customerName> "Double Decker Gift Stores, Ltd" .
+_:customers119 <contactLastName> "Smith" .
+_:customers119 <contactFirstName> "Thomas " .
+_:customers119 <phone> "(171) 555-7555" .
+_:customers119 <addressLine1> "120 Hanover Sq." .
+_:customers119 <addressLine2> "" .
+_:customers119 <city> "London" .
+_:customers119 <state> "" .
+_:customers119 <postalCode> "WA1 1DP" .
+_:customers119 <country> "UK" .
+_:customers119 <salesRepEmployeeNumber> "1501" .
+_:customers119 <creditLimit> "43300.00" .
+_:customers120 <customerNumber> "495" .
+_:customers120 <customerName> "Diecast Collectables" .
+_:customers120 <contactLastName> "Franco" .
+_:customers120 <contactFirstName> "Valarie" .
+_:customers120 <phone> "6175552555" .
+_:customers120 <addressLine1> "6251 Ingle Ln." .
+_:customers120 <addressLine2> "" .
+_:customers120 <city> "Boston" .
+_:customers120 <state> "MA" .
+_:customers120 <postalCode> "51003" .
+_:customers120 <country> "USA" .
+_:customers120 <salesRepEmployeeNumber> "1188" .
+_:customers120 <creditLimit> "85100.00" .
+_:customers121 <customerNumber> "496" .
+_:customers121 <customerName> "Kelly's Gift Shop" .
+_:customers121 <contactLastName> "Snowden" .
+_:customers121 <contactFirstName> "Tony" .
+_:customers121 <phone> "+64 9 5555500" .
+_:customers121 <addressLine1> "Arenales 1938 3'A'" .
+_:customers121 <addressLine2> "" .
+_:customers121 <city> "Auckland  " .
+_:customers121 <state> "" .
+_:customers121 <postalCode> "" .
+_:customers121 <country> "New Zealand" .
+_:customers121 <salesRepEmployeeNumber> "1612" .
+_:customers121 <creditLimit> "110000.00" .
+}}

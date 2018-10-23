@@ -1,0 +1,992 @@
+{set{
+_:products0 <productCode> "S10_1678" .
+_:products0 <productName> "1969 Harley Davidson Ultimate Chopper" .
+_:products0 <productLine> "Motorcycles" .
+_:products0 <productScale> "1:10" .
+_:products0 <productVendor> "Min Lin Diecast" .
+_:products0 <productDescription> "This replica features working kickstand, front suspension, gear-shift lever, footbrake lever, drive chain, wheels and steering. All parts are particularly delicate due to their precise scale and require special care and attention." .
+_:products0 <quantityInStock> "7933" .
+_:products0 <buyPrice> "48.81" .
+_:products0 <MSRP> "95.70" .
+_:products1 <productCode> "S10_1949" .
+_:products1 <productName> "1952 Alpine Renault 1300" .
+_:products1 <productLine> "Classic Cars" .
+_:products1 <productScale> "1:10" .
+_:products1 <productVendor> "Classic Metal Creations" .
+_:products1 <productDescription> "Turnable front wheels; steering function; detailed interior; detailed engine; opening hood; opening trunk; opening doors; and detailed chassis." .
+_:products1 <quantityInStock> "7305" .
+_:products1 <buyPrice> "98.58" .
+_:products1 <MSRP> "214.30" .
+_:products2 <productCode> "S10_2016" .
+_:products2 <productName> "1996 Moto Guzzi 1100i" .
+_:products2 <productLine> "Motorcycles" .
+_:products2 <productScale> "1:10" .
+_:products2 <productVendor> "Highway 66 Mini Classics" .
+_:products2 <productDescription> "Official Moto Guzzi logos and insignias, saddle bags located on side of motorcycle, detailed engine, working steering, working suspension, two leather seats, luggage rack, dual exhaust pipes, small saddle bag located on handle bars, two-tone paint with chrome accents, superior die-cast detail , rotating wheels , working kick stand, diecast metal with plastic parts and baked enamel finish." .
+_:products2 <quantityInStock> "6625" .
+_:products2 <buyPrice> "68.99" .
+_:products2 <MSRP> "118.94" .
+_:products3 <productCode> "S10_4698" .
+_:products3 <productName> "2003 Harley-Davidson Eagle Drag Bike" .
+_:products3 <productLine> "Motorcycles" .
+_:products3 <productScale> "1:10" .
+_:products3 <productVendor> "Red Start Diecast" .
+_:products3 <productDescription> "Model features, official Harley Davidson logos and insignias, detachable rear wheelie bar, heavy diecast metal with resin parts, authentic multi-color tampo-printed graphics, separate engine drive belts, free-turning front fork, rotating tires and rear racing slick, certificate of authenticity, detailed engine, display stand  , precision diecast replica, baked enamel finish, 1:10 scale model, removable fender, seat and tank cover piece for displaying the superior detail of the v-twin engine" .
+_:products3 <quantityInStock> "5582" .
+_:products3 <buyPrice> "91.02" .
+_:products3 <MSRP> "193.66" .
+_:products4 <productCode> "S10_4757" .
+_:products4 <productName> "1972 Alfa Romeo GTA" .
+_:products4 <productLine> "Classic Cars" .
+_:products4 <productScale> "1:10" .
+_:products4 <productVendor> "Motor City Art Classics" .
+_:products4 <productDescription> "Features include: Turnable front wheels; steering function; detailed interior; detailed engine; opening hood; opening trunk; opening doors; and detailed chassis." .
+_:products4 <quantityInStock> "3252" .
+_:products4 <buyPrice> "85.68" .
+_:products4 <MSRP> "136.00" .
+_:products5 <productCode> "S10_4962" .
+_:products5 <productName> "1962 LanciaA Delta 16V" .
+_:products5 <productLine> "Classic Cars" .
+_:products5 <productScale> "1:10" .
+_:products5 <productVendor> "Second Gear Diecast" .
+_:products5 <productDescription> "Features include: Turnable front wheels; steering function; detailed interior; detailed engine; opening hood; opening trunk; opening doors; and detailed chassis." .
+_:products5 <quantityInStock> "6791" .
+_:products5 <buyPrice> "103.42" .
+_:products5 <MSRP> "147.74" .
+_:products6 <productCode> "S12_1099" .
+_:products6 <productName> "1968 Ford Mustang" .
+_:products6 <productLine> "Classic Cars" .
+_:products6 <productScale> "1:12" .
+_:products6 <productVendor> "Autoart Studio Design" .
+_:products6 <productDescription> "Hood, doors and trunk all open to reveal highly detailed interior features. Steering wheel actually turns the front wheels. Color dark green." .
+_:products6 <quantityInStock> "68" .
+_:products6 <buyPrice> "95.34" .
+_:products6 <MSRP> "194.57" .
+_:products7 <productCode> "S12_1108" .
+_:products7 <productName> "2001 Ferrari Enzo" .
+_:products7 <productLine> "Classic Cars" .
+_:products7 <productScale> "1:12" .
+_:products7 <productVendor> "Second Gear Diecast" .
+_:products7 <productDescription> "Turnable front wheels; steering function; detailed interior; detailed engine; opening hood; opening trunk; opening doors; and detailed chassis." .
+_:products7 <quantityInStock> "3619" .
+_:products7 <buyPrice> "95.59" .
+_:products7 <MSRP> "207.80" .
+_:products8 <productCode> "S12_1666" .
+_:products8 <productName> "1958 Setra Bus" .
+_:products8 <productLine> "Trucks and Buses" .
+_:products8 <productScale> "1:12" .
+_:products8 <productVendor> "Welly Diecast Productions" .
+_:products8 <productDescription> "Model features 30 windows, skylights & glare resistant glass, working steering system, original logos" .
+_:products8 <quantityInStock> "1579" .
+_:products8 <buyPrice> "77.90" .
+_:products8 <MSRP> "136.67" .
+_:products9 <productCode> "S12_2823" .
+_:products9 <productName> "2002 Suzuki XREO" .
+_:products9 <productLine> "Motorcycles" .
+_:products9 <productScale> "1:12" .
+_:products9 <productVendor> "Unimax Art Galleries" .
+_:products9 <productDescription> "Official logos and insignias, saddle bags located on side of motorcycle, detailed engine, working steering, working suspension, two leather seats, luggage rack, dual exhaust pipes, small saddle bag located on handle bars, two-tone paint with chrome accents, superior die-cast detail , rotating wheels , working kick stand, diecast metal with plastic parts and baked enamel finish." .
+_:products9 <quantityInStock> "9997" .
+_:products9 <buyPrice> "66.27" .
+_:products9 <MSRP> "150.62" .
+_:products10 <productCode> "S12_3148" .
+_:products10 <productName> "1969 Corvair Monza" .
+_:products10 <productLine> "Classic Cars" .
+_:products10 <productScale> "1:18" .
+_:products10 <productVendor> "Welly Diecast Productions" .
+_:products10 <productDescription> "1:18 scale die-cast about 10  long doors open, hood opens, trunk opens and wheels roll" .
+_:products10 <quantityInStock> "6906" .
+_:products10 <buyPrice> "89.14" .
+_:products10 <MSRP> "151.08" .
+_:products11 <productCode> "S12_3380" .
+_:products11 <productName> "1968 Dodge Charger" .
+_:products11 <productLine> "Classic Cars" .
+_:products11 <productScale> "1:12" .
+_:products11 <productVendor> "Welly Diecast Productions" .
+_:products11 <productDescription> "1:12 scale model of a 1968 Dodge Charger. Hood, doors and trunk all open to reveal highly detailed interior features. Steering wheel actually turns the front wheels. Color black" .
+_:products11 <quantityInStock> "9123" .
+_:products11 <buyPrice> "75.16" .
+_:products11 <MSRP> "117.44" .
+_:products12 <productCode> "S12_3891" .
+_:products12 <productName> "1969 Ford Falcon" .
+_:products12 <productLine> "Classic Cars" .
+_:products12 <productScale> "1:12" .
+_:products12 <productVendor> "Second Gear Diecast" .
+_:products12 <productDescription> "Turnable front wheels; steering function; detailed interior; detailed engine; opening hood; opening trunk; opening doors; and detailed chassis." .
+_:products12 <quantityInStock> "1049" .
+_:products12 <buyPrice> "83.05" .
+_:products12 <MSRP> "173.02" .
+_:products13 <productCode> "S12_3990" .
+_:products13 <productName> "1970 Plymouth Hemi Cuda" .
+_:products13 <productLine> "Classic Cars" .
+_:products13 <productScale> "1:12" .
+_:products13 <productVendor> "Studio M Art Models" .
+_:products13 <productDescription> "Very detailed 1970 Plymouth Cuda model in 1:12 scale. The Cuda is generally accepted as one of the fastest original muscle cars from the 1970s. This model is a reproduction of one of the orginal 652 cars built in 1970. Red color." .
+_:products13 <quantityInStock> "5663" .
+_:products13 <buyPrice> "31.92" .
+_:products13 <MSRP> "79.80" .
+_:products14 <productCode> "S12_4473" .
+_:products14 <productName> "1957 Chevy Pickup" .
+_:products14 <productLine> "Trucks and Buses" .
+_:products14 <productScale> "1:12" .
+_:products14 <productVendor> "Exoto Designs" .
+_:products14 <productDescription> "1:12 scale die-cast about 20  long Hood opens, Rubber wheels" .
+_:products14 <quantityInStock> "6125" .
+_:products14 <buyPrice> "55.70" .
+_:products14 <MSRP> "118.50" .
+_:products15 <productCode> "S12_4675" .
+_:products15 <productName> "1969 Dodge Charger" .
+_:products15 <productLine> "Classic Cars" .
+_:products15 <productScale> "1:12" .
+_:products15 <productVendor> "Welly Diecast Productions" .
+_:products15 <productDescription> "Detailed model of the 1969 Dodge Charger. This model includes finely detailed interior and exterior features. Painted in red and white." .
+_:products15 <quantityInStock> "7323" .
+_:products15 <buyPrice> "58.73" .
+_:products15 <MSRP> "115.16" .
+_:products16 <productCode> "S18_1097" .
+_:products16 <productName> "1940 Ford Pickup Truck" .
+_:products16 <productLine> "Trucks and Buses" .
+_:products16 <productScale> "1:18" .
+_:products16 <productVendor> "Studio M Art Models" .
+_:products16 <productDescription> "This model features soft rubber tires, working steering, rubber mud guards, authentic Ford logos, detailed undercarriage, opening doors and hood,  removable split rear gate, full size spare mounted in bed, detailed interior with opening glove box" .
+_:products16 <quantityInStock> "2613" .
+_:products16 <buyPrice> "58.33" .
+_:products16 <MSRP> "116.67" .
+_:products17 <productCode> "S18_1129" .
+_:products17 <productName> "1993 Mazda RX-7" .
+_:products17 <productLine> "Classic Cars" .
+_:products17 <productScale> "1:18" .
+_:products17 <productVendor> "Highway 66 Mini Classics" .
+_:products17 <productDescription> "This model features, opening hood, opening doors, detailed engine, rear spoiler, opening trunk, working steering, tinted windows, baked enamel finish. Color red." .
+_:products17 <quantityInStock> "3975" .
+_:products17 <buyPrice> "83.51" .
+_:products17 <MSRP> "141.54" .
+_:products18 <productCode> "S18_1342" .
+_:products18 <productName> "1937 Lincoln Berline" .
+_:products18 <productLine> "Vintage Cars" .
+_:products18 <productScale> "1:18" .
+_:products18 <productVendor> "Motor City Art Classics" .
+_:products18 <productDescription> "Features opening engine cover, doors, trunk, and fuel filler cap. Color black" .
+_:products18 <quantityInStock> "8693" .
+_:products18 <buyPrice> "60.62" .
+_:products18 <MSRP> "102.74" .
+_:products19 <productCode> "S18_1367" .
+_:products19 <productName> "1936 Mercedes-Benz 500K Special Roadster" .
+_:products19 <productLine> "Vintage Cars" .
+_:products19 <productScale> "1:18" .
+_:products19 <productVendor> "Studio M Art Models" .
+_:products19 <productDescription> "This 1:18 scale replica is constructed of heavy die-cast metal and has all the features of the original: working doors and rumble seat, independent spring suspension, detailed interior, working steering system, and a bifold hood that reveals an engine so accurate that it even includes the wiring. All this is topped off with a baked enamel finish. Color white." .
+_:products19 <quantityInStock> "8635" .
+_:products19 <buyPrice> "24.26" .
+_:products19 <MSRP> "53.91" .
+_:products20 <productCode> "S18_1589" .
+_:products20 <productName> "1965 Aston Martin DB5" .
+_:products20 <productLine> "Classic Cars" .
+_:products20 <productScale> "1:18" .
+_:products20 <productVendor> "Classic Metal Creations" .
+_:products20 <productDescription> "Die-cast model of the silver 1965 Aston Martin DB5 in silver. This model includes full wire wheels and doors that open with fully detailed passenger compartment. In 1:18 scale, this model measures approximately 10 inches/20 cm long." .
+_:products20 <quantityInStock> "9042" .
+_:products20 <buyPrice> "65.96" .
+_:products20 <MSRP> "124.44" .
+_:products21 <productCode> "S18_1662" .
+_:products21 <productName> "1980s Black Hawk Helicopter" .
+_:products21 <productLine> "Planes" .
+_:products21 <productScale> "1:18" .
+_:products21 <productVendor> "Red Start Diecast" .
+_:products21 <productDescription> "1:18 scale replica of actual Army's UH-60L BLACK HAWK Helicopter. 100% hand-assembled. Features rotating rotor blades, propeller blades and rubber wheels." .
+_:products21 <quantityInStock> "5330" .
+_:products21 <buyPrice> "77.27" .
+_:products21 <MSRP> "157.69" .
+_:products22 <productCode> "S18_1749" .
+_:products22 <productName> "1917 Grand Touring Sedan" .
+_:products22 <productLine> "Vintage Cars" .
+_:products22 <productScale> "1:18" .
+_:products22 <productVendor> "Welly Diecast Productions" .
+_:products22 <productDescription> "This 1:18 scale replica of the 1917 Grand Touring car has all the features you would expect from museum quality reproductions: all four doors and bi-fold hood opening, detailed engine and instrument panel, chrome-look trim, and tufted upholstery, all topped off with a factory baked-enamel finish." .
+_:products22 <quantityInStock> "2724" .
+_:products22 <buyPrice> "86.70" .
+_:products22 <MSRP> "170.00" .
+_:products23 <productCode> "S18_1889" .
+_:products23 <productName> "1948 Porsche 356-A Roadster" .
+_:products23 <productLine> "Classic Cars" .
+_:products23 <productScale> "1:18" .
+_:products23 <productVendor> "Gearbox Collectibles" .
+_:products23 <productDescription> "This precision die-cast replica features opening doors, superb detail and craftsmanship, working steering system, opening forward compartment, opening rear trunk with removable spare, 4 wheel independent spring suspension as well as factory baked enamel finish." .
+_:products23 <quantityInStock> "8826" .
+_:products23 <buyPrice> "53.90" .
+_:products23 <MSRP> "77.00" .
+_:products24 <productCode> "S18_1984" .
+_:products24 <productName> "1995 Honda Civic" .
+_:products24 <productLine> "Classic Cars" .
+_:products24 <productScale> "1:18" .
+_:products24 <productVendor> "Min Lin Diecast" .
+_:products24 <productDescription> "This model features, opening hood, opening doors, detailed engine, rear spoiler, opening trunk, working steering, tinted windows, baked enamel finish. Color yellow." .
+_:products24 <quantityInStock> "9772" .
+_:products24 <buyPrice> "93.89" .
+_:products24 <MSRP> "142.25" .
+_:products25 <productCode> "S18_2238" .
+_:products25 <productName> "1998 Chrysler Plymouth Prowler" .
+_:products25 <productLine> "Classic Cars" .
+_:products25 <productScale> "1:18" .
+_:products25 <productVendor> "Gearbox Collectibles" .
+_:products25 <productDescription> "Turnable front wheels; steering function; detailed interior; detailed engine; opening hood; opening trunk; opening doors; and detailed chassis." .
+_:products25 <quantityInStock> "4724" .
+_:products25 <buyPrice> "101.51" .
+_:products25 <MSRP> "163.73" .
+_:products26 <productCode> "S18_2248" .
+_:products26 <productName> "1911 Ford Town Car" .
+_:products26 <productLine> "Vintage Cars" .
+_:products26 <productScale> "1:18" .
+_:products26 <productVendor> "Motor City Art Classics" .
+_:products26 <productDescription> "Features opening hood, opening doors, opening trunk, wide white wall tires, front door arm rests, working steering system." .
+_:products26 <quantityInStock> "540" .
+_:products26 <buyPrice> "33.30" .
+_:products26 <MSRP> "60.54" .
+_:products27 <productCode> "S18_2319" .
+_:products27 <productName> "1964 Mercedes Tour Bus" .
+_:products27 <productLine> "Trucks and Buses" .
+_:products27 <productScale> "1:18" .
+_:products27 <productVendor> "Unimax Art Galleries" .
+_:products27 <productDescription> "Exact replica. 100+ parts. working steering system, original logos" .
+_:products27 <quantityInStock> "8258" .
+_:products27 <buyPrice> "74.86" .
+_:products27 <MSRP> "122.73" .
+_:products28 <productCode> "S18_2325" .
+_:products28 <productName> "1932 Model A Ford J-Coupe" .
+_:products28 <productLine> "Vintage Cars" .
+_:products28 <productScale> "1:18" .
+_:products28 <productVendor> "Autoart Studio Design" .
+_:products28 <productDescription> "This model features grille-mounted chrome horn, lift-up louvered hood, fold-down rumble seat, working steering system, chrome-covered spare, opening doors, detailed and wired engine" .
+_:products28 <quantityInStock> "9354" .
+_:products28 <buyPrice> "58.48" .
+_:products28 <MSRP> "127.13" .
+_:products29 <productCode> "S18_2432" .
+_:products29 <productName> "1926 Ford Fire Engine" .
+_:products29 <productLine> "Trucks and Buses" .
+_:products29 <productScale> "1:18" .
+_:products29 <productVendor> "Carousel DieCast Legends" .
+_:products29 <productDescription> "Gleaming red handsome appearance. Everything is here the fire hoses, ladder, axes, bells, lanterns, ready to fight any inferno." .
+_:products29 <quantityInStock> "2018" .
+_:products29 <buyPrice> "24.92" .
+_:products29 <MSRP> "60.77" .
+_:products30 <productCode> "S18_2581" .
+_:products30 <productName> "P-51-D Mustang" .
+_:products30 <productLine> "Planes" .
+_:products30 <productScale> "1:72" .
+_:products30 <productVendor> "Gearbox Collectibles" .
+_:products30 <productDescription> "Has retractable wheels and comes with a stand" .
+_:products30 <quantityInStock> "992" .
+_:products30 <buyPrice> "49.00" .
+_:products30 <MSRP> "84.48" .
+_:products31 <productCode> "S18_2625" .
+_:products31 <productName> "1936 Harley Davidson El Knucklehead" .
+_:products31 <productLine> "Motorcycles" .
+_:products31 <productScale> "1:18" .
+_:products31 <productVendor> "Welly Diecast Productions" .
+_:products31 <productDescription> "Intricately detailed with chrome accents and trim, official die-struck logos and baked enamel finish." .
+_:products31 <quantityInStock> "4357" .
+_:products31 <buyPrice> "24.23" .
+_:products31 <MSRP> "60.57" .
+_:products32 <productCode> "S18_2795" .
+_:products32 <productName> "1928 Mercedes-Benz SSK" .
+_:products32 <productLine> "Vintage Cars" .
+_:products32 <productScale> "1:18" .
+_:products32 <productVendor> "Gearbox Collectibles" .
+_:products32 <productDescription> "This 1:18 replica features grille-mounted chrome horn, lift-up louvered hood, fold-down rumble seat, working steering system, chrome-covered spare, opening doors, detailed and wired engine. Color black." .
+_:products32 <quantityInStock> "548" .
+_:products32 <buyPrice> "72.56" .
+_:products32 <MSRP> "168.75" .
+_:products33 <productCode> "S18_2870" .
+_:products33 <productName> "1999 Indy 500 Monte Carlo SS" .
+_:products33 <productLine> "Classic Cars" .
+_:products33 <productScale> "1:18" .
+_:products33 <productVendor> "Red Start Diecast" .
+_:products33 <productDescription> "Features include opening and closing doors. Color: Red" .
+_:products33 <quantityInStock> "8164" .
+_:products33 <buyPrice> "56.76" .
+_:products33 <MSRP> "132.00" .
+_:products34 <productCode> "S18_2949" .
+_:products34 <productName> "1913 Ford Model T Speedster" .
+_:products34 <productLine> "Vintage Cars" .
+_:products34 <productScale> "1:18" .
+_:products34 <productVendor> "Carousel DieCast Legends" .
+_:products34 <productDescription> "This 250 part reproduction includes moving handbrakes, clutch, throttle and foot pedals, squeezable horn, detailed wired engine, removable water, gas, and oil cans, pivoting monocle windshield, all topped with a baked enamel red finish. Each replica comes with an Owners Title and Certificate of Authenticity. Color red." .
+_:products34 <quantityInStock> "4189" .
+_:products34 <buyPrice> "60.78" .
+_:products34 <MSRP> "101.31" .
+_:products35 <productCode> "S18_2957" .
+_:products35 <productName> "1934 Ford V8 Coupe" .
+_:products35 <productLine> "Vintage Cars" .
+_:products35 <productScale> "1:18" .
+_:products35 <productVendor> "Min Lin Diecast" .
+_:products35 <productDescription> "Chrome Trim, Chrome Grille, Opening Hood, Opening Doors, Opening Trunk, Detailed Engine, Working Steering System" .
+_:products35 <quantityInStock> "5649" .
+_:products35 <buyPrice> "34.35" .
+_:products35 <MSRP> "62.46" .
+_:products36 <productCode> "S18_3029" .
+_:products36 <productName> "1999 Yamaha Speed Boat" .
+_:products36 <productLine> "Ships" .
+_:products36 <productScale> "1:18" .
+_:products36 <productVendor> "Min Lin Diecast" .
+_:products36 <productDescription> "Exact replica. Wood and Metal. Many extras including rigging, long boats, pilot house, anchors, etc. Comes with three masts, all square-rigged." .
+_:products36 <quantityInStock> "4259" .
+_:products36 <buyPrice> "51.61" .
+_:products36 <MSRP> "86.02" .
+_:products37 <productCode> "S18_3136" .
+_:products37 <productName> "18th Century Vintage Horse Carriage" .
+_:products37 <productLine> "Vintage Cars" .
+_:products37 <productScale> "1:18" .
+_:products37 <productVendor> "Red Start Diecast" .
+_:products37 <productDescription> "Hand crafted diecast-like metal horse carriage is re-created in about 1:18 scale of antique horse carriage. This antique style metal Stagecoach is all hand-assembled with many different parts.    This collectible metal horse carriage is painted in classic Red, and features turning steering wheel and is entirely hand-finished." .
+_:products37 <quantityInStock> "5992" .
+_:products37 <buyPrice> "60.74" .
+_:products37 <MSRP> "104.72" .
+_:products38 <productCode> "S18_3140" .
+_:products38 <productName> "1903 Ford Model A" .
+_:products38 <productLine> "Vintage Cars" .
+_:products38 <productScale> "1:18" .
+_:products38 <productVendor> "Unimax Art Galleries" .
+_:products38 <productDescription> "Features opening trunk,  working steering system" .
+_:products38 <quantityInStock> "3913" .
+_:products38 <buyPrice> "68.30" .
+_:products38 <MSRP> "136.59" .
+_:products39 <productCode> "S18_3232" .
+_:products39 <productName> "1992 Ferrari 360 Spider red" .
+_:products39 <productLine> "Classic Cars" .
+_:products39 <productScale> "1:18" .
+_:products39 <productVendor> "Unimax Art Galleries" .
+_:products39 <productDescription> "his replica features opening doors, superb detail and craftsmanship, working steering system, opening forward compartment, opening rear trunk with removable spare, 4 wheel independent spring suspension as well as factory baked enamel finish." .
+_:products39 <quantityInStock> "8347" .
+_:products39 <buyPrice> "77.90" .
+_:products39 <MSRP> "169.34" .
+_:products40 <productCode> "S18_3233" .
+_:products40 <productName> "1985 Toyota Supra" .
+_:products40 <productLine> "Classic Cars" .
+_:products40 <productScale> "1:18" .
+_:products40 <productVendor> "Highway 66 Mini Classics" .
+_:products40 <productDescription> "This model features soft rubber tires, working steering, rubber mud guards, authentic Ford logos, detailed undercarriage, opening doors and hood, removable split rear gate, full size spare mounted in bed, detailed interior with opening glove box" .
+_:products40 <quantityInStock> "7733" .
+_:products40 <buyPrice> "57.01" .
+_:products40 <MSRP> "107.57" .
+_:products41 <productCode> "S18_3259" .
+_:products41 <productName> "Collectable Wooden Train" .
+_:products41 <productLine> "Trains" .
+_:products41 <productScale> "1:18" .
+_:products41 <productVendor> "Carousel DieCast Legends" .
+_:products41 <productDescription> "Hand crafted wooden toy train set is in about 1:18 scale, 25 inches in total length including 2 additional carts, of actual vintage train. This antique style wooden toy train model set is all hand-assembled with 100% wood." .
+_:products41 <quantityInStock> "6450" .
+_:products41 <buyPrice> "67.56" .
+_:products41 <MSRP> "100.84" .
+_:products42 <productCode> "S18_3278" .
+_:products42 <productName> "1969 Dodge Super Bee" .
+_:products42 <productLine> "Classic Cars" .
+_:products42 <productScale> "1:18" .
+_:products42 <productVendor> "Min Lin Diecast" .
+_:products42 <productDescription> "This replica features opening doors, superb detail and craftsmanship, working steering system, opening forward compartment, opening rear trunk with removable spare, 4 wheel independent spring suspension as well as factory baked enamel finish." .
+_:products42 <quantityInStock> "1917" .
+_:products42 <buyPrice> "49.05" .
+_:products42 <MSRP> "80.41" .
+_:products43 <productCode> "S18_3320" .
+_:products43 <productName> "1917 Maxwell Touring Car" .
+_:products43 <productLine> "Vintage Cars" .
+_:products43 <productScale> "1:18" .
+_:products43 <productVendor> "Exoto Designs" .
+_:products43 <productDescription> "Features Gold Trim, Full Size Spare Tire, Chrome Trim, Chrome Grille, Opening Hood, Opening Doors, Opening Trunk, Detailed Engine, Working Steering System" .
+_:products43 <quantityInStock> "7913" .
+_:products43 <buyPrice> "57.54" .
+_:products43 <MSRP> "99.21" .
+_:products44 <productCode> "S18_3482" .
+_:products44 <productName> "1976 Ford Gran Torino" .
+_:products44 <productLine> "Classic Cars" .
+_:products44 <productScale> "1:18" .
+_:products44 <productVendor> "Gearbox Collectibles" .
+_:products44 <productDescription> "Highly detailed 1976 Ford Gran Torino  Starsky and Hutch  diecast model. Very well constructed and painted in red and white patterns." .
+_:products44 <quantityInStock> "9127" .
+_:products44 <buyPrice> "73.49" .
+_:products44 <MSRP> "146.99" .
+_:products45 <productCode> "S18_3685" .
+_:products45 <productName> "1948 Porsche Type 356 Roadster" .
+_:products45 <productLine> "Classic Cars" .
+_:products45 <productScale> "1:18" .
+_:products45 <productVendor> "Gearbox Collectibles" .
+_:products45 <productDescription> "This model features working front and rear suspension on accurately replicated and actuating shock absorbers as well as opening engine cover, rear stabilizer flap,  and 4 opening doors." .
+_:products45 <quantityInStock> "8990" .
+_:products45 <buyPrice> "62.16" .
+_:products45 <MSRP> "141.28" .
+_:products46 <productCode> "S18_3782" .
+_:products46 <productName> "1957 Vespa GS150" .
+_:products46 <productLine> "Motorcycles" .
+_:products46 <productScale> "1:18" .
+_:products46 <productVendor> "Studio M Art Models" .
+_:products46 <productDescription> "Features rotating wheels , working kick stand. Comes with stand." .
+_:products46 <quantityInStock> "7689" .
+_:products46 <buyPrice> "32.95" .
+_:products46 <MSRP> "62.17" .
+_:products47 <productCode> "S18_3856" .
+_:products47 <productName> "1941 Chevrolet Special Deluxe Cabriolet" .
+_:products47 <productLine> "Vintage Cars" .
+_:products47 <productScale> "1:18" .
+_:products47 <productVendor> "Exoto Designs" .
+_:products47 <productDescription> "Features opening hood, opening doors, opening trunk, wide white wall tires, front door arm rests, working steering system, leather upholstery. Color black." .
+_:products47 <quantityInStock> "2378" .
+_:products47 <buyPrice> "64.58" .
+_:products47 <MSRP> "105.87" .
+_:products48 <productCode> "S18_4027" .
+_:products48 <productName> "1970 Triumph Spitfire" .
+_:products48 <productLine> "Classic Cars" .
+_:products48 <productScale> "1:18" .
+_:products48 <productVendor> "Min Lin Diecast" .
+_:products48 <productDescription> "Features include opening and closing doors. Color: White." .
+_:products48 <quantityInStock> "5545" .
+_:products48 <buyPrice> "91.92" .
+_:products48 <MSRP> "143.62" .
+_:products49 <productCode> "S18_4409" .
+_:products49 <productName> "1932 Alfa Romeo 8C2300 Spider Sport" .
+_:products49 <productLine> "Vintage Cars" .
+_:products49 <productScale> "1:18" .
+_:products49 <productVendor> "Exoto Designs" .
+_:products49 <productDescription> "This 1:18 scale precision die cast replica features the 6 front headlights of the original, plus a detailed version of the 142 horsepower straight 8 engine, dual spares and their famous comprehensive dashboard. Color black." .
+_:products49 <quantityInStock> "6553" .
+_:products49 <buyPrice> "43.26" .
+_:products49 <MSRP> "92.03" .
+_:products50 <productCode> "S18_4522" .
+_:products50 <productName> "1904 Buick Runabout" .
+_:products50 <productLine> "Vintage Cars" .
+_:products50 <productScale> "1:18" .
+_:products50 <productVendor> "Exoto Designs" .
+_:products50 <productDescription> "Features opening trunk,  working steering system" .
+_:products50 <quantityInStock> "8290" .
+_:products50 <buyPrice> "52.66" .
+_:products50 <MSRP> "87.77" .
+_:products51 <productCode> "S18_4600" .
+_:products51 <productName> "1940s Ford truck" .
+_:products51 <productLine> "Trucks and Buses" .
+_:products51 <productScale> "1:18" .
+_:products51 <productVendor> "Motor City Art Classics" .
+_:products51 <productDescription> "This 1940s Ford Pick-Up truck is re-created in 1:18 scale of original 1940s Ford truck. This antique style metal 1940s Ford Flatbed truck is all hand-assembled. This collectible 1940's Pick-Up truck is painted in classic dark green color, and features rotating wheels." .
+_:products51 <quantityInStock> "3128" .
+_:products51 <buyPrice> "84.76" .
+_:products51 <MSRP> "121.08" .
+_:products52 <productCode> "S18_4668" .
+_:products52 <productName> "1939 Cadillac Limousine" .
+_:products52 <productLine> "Vintage Cars" .
+_:products52 <productScale> "1:18" .
+_:products52 <productVendor> "Studio M Art Models" .
+_:products52 <productDescription> "Features completely detailed interior including Velvet flocked drapes,deluxe wood grain floor, and a wood grain casket with seperate chrome handles" .
+_:products52 <quantityInStock> "6645" .
+_:products52 <buyPrice> "23.14" .
+_:products52 <MSRP> "50.31" .
+_:products53 <productCode> "S18_4721" .
+_:products53 <productName> "1957 Corvette Convertible" .
+_:products53 <productLine> "Classic Cars" .
+_:products53 <productScale> "1:18" .
+_:products53 <productVendor> "Classic Metal Creations" .
+_:products53 <productDescription> "1957 die cast Corvette Convertible in Roman Red with white sides and whitewall tires. 1:18 scale quality die-cast with detailed engine and underbvody. Now you can own The Classic Corvette." .
+_:products53 <quantityInStock> "1249" .
+_:products53 <buyPrice> "69.93" .
+_:products53 <MSRP> "148.80" .
+_:products54 <productCode> "S18_4933" .
+_:products54 <productName> "1957 Ford Thunderbird" .
+_:products54 <productLine> "Classic Cars" .
+_:products54 <productScale> "1:18" .
+_:products54 <productVendor> "Studio M Art Models" .
+_:products54 <productDescription> "This 1:18 scale precision die-cast replica, with its optional porthole hardtop and factory baked-enamel Thunderbird Bronze finish, is a 100% accurate rendition of this American classic." .
+_:products54 <quantityInStock> "3209" .
+_:products54 <buyPrice> "34.21" .
+_:products54 <MSRP> "71.27" .
+_:products55 <productCode> "S24_1046" .
+_:products55 <productName> "1970 Chevy Chevelle SS 454" .
+_:products55 <productLine> "Classic Cars" .
+_:products55 <productScale> "1:24" .
+_:products55 <productVendor> "Unimax Art Galleries" .
+_:products55 <productDescription> "This model features rotating wheels, working streering system and opening doors. All parts are particularly delicate due to their precise scale and require special care and attention. It should not be picked up by the doors, roof, hood or trunk." .
+_:products55 <quantityInStock> "1005" .
+_:products55 <buyPrice> "49.24" .
+_:products55 <MSRP> "73.49" .
+_:products56 <productCode> "S24_1444" .
+_:products56 <productName> "1970 Dodge Coronet" .
+_:products56 <productLine> "Classic Cars" .
+_:products56 <productScale> "1:24" .
+_:products56 <productVendor> "Highway 66 Mini Classics" .
+_:products56 <productDescription> "1:24 scale die-cast about 18  long doors open, hood opens and rubber wheels" .
+_:products56 <quantityInStock> "4074" .
+_:products56 <buyPrice> "32.37" .
+_:products56 <MSRP> "57.80" .
+_:products57 <productCode> "S24_1578" .
+_:products57 <productName> "1997 BMW R 1100 S" .
+_:products57 <productLine> "Motorcycles" .
+_:products57 <productScale> "1:24" .
+_:products57 <productVendor> "Autoart Studio Design" .
+_:products57 <productDescription> "Detailed scale replica with working suspension and constructed from over 70 parts" .
+_:products57 <quantityInStock> "7003" .
+_:products57 <buyPrice> "60.86" .
+_:products57 <MSRP> "112.70" .
+_:products58 <productCode> "S24_1628" .
+_:products58 <productName> "1966 Shelby Cobra 427 S/C" .
+_:products58 <productLine> "Classic Cars" .
+_:products58 <productScale> "1:24" .
+_:products58 <productVendor> "Carousel DieCast Legends" .
+_:products58 <productDescription> "This diecast model of the 1966 Shelby Cobra 427 S/C includes many authentic details and operating parts. The 1:24 scale model of this iconic lighweight sports car from the 1960s comes in silver and it's own display case." .
+_:products58 <quantityInStock> "8197" .
+_:products58 <buyPrice> "29.18" .
+_:products58 <MSRP> "50.31" .
+_:products59 <productCode> "S24_1785" .
+_:products59 <productName> "1928 British Royal Navy Airplane" .
+_:products59 <productLine> "Planes" .
+_:products59 <productScale> "1:24" .
+_:products59 <productVendor> "Classic Metal Creations" .
+_:products59 <productDescription> "Official logos and insignias" .
+_:products59 <quantityInStock> "3627" .
+_:products59 <buyPrice> "66.74" .
+_:products59 <MSRP> "109.42" .
+_:products60 <productCode> "S24_1937" .
+_:products60 <productName> "1939 Chevrolet Deluxe Coupe" .
+_:products60 <productLine> "Vintage Cars" .
+_:products60 <productScale> "1:24" .
+_:products60 <productVendor> "Motor City Art Classics" .
+_:products60 <productDescription> "This 1:24 scale die-cast replica of the 1939 Chevrolet Deluxe Coupe has the same classy look as the original. Features opening trunk, hood and doors and a showroom quality baked enamel finish." .
+_:products60 <quantityInStock> "7332" .
+_:products60 <buyPrice> "22.57" .
+_:products60 <MSRP> "33.19" .
+_:products61 <productCode> "S24_2000" .
+_:products61 <productName> "1960 BSA Gold Star DBD34" .
+_:products61 <productLine> "Motorcycles" .
+_:products61 <productScale> "1:24" .
+_:products61 <productVendor> "Highway 66 Mini Classics" .
+_:products61 <productDescription> "Detailed scale replica with working suspension and constructed from over 70 parts" .
+_:products61 <quantityInStock> "15" .
+_:products61 <buyPrice> "37.32" .
+_:products61 <MSRP> "76.17" .
+_:products62 <productCode> "S24_2011" .
+_:products62 <productName> "18th century schooner" .
+_:products62 <productLine> "Ships" .
+_:products62 <productScale> "1:24" .
+_:products62 <productVendor> "Carousel DieCast Legends" .
+_:products62 <productDescription> "All wood with canvas sails. Many extras including rigging, long boats, pilot house, anchors, etc. Comes with 4 masts, all square-rigged." .
+_:products62 <quantityInStock> "1898" .
+_:products62 <buyPrice> "82.34" .
+_:products62 <MSRP> "122.89" .
+_:products63 <productCode> "S24_2022" .
+_:products63 <productName> "1938 Cadillac V-16 Presidential Limousine" .
+_:products63 <productLine> "Vintage Cars" .
+_:products63 <productScale> "1:24" .
+_:products63 <productVendor> "Classic Metal Creations" .
+_:products63 <productDescription> "This 1:24 scale precision die cast replica of the 1938 Cadillac V-16 Presidential Limousine has all the details of the original, from the flags on the front to an opening back seat compartment complete with telephone and rifle. Features factory baked-enamel black finish, hood goddess ornament, working jump seats." .
+_:products63 <quantityInStock> "2847" .
+_:products63 <buyPrice> "20.61" .
+_:products63 <MSRP> "44.80" .
+_:products64 <productCode> "S24_2300" .
+_:products64 <productName> "1962 Volkswagen Microbus" .
+_:products64 <productLine> "Trucks and Buses" .
+_:products64 <productScale> "1:24" .
+_:products64 <productVendor> "Autoart Studio Design" .
+_:products64 <productDescription> "This 1:18 scale die cast replica of the 1962 Microbus is loaded with features: A working steering system, opening front doors and tailgate, and famous two-tone factory baked enamel finish, are all topped of by the sliding, real fabric, sunroof." .
+_:products64 <quantityInStock> "2327" .
+_:products64 <buyPrice> "61.34" .
+_:products64 <MSRP> "127.79" .
+_:products65 <productCode> "S24_2360" .
+_:products65 <productName> "1982 Ducati 900 Monster" .
+_:products65 <productLine> "Motorcycles" .
+_:products65 <productScale> "1:24" .
+_:products65 <productVendor> "Highway 66 Mini Classics" .
+_:products65 <productDescription> "Features two-tone paint with chrome accents, superior die-cast detail , rotating wheels , working kick stand" .
+_:products65 <quantityInStock> "6840" .
+_:products65 <buyPrice> "47.10" .
+_:products65 <MSRP> "69.26" .
+_:products66 <productCode> "S24_2766" .
+_:products66 <productName> "1949 Jaguar XK 120" .
+_:products66 <productLine> "Classic Cars" .
+_:products66 <productScale> "1:24" .
+_:products66 <productVendor> "Classic Metal Creations" .
+_:products66 <productDescription> "Precision-engineered from original Jaguar specification in perfect scale ratio. Features opening doors, superb detail and craftsmanship, working steering system, opening forward compartment, opening rear trunk with removable spare, 4 wheel independent spring suspension as well as factory baked enamel finish." .
+_:products66 <quantityInStock> "2350" .
+_:products66 <buyPrice> "47.25" .
+_:products66 <MSRP> "90.87" .
+_:products67 <productCode> "S24_2840" .
+_:products67 <productName> "1958 Chevy Corvette Limited Edition" .
+_:products67 <productLine> "Classic Cars" .
+_:products67 <productScale> "1:24" .
+_:products67 <productVendor> "Carousel DieCast Legends" .
+_:products67 <productDescription> "The operating parts of this 1958 Chevy Corvette Limited Edition are particularly delicate due to their precise scale and require special care and attention. Features rotating wheels, working streering, opening doors and trunk. Color dark green." .
+_:products67 <quantityInStock> "2542" .
+_:products67 <buyPrice> "15.91" .
+_:products67 <MSRP> "35.36" .
+_:products68 <productCode> "S24_2841" .
+_:products68 <productName> "1900s Vintage Bi-Plane" .
+_:products68 <productLine> "Planes" .
+_:products68 <productScale> "1:24" .
+_:products68 <productVendor> "Autoart Studio Design" .
+_:products68 <productDescription> "Hand crafted diecast-like metal bi-plane is re-created in about 1:24 scale of antique pioneer airplane. All hand-assembled with many different parts. Hand-painted in classic yellow and features correct markings of original airplane." .
+_:products68 <quantityInStock> "5942" .
+_:products68 <buyPrice> "34.25" .
+_:products68 <MSRP> "68.51" .
+_:products69 <productCode> "S24_2887" .
+_:products69 <productName> "1952 Citroen-15CV" .
+_:products69 <productLine> "Classic Cars" .
+_:products69 <productScale> "1:24" .
+_:products69 <productVendor> "Exoto Designs" .
+_:products69 <productDescription> "Precision crafted hand-assembled 1:18 scale reproduction of the 1952 15CV, with its independent spring suspension, working steering system, opening doors and hood, detailed engine and instrument panel, all topped of with a factory fresh baked enamel finish." .
+_:products69 <quantityInStock> "1452" .
+_:products69 <buyPrice> "72.82" .
+_:products69 <MSRP> "117.44" .
+_:products70 <productCode> "S24_2972" .
+_:products70 <productName> "1982 Lamborghini Diablo" .
+_:products70 <productLine> "Classic Cars" .
+_:products70 <productScale> "1:24" .
+_:products70 <productVendor> "Second Gear Diecast" .
+_:products70 <productDescription> "This replica features opening doors, superb detail and craftsmanship, working steering system, opening forward compartment, opening rear trunk with removable spare, 4 wheel independent spring suspension as well as factory baked enamel finish." .
+_:products70 <quantityInStock> "7723" .
+_:products70 <buyPrice> "16.24" .
+_:products70 <MSRP> "37.76" .
+_:products71 <productCode> "S24_3151" .
+_:products71 <productName> "1912 Ford Model T Delivery Wagon" .
+_:products71 <productLine> "Vintage Cars" .
+_:products71 <productScale> "1:24" .
+_:products71 <productVendor> "Min Lin Diecast" .
+_:products71 <productDescription> "This model features chrome trim and grille, opening hood, opening doors, opening trunk, detailed engine, working steering system. Color white." .
+_:products71 <quantityInStock> "9173" .
+_:products71 <buyPrice> "46.91" .
+_:products71 <MSRP> "88.51" .
+_:products72 <productCode> "S24_3191" .
+_:products72 <productName> "1969 Chevrolet Camaro Z28" .
+_:products72 <productLine> "Classic Cars" .
+_:products72 <productScale> "1:24" .
+_:products72 <productVendor> "Exoto Designs" .
+_:products72 <productDescription> "1969 Z/28 Chevy Camaro 1:24 scale replica. The operating parts of this limited edition 1:24 scale diecast model car 1969 Chevy Camaro Z28- hood, trunk, wheels, streering, suspension and doors- are particularly delicate due to their precise scale and require special care and attention." .
+_:products72 <quantityInStock> "4695" .
+_:products72 <buyPrice> "50.51" .
+_:products72 <MSRP> "85.61" .
+_:products73 <productCode> "S24_3371" .
+_:products73 <productName> "1971 Alpine Renault 1600s" .
+_:products73 <productLine> "Classic Cars" .
+_:products73 <productScale> "1:24" .
+_:products73 <productVendor> "Welly Diecast Productions" .
+_:products73 <productDescription> "This 1971 Alpine Renault 1600s replica Features opening doors, superb detail and craftsmanship, working steering system, opening forward compartment, opening rear trunk with removable spare, 4 wheel independent spring suspension as well as factory baked enamel finish." .
+_:products73 <quantityInStock> "7995" .
+_:products73 <buyPrice> "38.58" .
+_:products73 <MSRP> "61.23" .
+_:products74 <productCode> "S24_3420" .
+_:products74 <productName> "1937 Horch 930V Limousine" .
+_:products74 <productLine> "Vintage Cars" .
+_:products74 <productScale> "1:24" .
+_:products74 <productVendor> "Autoart Studio Design" .
+_:products74 <productDescription> "Features opening hood, opening doors, opening trunk, wide white wall tires, front door arm rests, working steering system" .
+_:products74 <quantityInStock> "2902" .
+_:products74 <buyPrice> "26.30" .
+_:products74 <MSRP> "65.75" .
+_:products75 <productCode> "S24_3432" .
+_:products75 <productName> "2002 Chevy Corvette" .
+_:products75 <productLine> "Classic Cars" .
+_:products75 <productScale> "1:24" .
+_:products75 <productVendor> "Gearbox Collectibles" .
+_:products75 <productDescription> "The operating parts of this limited edition Diecast 2002 Chevy Corvette 50th Anniversary Pace car Limited Edition are particularly delicate due to their precise scale and require special care and attention. Features rotating wheels, poseable streering, opening doors and trunk." .
+_:products75 <quantityInStock> "9446" .
+_:products75 <buyPrice> "62.11" .
+_:products75 <MSRP> "107.08" .
+_:products76 <productCode> "S24_3816" .
+_:products76 <productName> "1940 Ford Delivery Sedan" .
+_:products76 <productLine> "Vintage Cars" .
+_:products76 <productScale> "1:24" .
+_:products76 <productVendor> "Carousel DieCast Legends" .
+_:products76 <productDescription> "Chrome Trim, Chrome Grille, Opening Hood, Opening Doors, Opening Trunk, Detailed Engine, Working Steering System. Color black." .
+_:products76 <quantityInStock> "6621" .
+_:products76 <buyPrice> "48.64" .
+_:products76 <MSRP> "83.86" .
+_:products77 <productCode> "S24_3856" .
+_:products77 <productName> "1956 Porsche 356A Coupe" .
+_:products77 <productLine> "Classic Cars" .
+_:products77 <productScale> "1:18" .
+_:products77 <productVendor> "Classic Metal Creations" .
+_:products77 <productDescription> "Features include: Turnable front wheels; steering function; detailed interior; detailed engine; opening hood; opening trunk; opening doors; and detailed chassis." .
+_:products77 <quantityInStock> "6600" .
+_:products77 <buyPrice> "98.30" .
+_:products77 <MSRP> "140.43" .
+_:products78 <productCode> "S24_3949" .
+_:products78 <productName> "Corsair F4U ( Bird Cage)" .
+_:products78 <productLine> "Planes" .
+_:products78 <productScale> "1:24" .
+_:products78 <productVendor> "Second Gear Diecast" .
+_:products78 <productDescription> "Has retractable wheels and comes with a stand. Official logos and insignias." .
+_:products78 <quantityInStock> "6812" .
+_:products78 <buyPrice> "29.34" .
+_:products78 <MSRP> "68.24" .
+_:products79 <productCode> "S24_3969" .
+_:products79 <productName> "1936 Mercedes Benz 500k Roadster" .
+_:products79 <productLine> "Vintage Cars" .
+_:products79 <productScale> "1:24" .
+_:products79 <productVendor> "Red Start Diecast" .
+_:products79 <productDescription> "This model features grille-mounted chrome horn, lift-up louvered hood, fold-down rumble seat, working steering system and rubber wheels. Color black." .
+_:products79 <quantityInStock> "2081" .
+_:products79 <buyPrice> "21.75" .
+_:products79 <MSRP> "41.03" .
+_:products80 <productCode> "S24_4048" .
+_:products80 <productName> "1992 Porsche Cayenne Turbo Silver" .
+_:products80 <productLine> "Classic Cars" .
+_:products80 <productScale> "1:24" .
+_:products80 <productVendor> "Exoto Designs" .
+_:products80 <productDescription> "This replica features opening doors, superb detail and craftsmanship, working steering system, opening forward compartment, opening rear trunk with removable spare, 4 wheel independent spring suspension as well as factory baked enamel finish." .
+_:products80 <quantityInStock> "6582" .
+_:products80 <buyPrice> "69.78" .
+_:products80 <MSRP> "118.28" .
+_:products81 <productCode> "S24_4258" .
+_:products81 <productName> "1936 Chrysler Airflow" .
+_:products81 <productLine> "Vintage Cars" .
+_:products81 <productScale> "1:24" .
+_:products81 <productVendor> "Second Gear Diecast" .
+_:products81 <productDescription> "Features opening trunk,  working steering system. Color dark green." .
+_:products81 <quantityInStock> "4710" .
+_:products81 <buyPrice> "57.46" .
+_:products81 <MSRP> "97.39" .
+_:products82 <productCode> "S24_4278" .
+_:products82 <productName> "1900s Vintage Tri-Plane" .
+_:products82 <productLine> "Planes" .
+_:products82 <productScale> "1:24" .
+_:products82 <productVendor> "Unimax Art Galleries" .
+_:products82 <productDescription> "Hand crafted diecast-like metal Triplane is Re-created in about 1:24 scale of antique pioneer airplane. This antique style metal triplane is all hand-assembled with many different parts." .
+_:products82 <quantityInStock> "2756" .
+_:products82 <buyPrice> "36.23" .
+_:products82 <MSRP> "72.45" .
+_:products83 <productCode> "S24_4620" .
+_:products83 <productName> "1961 Chevrolet Impala" .
+_:products83 <productLine> "Classic Cars" .
+_:products83 <productScale> "1:18" .
+_:products83 <productVendor> "Classic Metal Creations" .
+_:products83 <productDescription> "This 1:18 scale precision die-cast reproduction of the 1961 Chevrolet Impala has all the features-doors, hood and trunk that open; detailed 409 cubic-inch engine; chrome dashboard and stick shift, two-tone interior; working steering system; all topped of with a factory baked-enamel finish." .
+_:products83 <quantityInStock> "7869" .
+_:products83 <buyPrice> "32.33" .
+_:products83 <MSRP> "80.84" .
+_:products84 <productCode> "S32_1268" .
+_:products84 <productName> "1980’s GM Manhattan Express" .
+_:products84 <productLine> "Trucks and Buses" .
+_:products84 <productScale> "1:32" .
+_:products84 <productVendor> "Motor City Art Classics" .
+_:products84 <productDescription> "This 1980’s era new look Manhattan express is still active, running from the Bronx to mid-town Manhattan. Has 35 opeining windows and working lights. Needs a battery." .
+_:products84 <quantityInStock> "5099" .
+_:products84 <buyPrice> "53.93" .
+_:products84 <MSRP> "96.31" .
+_:products85 <productCode> "S32_1374" .
+_:products85 <productName> "1997 BMW F650 ST" .
+_:products85 <productLine> "Motorcycles" .
+_:products85 <productScale> "1:32" .
+_:products85 <productVendor> "Exoto Designs" .
+_:products85 <productDescription> "Features official die-struck logos and baked enamel finish. Comes with stand." .
+_:products85 <quantityInStock> "178" .
+_:products85 <buyPrice> "66.92" .
+_:products85 <MSRP> "99.89" .
+_:products86 <productCode> "S32_2206" .
+_:products86 <productName> "1982 Ducati 996 R" .
+_:products86 <productLine> "Motorcycles" .
+_:products86 <productScale> "1:32" .
+_:products86 <productVendor> "Gearbox Collectibles" .
+_:products86 <productDescription> "Features rotating wheels , working kick stand. Comes with stand." .
+_:products86 <quantityInStock> "9241" .
+_:products86 <buyPrice> "24.14" .
+_:products86 <MSRP> "40.23" .
+_:products87 <productCode> "S32_2509" .
+_:products87 <productName> "1954 Greyhound Scenicruiser" .
+_:products87 <productLine> "Trucks and Buses" .
+_:products87 <productScale> "1:32" .
+_:products87 <productVendor> "Classic Metal Creations" .
+_:products87 <productDescription> "Model features bi-level seating, 50 windows, skylights & glare resistant glass, working steering system, original logos" .
+_:products87 <quantityInStock> "2874" .
+_:products87 <buyPrice> "25.98" .
+_:products87 <MSRP> "54.11" .
+_:products88 <productCode> "S32_3207" .
+_:products88 <productName> "1950's Chicago Surface Lines Streetcar" .
+_:products88 <productLine> "Trains" .
+_:products88 <productScale> "1:32" .
+_:products88 <productVendor> "Gearbox Collectibles" .
+_:products88 <productDescription> "This streetcar is a joy to see. It has 80 separate windows, electric wire guides, detailed interiors with seats, poles and drivers controls, rolling and turning wheel assemblies, plus authentic factory baked-enamel finishes (Green Hornet for Chicago and Cream and Crimson for Boston)." .
+_:products88 <quantityInStock> "8601" .
+_:products88 <buyPrice> "26.72" .
+_:products88 <MSRP> "62.14" .
+_:products89 <productCode> "S32_3522" .
+_:products89 <productName> "1996 Peterbilt 379 Stake Bed with Outrigger" .
+_:products89 <productLine> "Trucks and Buses" .
+_:products89 <productScale> "1:32" .
+_:products89 <productVendor> "Red Start Diecast" .
+_:products89 <productDescription> "This model features, opening doors, detailed engine, working steering, tinted windows, detailed interior, die-struck logos, removable stakes operating outriggers, detachable second trailer, functioning 360-degree self loader, precision molded resin trailer and trim, baked enamel finish on cab" .
+_:products89 <quantityInStock> "814" .
+_:products89 <buyPrice> "33.61" .
+_:products89 <MSRP> "64.64" .
+_:products90 <productCode> "S32_4289" .
+_:products90 <productName> "1928 Ford Phaeton Deluxe" .
+_:products90 <productLine> "Vintage Cars" .
+_:products90 <productScale> "1:32" .
+_:products90 <productVendor> "Highway 66 Mini Classics" .
+_:products90 <productDescription> "This model features grille-mounted chrome horn, lift-up louvered hood, fold-down rumble seat, working steering system" .
+_:products90 <quantityInStock> "136" .
+_:products90 <buyPrice> "33.02" .
+_:products90 <MSRP> "68.79" .
+_:products91 <productCode> "S32_4485" .
+_:products91 <productName> "1974 Ducati 350 Mk3 Desmo" .
+_:products91 <productLine> "Motorcycles" .
+_:products91 <productScale> "1:32" .
+_:products91 <productVendor> "Second Gear Diecast" .
+_:products91 <productDescription> "This model features two-tone paint with chrome accents, superior die-cast detail , rotating wheels , working kick stand" .
+_:products91 <quantityInStock> "3341" .
+_:products91 <buyPrice> "56.13" .
+_:products91 <MSRP> "102.05" .
+_:products92 <productCode> "S50_1341" .
+_:products92 <productName> "1930 Buick Marquette Phaeton" .
+_:products92 <productLine> "Vintage Cars" .
+_:products92 <productScale> "1:50" .
+_:products92 <productVendor> "Studio M Art Models" .
+_:products92 <productDescription> "Features opening trunk,  working steering system" .
+_:products92 <quantityInStock> "7062" .
+_:products92 <buyPrice> "27.06" .
+_:products92 <MSRP> "43.64" .
+_:products93 <productCode> "S50_1392" .
+_:products93 <productName> "Diamond T620 Semi-Skirted Tanker" .
+_:products93 <productLine> "Trucks and Buses" .
+_:products93 <productScale> "1:50" .
+_:products93 <productVendor> "Highway 66 Mini Classics" .
+_:products93 <productDescription> "This limited edition model is licensed and perfectly scaled for Lionel Trains. The Diamond T620 has been produced in solid precision diecast and painted with a fire baked enamel finish. It comes with a removable tanker and is a perfect model to add authenticity to your static train or car layout or to just have on display." .
+_:products93 <quantityInStock> "1016" .
+_:products93 <buyPrice> "68.29" .
+_:products93 <MSRP> "115.75" .
+_:products94 <productCode> "S50_1514" .
+_:products94 <productName> "1962 City of Detroit Streetcar" .
+_:products94 <productLine> "Trains" .
+_:products94 <productScale> "1:50" .
+_:products94 <productVendor> "Classic Metal Creations" .
+_:products94 <productDescription> "This streetcar is a joy to see. It has 99 separate windows, electric wire guides, detailed interiors with seats, poles and drivers controls, rolling and turning wheel assemblies, plus authentic factory baked-enamel finishes (Green Hornet for Chicago and Cream and Crimson for Boston)." .
+_:products94 <quantityInStock> "1645" .
+_:products94 <buyPrice> "37.49" .
+_:products94 <MSRP> "58.58" .
+_:products95 <productCode> "S50_4713" .
+_:products95 <productName> "2002 Yamaha YZR M1" .
+_:products95 <productLine> "Motorcycles" .
+_:products95 <productScale> "1:50" .
+_:products95 <productVendor> "Autoart Studio Design" .
+_:products95 <productDescription> "Features rotating wheels , working kick stand. Comes with stand." .
+_:products95 <quantityInStock> "600" .
+_:products95 <buyPrice> "34.17" .
+_:products95 <MSRP> "81.36" .
+_:products96 <productCode> "S700_1138" .
+_:products96 <productName> "The Schooner Bluenose" .
+_:products96 <productLine> "Ships" .
+_:products96 <productScale> "1:700" .
+_:products96 <productVendor> "Autoart Studio Design" .
+_:products96 <productDescription> "All wood with canvas sails. Measures 31 1/2 inches in Length, 22 inches High and 4 3/4 inches Wide. Many extras.  The schooner Bluenose was built in Nova Scotia in 1921 to fish the rough waters off the coast of Newfoundland. Because of the Bluenose racing prowess she became the pride of all Canadians. Still featured on stamps and the Canadian dime, the Bluenose was lost off Haiti in 1946." .
+_:products96 <quantityInStock> "1897" .
+_:products96 <buyPrice> "34.00" .
+_:products96 <MSRP> "66.67" .
+_:products97 <productCode> "S700_1691" .
+_:products97 <productName> "American Airlines: B767-300" .
+_:products97 <productLine> "Planes" .
+_:products97 <productScale> "1:700" .
+_:products97 <productVendor> "Min Lin Diecast" .
+_:products97 <productDescription> "Exact replia with official logos and insignias and retractable wheels" .
+_:products97 <quantityInStock> "5841" .
+_:products97 <buyPrice> "51.15" .
+_:products97 <MSRP> "91.34" .
+_:products98 <productCode> "S700_1938" .
+_:products98 <productName> "The Mayflower" .
+_:products98 <productLine> "Ships" .
+_:products98 <productScale> "1:700" .
+_:products98 <productVendor> "Studio M Art Models" .
+_:products98 <productDescription> "Measures 31 1/2 inches Long x 25 1/2 inches High x 10 5/8 inches Wide  All wood with canvas sail. Extras include long boats, rigging, ladders, railing, anchors, side cannons, hand painted, etc." .
+_:products98 <quantityInStock> "737" .
+_:products98 <buyPrice> "43.30" .
+_:products98 <MSRP> "86.61" .
+_:products99 <productCode> "S700_2047" .
+_:products99 <productName> "HMS Bounty" .
+_:products99 <productLine> "Ships" .
+_:products99 <productScale> "1:700" .
+_:products99 <productVendor> "Unimax Art Galleries" .
+_:products99 <productDescription> "Measures 30 inches Long x 27 1/2 inches High x 4 3/4 inches Wide.   Many extras including rigging, long boats, pilot house, anchors, etc. Comes with three masts, all square-rigged." .
+_:products99 <quantityInStock> "3501" .
+_:products99 <buyPrice> "39.83" .
+_:products99 <MSRP> "90.52" .
+_:products100 <productCode> "S700_2466" .
+_:products100 <productName> "America West Airlines B757-200" .
+_:products100 <productLine> "Planes" .
+_:products100 <productScale> "1:700" .
+_:products100 <productVendor> "Motor City Art Classics" .
+_:products100 <productDescription> "Official logos and insignias. Working steering system. Rotating jet engines" .
+_:products100 <quantityInStock> "9653" .
+_:products100 <buyPrice> "68.80" .
+_:products100 <MSRP> "99.72" .
+_:products101 <productCode> "S700_2610" .
+_:products101 <productName> "The USS Constitution Ship" .
+_:products101 <productLine> "Ships" .
+_:products101 <productScale> "1:700" .
+_:products101 <productVendor> "Red Start Diecast" .
+_:products101 <productDescription> "All wood with canvas sails. Measures 31 1/2  Length x 22 3/8  High x 8 1/4  Width. Extras include 4 boats on deck, sea sprite on bow, anchors, copper railing, pilot houses, etc." .
+_:products101 <quantityInStock> "7083" .
+_:products101 <buyPrice> "33.97" .
+_:products101 <MSRP> "72.28" .
+_:products102 <productCode> "S700_2824" .
+_:products102 <productName> "1982 Camaro Z28" .
+_:products102 <productLine> "Classic Cars" .
+_:products102 <productScale> "1:18" .
+_:products102 <productVendor> "Carousel DieCast Legends" .
+_:products102 <productDescription> "Features include opening and closing doors. Color: White.   Measures approximately 9 1/2  Long." .
+_:products102 <quantityInStock> "6934" .
+_:products102 <buyPrice> "46.53" .
+_:products102 <MSRP> "101.15" .
+_:products103 <productCode> "S700_2834" .
+_:products103 <productName> "ATA: B757-300" .
+_:products103 <productLine> "Planes" .
+_:products103 <productScale> "1:700" .
+_:products103 <productVendor> "Highway 66 Mini Classics" .
+_:products103 <productDescription> "Exact replia with official logos and insignias and retractable wheels" .
+_:products103 <quantityInStock> "7106" .
+_:products103 <buyPrice> "59.33" .
+_:products103 <MSRP> "118.65" .
+_:products104 <productCode> "S700_3167" .
+_:products104 <productName> "F/A 18 Hornet 1/72" .
+_:products104 <productLine> "Planes" .
+_:products104 <productScale> "1:72" .
+_:products104 <productVendor> "Motor City Art Classics" .
+_:products104 <productDescription> "10  Wingspan with retractable landing gears.Comes with pilot" .
+_:products104 <quantityInStock> "551" .
+_:products104 <buyPrice> "54.40" .
+_:products104 <MSRP> "80.00" .
+_:products105 <productCode> "S700_3505" .
+_:products105 <productName> "The Titanic" .
+_:products105 <productLine> "Ships" .
+_:products105 <productScale> "1:700" .
+_:products105 <productVendor> "Carousel DieCast Legends" .
+_:products105 <productDescription> "Completed model measures 19 1/2 inches long, 9 inches high, 3inches wide and is in barn red/black. All wood and metal." .
+_:products105 <quantityInStock> "1956" .
+_:products105 <buyPrice> "51.09" .
+_:products105 <MSRP> "100.17" .
+_:products106 <productCode> "S700_3962" .
+_:products106 <productName> "The Queen Mary" .
+_:products106 <productLine> "Ships" .
+_:products106 <productScale> "1:700" .
+_:products106 <productVendor> "Welly Diecast Productions" .
+_:products106 <productDescription> "Exact replica. Wood and Metal. Many extras including rigging, long boats, pilot house, anchors, etc. Comes with three masts, all square-rigged." .
+_:products106 <quantityInStock> "5088" .
+_:products106 <buyPrice> "53.63" .
+_:products106 <MSRP> "99.31" .
+_:products107 <productCode> "S700_4002" .
+_:products107 <productName> "American Airlines: MD-11S" .
+_:products107 <productLine> "Planes" .
+_:products107 <productScale> "1:700" .
+_:products107 <productVendor> "Second Gear Diecast" .
+_:products107 <productDescription> "Polished finish. Exact replia with official logos and insignias and retractable wheels" .
+_:products107 <quantityInStock> "8820" .
+_:products107 <buyPrice> "36.27" .
+_:products107 <MSRP> "74.03" .
+_:products108 <productCode> "S72_1253" .
+_:products108 <productName> "Boeing X-32A JSF" .
+_:products108 <productLine> "Planes" .
+_:products108 <productScale> "1:72" .
+_:products108 <productVendor> "Motor City Art Classics" .
+_:products108 <productDescription> "10  Wingspan with retractable landing gears.Comes with pilot" .
+_:products108 <quantityInStock> "4857" .
+_:products108 <buyPrice> "32.77" .
+_:products108 <MSRP> "49.66" .
+_:products109 <productCode> "S72_3212" .
+_:products109 <productName> "Pont Yacht" .
+_:products109 <productLine> "Ships" .
+_:products109 <productScale> "1:72" .
+_:products109 <productVendor> "Unimax Art Galleries" .
+_:products109 <productDescription> "Measures 38 inches Long x 33 3/4 inches High. Includes a stand.  Many extras including rigging, long boats, pilot house, anchors, etc. Comes with 2 masts, all square-rigged" .
+_:products109 <quantityInStock> "414" .
+_:products109 <buyPrice> "33.30" .
+_:products109 <MSRP> "54.60" .
+}}

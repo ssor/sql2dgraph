@@ -1,0 +1,186 @@
+{set{
+_:employees0 <employeeNumber> "1002" .
+_:employees0 <lastName> "Murphy" .
+_:employees0 <firstName> "Diane" .
+_:employees0 <extension> "x5800" .
+_:employees0 <email> "dmurphy@classicmodelcars.com" .
+_:employees0 <officeCode> "1" .
+_:employees0 <reportsTo> "0" .
+_:employees0 <jobTitle> "President" .
+_:employees1 <employeeNumber> "1056" .
+_:employees1 <lastName> "Patterson" .
+_:employees1 <firstName> "Mary" .
+_:employees1 <extension> "x4611" .
+_:employees1 <email> "mpatterso@classicmodelcars.com" .
+_:employees1 <officeCode> "1" .
+_:employees1 <reportsTo> "1002" .
+_:employees1 <jobTitle> "VP Sales" .
+_:employees2 <employeeNumber> "1076" .
+_:employees2 <lastName> "Firrelli" .
+_:employees2 <firstName> "Jeff" .
+_:employees2 <extension> "x9273" .
+_:employees2 <email> "jfirrelli@classicmodelcars.com" .
+_:employees2 <officeCode> "1" .
+_:employees2 <reportsTo> "1002" .
+_:employees2 <jobTitle> "VP Marketing" .
+_:employees3 <employeeNumber> "1088" .
+_:employees3 <lastName> "Patterson" .
+_:employees3 <firstName> "William" .
+_:employees3 <extension> "x4871" .
+_:employees3 <email> "wpatterson@classicmodelcars.com" .
+_:employees3 <officeCode> "6" .
+_:employees3 <reportsTo> "1056" .
+_:employees3 <jobTitle> "Sales Manager (APAC)" .
+_:employees4 <employeeNumber> "1102" .
+_:employees4 <lastName> "Bondur" .
+_:employees4 <firstName> "Gerard" .
+_:employees4 <extension> "x5408" .
+_:employees4 <email> "gbondur@classicmodelcars.com" .
+_:employees4 <officeCode> "4" .
+_:employees4 <reportsTo> "1056" .
+_:employees4 <jobTitle> "Sale Manager (EMEA)" .
+_:employees5 <employeeNumber> "1143" .
+_:employees5 <lastName> "Bow" .
+_:employees5 <firstName> "Anthony" .
+_:employees5 <extension> "x5428" .
+_:employees5 <email> "abow@classicmodelcars.com" .
+_:employees5 <officeCode> "1" .
+_:employees5 <reportsTo> "1056" .
+_:employees5 <jobTitle> "Sales Manager (NA)" .
+_:employees6 <employeeNumber> "1165" .
+_:employees6 <lastName> "Jennings" .
+_:employees6 <firstName> "Leslie" .
+_:employees6 <extension> "x3291" .
+_:employees6 <email> "ljennings@classicmodelcars.com" .
+_:employees6 <officeCode> "1" .
+_:employees6 <reportsTo> "1143" .
+_:employees6 <jobTitle> "Sales Rep" .
+_:employees7 <employeeNumber> "1166" .
+_:employees7 <lastName> "Thompson" .
+_:employees7 <firstName> "Leslie" .
+_:employees7 <extension> "x4065" .
+_:employees7 <email> "lthompson@classicmodelcars.com" .
+_:employees7 <officeCode> "1" .
+_:employees7 <reportsTo> "1143" .
+_:employees7 <jobTitle> "Sales Rep" .
+_:employees8 <employeeNumber> "1188" .
+_:employees8 <lastName> "Firrelli" .
+_:employees8 <firstName> "Julie" .
+_:employees8 <extension> "x2173" .
+_:employees8 <email> "jfirrelli@classicmodelcars.com" .
+_:employees8 <officeCode> "2" .
+_:employees8 <reportsTo> "1143" .
+_:employees8 <jobTitle> "Sales Rep" .
+_:employees9 <employeeNumber> "1216" .
+_:employees9 <lastName> "Patterson" .
+_:employees9 <firstName> "Steve" .
+_:employees9 <extension> "x4334" .
+_:employees9 <email> "spatterson@classicmodelcars.com" .
+_:employees9 <officeCode> "2" .
+_:employees9 <reportsTo> "1143" .
+_:employees9 <jobTitle> "Sales Rep" .
+_:employees10 <employeeNumber> "1286" .
+_:employees10 <lastName> "Tseng" .
+_:employees10 <firstName> "Foon Yue" .
+_:employees10 <extension> "x2248" .
+_:employees10 <email> "ftseng@classicmodelcars.com" .
+_:employees10 <officeCode> "3" .
+_:employees10 <reportsTo> "1143" .
+_:employees10 <jobTitle> "Sales Rep" .
+_:employees11 <employeeNumber> "1323" .
+_:employees11 <lastName> "Vanauf" .
+_:employees11 <firstName> "George" .
+_:employees11 <extension> "x4102" .
+_:employees11 <email> "gvanauf@classicmodelcars.com" .
+_:employees11 <officeCode> "3" .
+_:employees11 <reportsTo> "1143" .
+_:employees11 <jobTitle> "Sales Rep" .
+_:employees12 <employeeNumber> "1337" .
+_:employees12 <lastName> "Bondur" .
+_:employees12 <firstName> "Loui" .
+_:employees12 <extension> "x6493" .
+_:employees12 <email> "lbondur@classicmodelcars.com" .
+_:employees12 <officeCode> "4" .
+_:employees12 <reportsTo> "1102" .
+_:employees12 <jobTitle> "Sales Rep" .
+_:employees13 <employeeNumber> "1370" .
+_:employees13 <lastName> "Hernandez" .
+_:employees13 <firstName> "Gerard" .
+_:employees13 <extension> "x2028" .
+_:employees13 <email> "ghernande@classicmodelcars.com" .
+_:employees13 <officeCode> "4" .
+_:employees13 <reportsTo> "1102" .
+_:employees13 <jobTitle> "Sales Rep" .
+_:employees14 <employeeNumber> "1401" .
+_:employees14 <lastName> "Castillo" .
+_:employees14 <firstName> "Pamela" .
+_:employees14 <extension> "x2759" .
+_:employees14 <email> "pcastillo@classicmodelcars.com" .
+_:employees14 <officeCode> "4" .
+_:employees14 <reportsTo> "1102" .
+_:employees14 <jobTitle> "Sales Rep" .
+_:employees15 <employeeNumber> "1501" .
+_:employees15 <lastName> "Bott" .
+_:employees15 <firstName> "Larry" .
+_:employees15 <extension> "x2311" .
+_:employees15 <email> "lbott@classicmodelcars.com" .
+_:employees15 <officeCode> "7" .
+_:employees15 <reportsTo> "1102" .
+_:employees15 <jobTitle> "Sales Rep" .
+_:employees16 <employeeNumber> "1504" .
+_:employees16 <lastName> "Jones" .
+_:employees16 <firstName> "Barry" .
+_:employees16 <extension> "x102" .
+_:employees16 <email> "bjones@classicmodelcars.com" .
+_:employees16 <officeCode> "7" .
+_:employees16 <reportsTo> "1102" .
+_:employees16 <jobTitle> "Sales Rep" .
+_:employees17 <employeeNumber> "1611" .
+_:employees17 <lastName> "Fixter" .
+_:employees17 <firstName> "Andy" .
+_:employees17 <extension> "x101" .
+_:employees17 <email> "afixter@classicmodelcars.com" .
+_:employees17 <officeCode> "6" .
+_:employees17 <reportsTo> "1088" .
+_:employees17 <jobTitle> "Sales Rep" .
+_:employees18 <employeeNumber> "1612" .
+_:employees18 <lastName> "Marsh" .
+_:employees18 <firstName> "Peter" .
+_:employees18 <extension> "x102" .
+_:employees18 <email> "pmarsh@classicmodelcars.com" .
+_:employees18 <officeCode> "6" .
+_:employees18 <reportsTo> "1088" .
+_:employees18 <jobTitle> "Sales Rep" .
+_:employees19 <employeeNumber> "1619" .
+_:employees19 <lastName> "King" .
+_:employees19 <firstName> "Tom" .
+_:employees19 <extension> "x103" .
+_:employees19 <email> "tking@classicmodelcars.com" .
+_:employees19 <officeCode> "6" .
+_:employees19 <reportsTo> "1088" .
+_:employees19 <jobTitle> "Sales Rep" .
+_:employees20 <employeeNumber> "1621" .
+_:employees20 <lastName> "Nishi" .
+_:employees20 <firstName> "Mami" .
+_:employees20 <extension> "x101" .
+_:employees20 <email> "mnishi@classicmodelcars.com" .
+_:employees20 <officeCode> "5" .
+_:employees20 <reportsTo> "1056" .
+_:employees20 <jobTitle> "Sales Rep" .
+_:employees21 <employeeNumber> "1625" .
+_:employees21 <lastName> "Kato" .
+_:employees21 <firstName> "Yoshimi" .
+_:employees21 <extension> "x102" .
+_:employees21 <email> "ykato@classicmodelcars.com" .
+_:employees21 <officeCode> "5" .
+_:employees21 <reportsTo> "1621" .
+_:employees21 <jobTitle> "Sales Rep" .
+_:employees22 <employeeNumber> "1702" .
+_:employees22 <lastName> "Gerard" .
+_:employees22 <firstName> "Martin" .
+_:employees22 <extension> "x2312" .
+_:employees22 <email> "mgerard@classicmodelcars.com" .
+_:employees22 <officeCode> "4" .
+_:employees22 <reportsTo> "1102" .
+_:employees22 <jobTitle> "Sales Rep" .
+}}

@@ -1,0 +1,84 @@
+
+# This file show relations between classes
+# Like:
+# _:customersN <employee_reference> _:employeesM . 
+# note: 
+# customersN: N is the index of insert sql, 
+# contactFirstName  should be relation
+# employeesM should be found in employees matched by from_key and dest_key
+#
+#
+#
+
+- 
+    from: customers 
+    from_key: salesRepEmployeeNumber
+    dest: employees
+    dest_key: employeeNumber
+    relation: employee
+
+-
+    from: employees
+    from_key: reportsTo
+    dest: employees
+    dest_key: employeeNumber
+    relation: reports_to
+
+
+-
+    from: employees
+    from_key: officeCode
+    dest: offices
+    dest_key: officeCode
+    relation: office
+    
+
+-
+    from: orderdetails
+    from_key: orderNumber
+    dest: orders
+    dest_key: orderNumber
+    relation: order
+
+
+-
+    from: orderdetails
+    from_key: productCode
+    dest: products
+    dest_key: productCode
+    relation: product
+
+
+-
+    from: orders
+    from_key: customerNumber
+    dest: customers
+    dest_key: customerNumber
+    relation: customer
+
+
+-
+    from: payments
+    from_key: customerNumber
+    dest: customers
+    dest_key: customerNumber
+    relation: customer
+
+
+-
+    from: products
+    from_key: productLine
+    dest: productlines
+    dest_key: productLine
+    relation: product_line
+
+
+
+
+
+
+
+
+
+
+    
