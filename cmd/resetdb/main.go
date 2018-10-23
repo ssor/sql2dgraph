@@ -21,7 +21,7 @@ func main() {
         args := ctx.Argv().(*Args)
         conn, err := grpc.Dial(fmt.Sprintf("%s:%d", args.Host, args.Port), grpc.WithInsecure())
         if err != nil {
-            zlog.Warn("While trying to dial gRPC")
+            zlog.Failed("While trying to dial gRPC")
             return err
         }
         defer conn.Close()
@@ -34,11 +34,11 @@ func main() {
         }
         dgctx := context.Background()
         if err := dg.Alter(dgctx, &op); err != nil {
-            zlog.Warn(err)
+            zlog.Failed(err)
             return err
         }
 
-        zlog.Info("dgraph drop success")
+        zlog.Success("dgraph drop success")
         return nil
     })
 }

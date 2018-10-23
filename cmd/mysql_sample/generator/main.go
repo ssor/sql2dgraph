@@ -17,19 +17,19 @@ import (
 
 func MutationObjs(rootDir, outputDir string) {
     tables := loadTables(rootDir)
-    zlog.Info("load tables OK")
+    zlog.Success("load tables OK")
     inserts, err := loadInsertFiles(tables, rootDir)
     if err != nil {
         panic(err)
     }
-    zlog.Info("load insert values OK")
+    zlog.Success("load insert values OK")
     validateData(tables, inserts)
-    zlog.Info("data validate OK")
+    zlog.Success("data validate OK")
 
     for _, insert := range inserts {
         outputSets(insert, outputDir)
     }
-    zlog.Info("output obj sets OK")
+    zlog.Success("output obj sets OK")
 
     for _, objInsert := range inserts {
         for _, unit := range objInsert.Units {
@@ -44,11 +44,11 @@ func MutationObjs(rootDir, outputDir string) {
         }
     }
 
-    zlog.Info("mutate obj OK")
+    zlog.Success("mutate obj OK")
     for _, insert := range inserts {
         outputSetsUid(insert, outputDir)
     }
-    zlog.Info("output obj uid OK")
+    zlog.Success("output obj uid OK")
 }
 
 func getTablePath(rootDir string) string {
@@ -58,7 +58,7 @@ func getTablePath(rootDir string) string {
 
 func AlterSchemes(rootDir, outputDir string) {
     tables := loadTables(rootDir)
-    zlog.Info("load tables OK")
+    zlog.Success("load tables OK")
     indices := GenerateIndices(tables)
     indicesSet := outputIndices(indices, outputDir)
     err := alterIndices(indicesSet)
@@ -69,20 +69,20 @@ func AlterSchemes(rootDir, outputDir string) {
 
 func MutateRelations(rootDir, outputDir string) {
     tables := loadTables(rootDir)
-    zlog.Info("load tables OK")
+    zlog.Success("load tables OK")
 
     inserts, err := loadInsertFiles(tables, rootDir)
     if err != nil {
         panic(err)
     }
     validateData(tables, inserts)
-    zlog.Info("data validate OK")
+    zlog.Success("data validate OK")
 
     err = loadUidInfo(tables, inserts, outputDir)
     if err != nil {
         panic(err)
     }
-    zlog.Info("load UID OK")
+    zlog.Success("load UID OK")
 
     relations := parseRelations(rootDir)
     for _, relation := range relations {
@@ -93,7 +93,7 @@ func MutateRelations(rootDir, outputDir string) {
         }
     }
 
-    zlog.Info("output relation OK")
+    zlog.Success("output relation OK")
 }
 
 func mutateSets(sets string) (string, error) {
@@ -161,7 +161,6 @@ func parseRelations(rootDir string) []*ClassRelation {
     if err != nil {
         panic(err)
     }
-    //spew.Dump(relations)
     return relations
 }
 
@@ -179,18 +178,18 @@ func outputClassRelations(prefix string, allSets []string, outputDir string) err
         if err != nil {
             panic(err)
         }
-        zlog.Infof("output %s OK", prefix)
+        zlog.Successf("output %s OK", prefix)
 
         _, err = mutateSets(buffer.String())
         if err != nil {
-            zlog.Errorf("mutate relations failed: %s", err)
+            zlog.Failedf("mutate relations failed: %s", err)
             printLine()
             zlog.Info(allSets)
             printLine()
             return err
         }
 
-        zlog.Infof("mutate %s OK", prefix)
+        zlog.Successf("mutate %s OK", prefix)
     }
     return nil
 }
@@ -233,21 +232,21 @@ func outputIndices(indices []string, outputDir string) string {
     if err != nil {
         panic(err)
     }
-    zlog.Info("output Indices OK")
+    zlog.Success("output Indices OK")
     return buffer.String()
 }
 
 func alterIndices(indices string) error {
     body, err := alter(indices)
     if err != nil {
-        zlog.Errorf("alter schemes failed: %s", err)
+        zlog.Failedf("alter schemes failed: %s", err)
         printLine()
         zlog.Info(body)
         zlog.Info(indices)
         printLine()
         return err
     }
-    zlog.Info("alter indices OK")
+    zlog.Success("alter indices OK")
     return nil
 }
 
