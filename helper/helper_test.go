@@ -1,8 +1,10 @@
 package helper
 
 import (
+    "context"
     "encoding/json"
     "github.com/dgraph-io/dgo"
+    "github.com/dgraph-io/dgo/protos/api"
     "github.com/stretchr/testify/assert"
     "os"
     "testing"
@@ -33,6 +35,11 @@ func newOffice(code string) *Office {
 
 func (office *Office) QueryBy() []interface{} {
     return []interface{}{"office_code", office.OfficeCode}
+}
+
+func (office *Office) GetUidInfo() (index string, uid string) {
+    uid = office.Uid
+    return
 }
 
 func (office *Office) Schemes() string {
@@ -76,6 +83,11 @@ func (employee *Employee) DependentObjectHasUid() bool {
     return true
 }
 
+func (employee *Employee) GetUidInfo() (index string, uid string) {
+    uid = employee.Uid
+    return
+}
+
 // model without linked object
 func TestAddAndUpdateOffice(t *testing.T) {
     office := newOffice("office-1")
@@ -83,6 +95,9 @@ func TestAddAndUpdateOffice(t *testing.T) {
     uid, err := MutationObj(office, dgClient)
     assert.Nil(t, err)
     office.Uid = uid
+
+    _, err = MutationObj(office, dgClient)
+    assert.Nil(t, err)
 
     q := `query MyOffice($id: string){
         offices(func: uid($id)) {
@@ -146,6 +161,36 @@ func TestRecursiveMutation(t *testing.T) {
     assert.Equal(t, 2, myEmployee.Employees[1].EmployeeNumber, string(resJson))
 }
 
+func TestMutateRaw(t *testing.T) {
+    pb := []byte(`
+     {
+        "uid": "0xc244",
+        "employee_number": 1003,
+        "last_name": "Murphy",
+        "first_name": "Diane",
+        "extension": "x5800",
+        "email": "dmurphy@classicmodelcars.com",
+        "office_work_in": {
+          "office_code": "1"
+        },
+        "job_title": "President"
+      }
+`)
+    mu := &api.Mutation{
+        CommitNow: true,
+    }
+    mu.SetJson = pb
+    ctx := context.Background()
+    assigned, err := dgClient.NewTxn().Mutate(ctx, mu)
+    assert.Nil(t, err)
+    assert.Equal(t, 1, len(assigned.Uids), assigned.String())
+
+    ctx = context.Background()
+    assigned, err = dgClient.NewTxn().Mutate(ctx, mu)
+    assert.Nil(t, err)
+    assert.Equal(t, 1, len(assigned.Uids), assigned.String())
+}
+
 func TestQueryUid(t *testing.T) {
     office := newOffice("office-3")
     office.City = "beijing"
@@ -167,7 +212,7 @@ func TestQueryUid(t *testing.T) {
 
 // *** Drop relative data in dgraph, or test results may be affected ***
 func TestMain(m *testing.M) {
-    client, err := createDgClient("127.0.0.1:9080")
+    client, err := CreateDgClient("127.0.0.1:9080")
     if err != nil {
         panic(err)
     }

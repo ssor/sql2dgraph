@@ -6,7 +6,7 @@ import (
     "google.golang.org/grpc"
 )
 
-func createDgClient(host string) (*dgo.Dgraph, error) {
+func CreateDgClient(host string) (*dgo.Dgraph, error) {
     conn, err := grpc.Dial(host, grpc.WithInsecure())
     if err != nil {
         logger.Warn("While trying to dial gRPC failed: ", err)

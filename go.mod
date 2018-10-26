@@ -2,6 +2,7 @@ module github.com/ssor/sql2graphql
 
 require (
 	github.com/Bowery/prompt v0.0.0-20180817134258-8a1d5376df1c // indirect
+	github.com/boltdb/bolt v1.3.1
 	github.com/davecgh/go-spew v1.1.1
 	github.com/dgraph-io/dgo v0.0.0-20181016021522-b3e2fd781ae3
 	github.com/jtolds/gls v4.2.1+incompatible // indirect

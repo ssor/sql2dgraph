@@ -13,10 +13,12 @@ import (
 var (
     ErrNil      = fmt.Errorf("nil")
     ErrUidUnset = fmt.Errorf("uid of dependent object not set")
+    //ErrUnmutatable=fmt.Errorf("Object has no UID")
 )
 
 type Mutatable interface {
     DependentObjectHasUid() bool
+    GetUidInfo() (index string, uid string)
 }
 
 func MutationObj(obj Mutatable, client *dgo.Dgraph) (uid string, e error) {
@@ -36,6 +38,8 @@ func MutationObj(obj Mutatable, client *dgo.Dgraph) (uid string, e error) {
         return
     }
 
+    //logger.Highlight("mutate ->")
+    //zlog.PrettyJson(pb)
     mu.SetJson = pb
     ctx := context.Background()
     assigned, err := client.NewTxn().Mutate(ctx, mu)
@@ -45,13 +49,18 @@ func MutationObj(obj Mutatable, client *dgo.Dgraph) (uid string, e error) {
         return
     }
 
-    nuid, exists := assigned.Uids["blank-0"]
-    if exists == false {
-        spew.Dump(assigned)
-        e = fmt.Errorf("uid not returned in mutation")
-        return
+    _, existedUid := obj.GetUidInfo()
+    if len(existedUid) > 0 {
+        uid = existedUid
+    } else {
+        newUid, exists := assigned.Uids["blank-0"]
+        if exists == false {
+            spew.Dump(assigned)
+            e = fmt.Errorf("uid not returned in mutation")
+            return
+        }
+        uid = newUid
     }
-    uid = nuid
     return
 }
 
