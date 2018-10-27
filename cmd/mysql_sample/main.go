@@ -11,7 +11,7 @@ import (
 
 type Args struct {
     cli.Helper
-    Version   int    `cli:"version"  usage:"generator version, version 1 will output rdf sets, version 2 will not"  dft:"1"`
+    Version   int    `cli:"v,version"  usage:"generator version, version 1 will output rdf sets, version 2 will not"  dft:"1"`
     Command   int    `cli:"cmd"  usage:"what to do? 1: mutation obj; 2: mutation relations; 3: add scheme"  dft:"0"`
     OutputDir string `cli:"output-dir"  usage:"dir for data output, default is cmd/mysql_sample/data/output"  dft:"cmd/mysql_sample/data/output"`
     RootDir   string `cli:"root"  usage:"the root dir of tables and table values, default is cmd/mysql_sample/data"  dft:"cmd/mysql_sample/data"`
@@ -20,6 +20,13 @@ type Args struct {
 func main() {
     cli.Run(new(Args), func(ctx *cli.Context) error {
         args := ctx.Argv().(*Args)
+        zlog.WithFields(map[string]interface{}{
+            "version":    args.Version,
+            "command":    args.Command,
+            "output_dir": args.OutputDir,
+            "root_dir":   args.RootDir,
+        }).Info("Run with args:")
+
         switch args.Version {
         case 1:
             v1Handler(args)
@@ -33,7 +40,10 @@ func main() {
 }
 
 func v2Handler(args *Args) {
-    generator_v2.MutationObjs(path.Join(args.RootDir, "employees.sql"), path.Join(args.RootDir, "customers.sql"))
+    err := generator_v2.MutationObjs(path.Join(args.RootDir, "values", "employees.sql"), path.Join(args.RootDir, "values", "customers.sql"))
+    if err != nil {
+        zlog.Error(err)
+    }
 }
 
 func v1Handler(args *Args) {

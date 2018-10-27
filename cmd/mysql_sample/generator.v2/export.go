@@ -15,6 +15,8 @@ func MutationObjs(files ...string) error {
         if err != nil {
             return fmt.Errorf("parse insert sql failed: %s", err)
         }
+
+        logger.Pass("table name: ", tableName)
         switch tableName {
         case "customers":
             customers, err := generateCustomers(tableName, rows)
