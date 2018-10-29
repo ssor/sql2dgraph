@@ -64,31 +64,19 @@ func MutationObj(obj Mutatable, client *dgo.Dgraph) (uid string, e error) {
     return
 }
 
-func QueryObj(query string, client *dgo.Dgraph) (json []byte, e error) {
-    ctx := context.Background()
-    resp, err := client.NewTxn().Query(ctx, query)
-    if err != nil {
-        logger.Warn("While try to query failed: ", err)
-        e = err
+// UpdateObj update data of node with uid
+// Uid will be checked first, and if there is no uid, update will failed
+func UpdateObj(obj Mutatable, client *dgo.Dgraph) (e error) {
+    _, uid := obj.GetUidInfo()
+    if len(uid) <= 0 {
+        return ErrUidUnset
+    }
+
+    if obj.DependentObjectHasUid() == false {
+        e = ErrUidUnset
         return
     }
-    json = resp.Json
-    return
-}
 
-func QueryObjWithVars(query string, variables map[string]string, client *dgo.Dgraph) (json []byte, e error) {
-    ctx := context.Background()
-    resp, err := client.NewTxn().QueryWithVars(ctx, query, variables)
-    if err != nil {
-        logger.Warn("While try to query failed: ", err)
-        e = err
-        return
-    }
-    json = resp.Json
-    return
-}
-
-func UpdateObj(obj interface{}, client *dgo.Dgraph) (e error) {
     mu := &api.Mutation{
         CommitNow: true,
     }
@@ -108,6 +96,32 @@ func UpdateObj(obj interface{}, client *dgo.Dgraph) (e error) {
         e = err
         return
     }
+    return
+}
+
+// QueryObj do query from dgraph
+func QueryObj(query string, client *dgo.Dgraph) (json []byte, e error) {
+    ctx := context.Background()
+    resp, err := client.NewTxn().Query(ctx, query)
+    if err != nil {
+        logger.Warn("While try to query failed: ", err)
+        e = err
+        return
+    }
+    json = resp.Json
+    return
+}
+
+// QueryObjWithVars do query from dgraph with paras
+func QueryObjWithVars(query string, variables map[string]string, client *dgo.Dgraph) (json []byte, e error) {
+    ctx := context.Background()
+    resp, err := client.NewTxn().QueryWithVars(ctx, query, variables)
+    if err != nil {
+        logger.Warn("While try to query failed: ", err)
+        e = err
+        return
+    }
+    json = resp.Json
     return
 }
 

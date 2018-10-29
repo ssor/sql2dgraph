@@ -1,10 +1,8 @@
 package helper
 
 import (
-    "context"
     "encoding/json"
     "github.com/dgraph-io/dgo"
-    "github.com/dgraph-io/dgo/protos/api"
     "github.com/stretchr/testify/assert"
     "os"
     "testing"
@@ -159,36 +157,6 @@ func TestRecursiveMutation(t *testing.T) {
     assert.Equal(t, 2, len(myEmployee.Employees), string(resJson))
     assert.Equal(t, 1, myEmployee.Employees[0].EmployeeNumber, string(resJson))
     assert.Equal(t, 2, myEmployee.Employees[1].EmployeeNumber, string(resJson))
-}
-
-func TestMutateRaw(t *testing.T) {
-    pb := []byte(`
-     {
-        "uid": "0xc244",
-        "employee_number": 1003,
-        "last_name": "Murphy",
-        "first_name": "Diane",
-        "extension": "x5800",
-        "email": "dmurphy@classicmodelcars.com",
-        "office_work_in": {
-          "office_code": "1"
-        },
-        "job_title": "President"
-      }
-`)
-    mu := &api.Mutation{
-        CommitNow: true,
-    }
-    mu.SetJson = pb
-    ctx := context.Background()
-    assigned, err := dgClient.NewTxn().Mutate(ctx, mu)
-    assert.Nil(t, err)
-    assert.Equal(t, 1, len(assigned.Uids), assigned.String())
-
-    ctx = context.Background()
-    assigned, err = dgClient.NewTxn().Mutate(ctx, mu)
-    assert.Nil(t, err)
-    assert.Equal(t, 1, len(assigned.Uids), assigned.String())
 }
 
 func TestQueryUid(t *testing.T) {
