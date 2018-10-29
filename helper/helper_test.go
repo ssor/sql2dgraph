@@ -2,6 +2,7 @@ package helper
 
 import (
     "encoding/json"
+    "fmt"
     "github.com/dgraph-io/dgo"
     "github.com/stretchr/testify/assert"
     "os"
@@ -36,6 +37,7 @@ func (office *Office) QueryBy() []interface{} {
 }
 
 func (office *Office) GetUidInfo() (index string, uid string) {
+    index = "office_" + office.OfficeCode
     uid = office.Uid
     return
 }
@@ -43,10 +45,14 @@ func (office *Office) GetUidInfo() (index string, uid string) {
 func (office *Office) Schemes() string {
     var schemes Schemes
     schemes = schemes.Add(newSchemeStringExactIndex("office_code")).
-        Add(newSchemeString("city")).
+        Add(newSchemeStringExactIndex("city")).
         Add(newSchemeString("phone"))
 
     return schemes.String()
+}
+
+func (office *Office) SetUid(uid string) {
+    office.Uid = uid
 }
 
 func (office *Office) DependentObjectHasUid() bool {
@@ -81,7 +87,16 @@ func (employee *Employee) DependentObjectHasUid() bool {
     return true
 }
 
+func (employee *Employee) QueryBy() []interface{} {
+    return []interface{}{"employee_number", employee.EmployeeNumber}
+}
+
+func (employee *Employee) SetUid(uid string) {
+    employee.Uid = uid
+}
+
 func (employee *Employee) GetUidInfo() (index string, uid string) {
+    index = fmt.Sprintf("employee_%d", employee.EmployeeNumber)
     uid = employee.Uid
     return
 }
@@ -89,7 +104,7 @@ func (employee *Employee) GetUidInfo() (index string, uid string) {
 // model without linked object
 func TestAddAndUpdateOffice(t *testing.T) {
     office := newOffice("office-1")
-    office.City = "beijing"
+    office.City = "TestAddAndUpdateOffice"
     uid, err := MutationObj(office, dgClient)
     assert.Nil(t, err)
     office.Uid = uid
@@ -97,13 +112,17 @@ func TestAddAndUpdateOffice(t *testing.T) {
     _, err = MutationObj(office, dgClient)
     assert.Nil(t, err)
 
-    q := `query MyOffice($id: string){
-        offices(func: uid($id)) {
-            office_code
-            city
-        }
+    err = Alter(office.Schemes(), dgClient)
+    assert.Nil(t, err)
+
+    q := `{
+            offices(func: eq(city, "TestAddAndUpdateOffice")) {
+                uid
+                office_code
+                city
+            }
     }`
-    resJson, err := QueryObjWithVars(q, map[string]string{"$id": office.Uid}, dgClient)
+    resJson, err := QueryObj(q, dgClient)
     assert.Nil(t, err)
 
     type Offices struct {
@@ -114,17 +133,18 @@ func TestAddAndUpdateOffice(t *testing.T) {
     assert.Nil(t, err)
     assert.Equal(t, len(offices.MyOffice), 1, "should only one office")
 
-    office.City = "nanjing"
-    err = UpdateObj(office, dgClient)
+    officeExists := newOffice("office-1")
+    officeExists.City = "TestAddAndUpdateOffice"
+    err = UpdateObj(officeExists, dgClient)
     assert.Nil(t, err)
 
-    resJson, err = QueryObjWithVars(q, map[string]string{"$id": office.Uid}, dgClient)
+    resJson, err = QueryObj(q, dgClient)
     assert.Equal(t, err, nil, "query failed")
     offices = Offices{}
     err = json.Unmarshal(resJson, &offices)
     assert.Nil(t, err)
-    assert.Equal(t, len(offices.MyOffice), 1, "should only one office")
-    assert.Equal(t, "nanjing", offices.MyOffice[0].City, "should be new city nanjing now, dump: "+string(resJson))
+    assert.Equal(t, 1, len(offices.MyOffice), "should only one office, dump: "+string(resJson))
+    assert.Equal(t, "TestAddAndUpdateOffice", offices.MyOffice[0].City, "should be new city nanjing now, dump: "+string(resJson))
 }
 
 func TestRecursiveMutation(t *testing.T) {

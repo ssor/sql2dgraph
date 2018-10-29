@@ -46,38 +46,16 @@ func newEmployee(number int, reportsTo *Employee) *Employee {
     }
 }
 
-func (employee *Employee) UpdateUid(uidGetter func(string) (string, error)) error {
-    index, _ := employee.GetUidInfo()
-    uid, err := uidGetter(index)
-    if err != nil {
-        return err
-    }
-    employee.Uid = uid
-    //logger.Passf("set index [%s] uid [%s]", index, uid)
-    return nil
-}
-func (employee *Employee) updateDependentObjectUid(uidGetter func(string) (string, error)) error {
-    if employee.ReportsTo == nil {
-        return nil
-    }
-
-    index, _ := employee.ReportsTo.GetUidInfo()
-    uid, err := uidGetter(index)
-    if err != nil {
-        return err
-    }
-    if len(uid) <= 0 {
-        logger.Failedf("get uid of %s failed", index)
-    } else {
-        employee.ReportsTo.SetUid(uid)
-    }
-    return nil
+func (employee *Employee) QueryBy() []interface{} {
+    return []interface{}{"employee_number", employee.EmployeeNumber}
 }
 
 func (employee *Employee) DependentObjectHasUid() bool {
     if employee.ReportsTo != nil {
         if len(employee.ReportsTo.Uid) <= 0 {
-            logger.Failedf("employee %d 's reportsto [%d] lack of uid", employee.EmployeeNumber, employee.ReportsTo.EmployeeNumber)
+            index, _ := employee.ReportsTo.GetUidInfo()
+            logger.Failedf("employee %d  reportsto [%d] which is lack of uid, should has uid by index [%s]",
+                employee.EmployeeNumber, employee.ReportsTo.EmployeeNumber, index)
             return false
         }
     }
@@ -188,12 +166,6 @@ func (employee *Employee) SetValue(index int, value interface{}) {
 }
 
 func generateEmployees(tableName string, rows sqlparser.Values) (employees []*Employee, e error) {
-    //tableName, _, rows, err := ParseInsertSql(raw, err)
-    //if err != nil {
-    //    e = fmt.Errorf("parse insert sql failed: %s", err)
-    //    return
-    //}
-
     if tableName != "employees" {
         e = fmt.Errorf("expect table name %s, and in fact is %s", "employees", tableName)
         zlog.Failed("parse employees values failed: ", e)
@@ -210,9 +182,3 @@ func generateEmployees(tableName string, rows sqlparser.Values) (employees []*Em
     }
     return
 }
-
-//
-//func parseEmployeesFromFile(f string) (employees []*Employee, e error) {
-//    employees, e = generateEmployees(ioutil.ReadFile(f))
-//    return
-//}

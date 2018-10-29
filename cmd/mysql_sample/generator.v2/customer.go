@@ -58,18 +58,12 @@ func (customer *Customer) SetUid(uid string) {
     customer.Uid = uid
 }
 
-func (customer *Customer) GetUidInfo() (string, string) {
-    return fmt.Sprintf("employee_%d", customer.CustomerNumber), customer.Uid
+func (customer *Customer) QueryBy() []interface{} {
+    return []interface{}{"customer_number", customer.CustomerNumber}
 }
 
-func (customer *Customer) UpdateUid(uidGetter func(string) (string, error)) error {
-    index, _ := customer.GetUidInfo()
-    uid, err := uidGetter(index)
-    if err != nil {
-        return err
-    }
-    customer.Uid = uid
-    return nil
+func (customer *Customer) GetUidInfo() (string, string) {
+    return fmt.Sprintf("employee_%d", customer.CustomerNumber), customer.Uid
 }
 
 func (customer *Customer) SetValue(index int, value interface{}) {
@@ -223,23 +217,24 @@ func (customer *Customer) SetValue(index int, value interface{}) {
 
 }
 
-func (customer *Customer) updateDependentObjectUid(uidGetter func(string) (string, error)) error {
-    if customer.Employee == nil {
-        return nil
-    }
-
-    index, _ := customer.Employee.GetUidInfo()
-    uid, err := uidGetter(index)
-    if err != nil {
-        return err
-    }
-    if len(uid) <= 0 {
-        logger.Failedf("get uid of %s failed", index)
-    } else {
-        customer.Employee.SetUid(uid)
-    }
-    return nil
-}
+//
+//func (customer *Customer) updateDependentObjectUid(uidGetter func(string) (string, error)) error {
+//    if customer.Employee == nil {
+//        return nil
+//    }
+//
+//    index, _ := customer.Employee.GetUidInfo()
+//    uid, err := uidGetter(index)
+//    if err != nil {
+//        return err
+//    }
+//    if len(uid) <= 0 {
+//        logger.Failedf("get uid of %s failed", index)
+//    } else {
+//        customer.Employee.SetUid(uid)
+//    }
+//    return nil
+//}
 
 func (customer *Customer) DependentObjectHasUid() bool {
     if customer.Employee != nil {
@@ -251,11 +246,6 @@ func (customer *Customer) DependentObjectHasUid() bool {
 }
 
 func generateCustomers(tableName string, rows sqlparser.Values) (customers []*Customer, e error) {
-    //tableName, _, rows, err := ParseInsertSql(raw, err)
-    //if err != nil {
-    //    e = fmt.Errorf("parse insert sql failed: %s", err)
-    //    return
-    //}
 
     if tableName != "customers" {
         e = fmt.Errorf("expect table name %s, and in fact is %s", "customers", tableName)
@@ -273,9 +263,3 @@ func generateCustomers(tableName string, rows sqlparser.Values) (customers []*Cu
     }
     return
 }
-
-//
-//func parseCustomersFromFile(f string) (customers []*Customer, e error) {
-//    customers, e = generateCustomers(ioutil.ReadFile(f))
-//    return
-//}

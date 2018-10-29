@@ -13,12 +13,14 @@ import (
 var (
     ErrNil      = fmt.Errorf("nil")
     ErrUidUnset = fmt.Errorf("uid of dependent object not set")
-    //ErrUnmutatable=fmt.Errorf("Object has no UID")
+    ErrNeedUid  = fmt.Errorf("update object need UID")
 )
 
 type Mutatable interface {
     DependentObjectHasUid() bool
     GetUidInfo() (index string, uid string)
+    SetUid(uid string)
+    QueryBy() []interface{}
 }
 
 func MutationObj(obj Mutatable, client *dgo.Dgraph) (uid string, e error) {
@@ -38,8 +40,6 @@ func MutationObj(obj Mutatable, client *dgo.Dgraph) (uid string, e error) {
         return
     }
 
-    //logger.Highlight("mutate ->")
-    //zlog.PrettyJson(pb)
     mu.SetJson = pb
     ctx := context.Background()
     assigned, err := client.NewTxn().Mutate(ctx, mu)
@@ -49,7 +49,7 @@ func MutationObj(obj Mutatable, client *dgo.Dgraph) (uid string, e error) {
         return
     }
 
-    _, existedUid := obj.GetUidInfo()
+    index, existedUid := obj.GetUidInfo()
     if len(existedUid) > 0 {
         uid = existedUid
     } else {
@@ -60,6 +60,8 @@ func MutationObj(obj Mutatable, client *dgo.Dgraph) (uid string, e error) {
             return
         }
         uid = newUid
+
+        saveIndexUidMapToLocalDb(index, uid) // this may have err, but we can ignore it as the uid has been stored in dgraph
     }
     return
 }
@@ -69,7 +71,14 @@ func MutationObj(obj Mutatable, client *dgo.Dgraph) (uid string, e error) {
 func UpdateObj(obj Mutatable, client *dgo.Dgraph) (e error) {
     _, uid := obj.GetUidInfo()
     if len(uid) <= 0 {
-        return ErrUidUnset
+        // uid not set, we should get this uid from local db
+        // If uid cannot found in local db, we will query it from dgraph
+        uid, err := GetUidByIndex(obj, client)
+        if err != nil {
+            logger.Warn("get uid for object failed: ", err)
+            return ErrNeedUid
+        }
+        obj.SetUid(uid)
     }
 
     if obj.DependentObjectHasUid() == false {
@@ -127,7 +136,7 @@ func QueryObjWithVars(query string, variables map[string]string, client *dgo.Dgr
 
 type Queryable interface {
     QueryBy() []interface{}
-    Schemes() string
+    //Schemes() string
 }
 
 func QueryUid(qb Queryable, client *dgo.Dgraph) (uid string, e error) {
