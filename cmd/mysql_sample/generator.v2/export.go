@@ -64,3 +64,29 @@ func MutationObjs(files ...string) error {
     }
     return nil
 }
+
+func AlterSchemas(names ...string) error {
+    for _, name := range names {
+        logger.Infof("try to alter %s schema", name)
+        switch name {
+        case "customers":
+            schemas := newEmptyCustomer().Schemes()
+            err := helper.Alter(schemas, dgClient)
+            if err != nil {
+                logger.Failedf("alter schema for %s failed: %s", name, err)
+                return err
+            }
+        case "employees":
+            schemas := newEmptyEmployee().Schemes()
+            err := helper.Alter(schemas, dgClient)
+            if err != nil {
+                logger.Failedf("alter schema for %s failed: %s", name, err)
+                return err
+            }
+        default:
+            logger.Failedf("do not support schema %s now", name)
+
+        }
+    }
+    return nil
+}

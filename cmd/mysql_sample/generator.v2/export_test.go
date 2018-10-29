@@ -11,4 +11,7 @@ func TestMutationObjs(t *testing.T) {
     assert.Nil(t, err)
     err = MutationObjs(path.Join("test_data", "customers.sql"))
     assert.Nil(t, err)
+
+    err = AlterSchemas("employees", "customers")
+    assert.Nil(t, err)
 }

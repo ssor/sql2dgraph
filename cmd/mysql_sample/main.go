@@ -44,6 +44,10 @@ func v2Handler(args *Args) {
     if err != nil {
         zlog.Error(err)
     }
+    err = generator_v2.AlterSchemas("employees", "customers")
+    if err != nil {
+        zlog.Error(err)
+    }
 }
 
 func v1Handler(args *Args) {

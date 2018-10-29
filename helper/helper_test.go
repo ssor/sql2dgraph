@@ -42,13 +42,13 @@ func (office *Office) GetUidInfo() (index string, uid string) {
     return
 }
 
-func (office *Office) Schemes() string {
-    var schemes Schemes
-    schemes = schemes.Add(newSchemeStringExactIndex("office_code")).
-        Add(newSchemeStringExactIndex("city")).
-        Add(newSchemeString("phone"))
+func (office *Office) Schemes() Schemas {
+    var schemes Schemas
+    schemes = schemes.Add(NewSchemaStringExactIndex("office_code")).
+        Add(NewSchemaStringExactIndex("city")).
+        Add(NewSchemaString("phone"))
 
-    return schemes.String()
+    return schemes
 }
 
 func (office *Office) SetUid(uid string) {

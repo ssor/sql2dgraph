@@ -3,6 +3,7 @@ package generator_v2
 import (
     "fmt"
     "github.com/davecgh/go-spew/spew"
+    "github.com/ssor/sql2graphql/helper"
     "github.com/ssor/zlog"
     "github.com/xwb1989/sqlparser"
     "strconv"
@@ -44,6 +45,14 @@ func newEmployee(number int, reportsTo *Employee) *Employee {
         EmployeeNumber: number,
         ReportsTo:      reportsTo,
     }
+}
+
+func (employee *Employee) Schemes() helper.Schemas {
+    var schemes helper.Schemas
+    schemes = schemes.Add(helper.NewSchemaIntIndex("employee_number")).
+        Add(helper.NewSchemaString("job_title"))
+
+    return schemes
 }
 
 func (employee *Employee) QueryBy() []interface{} {

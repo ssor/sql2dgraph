@@ -3,6 +3,7 @@ package generator_v2
 import (
     "fmt"
     "github.com/davecgh/go-spew/spew"
+    "github.com/ssor/sql2graphql/helper"
     "github.com/ssor/zlog"
     "github.com/xwb1989/sqlparser"
     "strconv"
@@ -52,6 +53,14 @@ func newCustomer(number int) *Customer {
     return &Customer{
         CustomerNumber: number,
     }
+}
+
+func (customer *Customer) Schemes() helper.Schemas {
+    var schemes helper.Schemas
+    schemes = schemes.Add(helper.NewSchemaIntIndex("customer_number")).
+        Add(helper.NewSchemaStringExactIndex("city"))
+
+    return schemes
 }
 
 func (customer *Customer) SetUid(uid string) {

@@ -23,10 +23,20 @@ type Mutatable interface {
     QueryBy() []interface{}
 }
 
+//TODO
+func RemoveUidByIndex(index string) error {
+    return nil
+}
+
 func MutationObj(obj Mutatable, client *dgo.Dgraph) (uid string, e error) {
     if obj.DependentObjectHasUid() == false {
         e = ErrUidUnset
         return
+    }
+    // If uid can be found in local db, we will query use it
+    uidExisted, err := GetUidByIndex(obj, client)
+    if err == nil {
+        obj.SetUid(uidExisted)
     }
 
     mu := &api.Mutation{
@@ -136,7 +146,7 @@ func QueryObjWithVars(query string, variables map[string]string, client *dgo.Dgr
 
 type Queryable interface {
     QueryBy() []interface{}
-    //Schemes() string
+    //Schemas() string
 }
 
 func QueryUid(qb Queryable, client *dgo.Dgraph) (uid string, e error) {
@@ -158,9 +168,9 @@ func QueryUid(qb Queryable, client *dgo.Dgraph) (uid string, e error) {
     return
 }
 
-func Alter(schemes string, client *dgo.Dgraph) (e error) {
+func Alter(schemes Schemas, client *dgo.Dgraph) (e error) {
     op := &api.Operation{}
-    op.Schema = schemes
+    op.Schema = schemes.String()
     ctx := context.Background()
     err := client.Alter(ctx, op)
     if err != nil {
