@@ -20,12 +20,7 @@ type Mutatable interface {
     DependentObjectHasUid() bool
     GetUidInfo() (index string, uid string)
     SetUid(uid string)
-    QueryBy() []interface{}
-}
-
-//TODO
-func RemoveUidByIndex(index string) error {
-    return nil
+    QueryBy() (name string, value string)
 }
 
 func MutationObj(obj Mutatable, client *dgo.Dgraph) (uid string, e error) {
@@ -145,16 +140,16 @@ func QueryObjWithVars(query string, variables map[string]string, client *dgo.Dgr
 }
 
 type Queryable interface {
-    QueryBy() []interface{}
-    //Schemas() string
+    QueryBy() (string, string)
 }
 
 func QueryUid(qb Queryable, client *dgo.Dgraph) (uid string, e error) {
+    name, value := qb.QueryBy()
     query := fmt.Sprintf(`{
         query_uid(func: eq(%s, "%s")) {
             uid
         }
-    }`, qb.QueryBy()...)
+    }`, name, value)
     ctx := context.Background()
     resp, err := client.NewTxn().Query(ctx, query)
     if err != nil {
@@ -179,4 +174,18 @@ func Alter(schemes Schemas, client *dgo.Dgraph) (e error) {
         return
     }
     return
+}
+
+func DropDB(client *dgo.Dgraph) error {
+    op := api.Operation{
+        DropAll: true,
+    }
+    ctx := context.Background()
+    if err := client.Alter(ctx, &op); err != nil {
+        logger.Failed(err)
+        return err
+    }
+
+    logger.Success("dgraph drop success")
+    return nil
 }

@@ -55,8 +55,8 @@ func (employee *Employee) Schemes() helper.Schemas {
     return schemes
 }
 
-func (employee *Employee) QueryBy() []interface{} {
-    return []interface{}{"employee_number", employee.EmployeeNumber}
+func (employee *Employee) QueryBy() (string, string) {
+    return "employee_number", strconv.FormatInt(int64(employee.EmployeeNumber), 10)
 }
 
 func (employee *Employee) DependentObjectHasUid() bool {

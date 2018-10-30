@@ -4,13 +4,9 @@ bin_dir:
 
 clean:
 	@rm -r bin
-	@rm -r data/output
 
 mysql:bin_dir
-	@go build -o bin/mysql-client cmd/mysql_sample/main.go
+	@go build -o bin/mysql-import-client cmd/mysql_sample/main.go
 
-resetdb:bin_dir
-	@go build -o bin/reset cmd/resetdb/main.go
-
-all:bin_dir mysql resetdb
+all:bin_dir mysql
 	@echo "all build OK"

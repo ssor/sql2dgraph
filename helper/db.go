@@ -6,6 +6,22 @@ import (
     "github.com/dgraph-io/dgo"
 )
 
+func RemoveUidByIndex(index string) error {
+    e := kvdb.Update(func(tx *bolt.Tx) error {
+        bucket, err := tx.CreateBucketIfNotExists(normalBucketName)
+        if err != nil {
+            return fmt.Errorf("create bucket: %s", err)
+        }
+        err = bucket.Delete([]byte(index))
+        if err != nil {
+            logger.Failedf("failed to delete index [%s] for %s", index, err)
+            return err
+        }
+        return nil
+    })
+    return e
+}
+
 func GetUidByIndex(qb Mutatable, client *dgo.Dgraph) (uid string, e error) {
     index, _ := qb.GetUidInfo()
     uid, e = getUidByIndexFromLocalDb(index)
@@ -25,7 +41,7 @@ func GetUidByIndex(qb Mutatable, client *dgo.Dgraph) (uid string, e error) {
             return
         }
     }
-    logger.Infof("query by [%s] and get uid [%s]", index, uid)
+    //logger.Infof("query by [%s] and get uid [%s]", index, uid)
     return
 }
 

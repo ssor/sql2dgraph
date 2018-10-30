@@ -67,8 +67,8 @@ func (customer *Customer) SetUid(uid string) {
     customer.Uid = uid
 }
 
-func (customer *Customer) QueryBy() []interface{} {
-    return []interface{}{"customer_number", customer.CustomerNumber}
+func (customer *Customer) QueryBy() (string, string) {
+    return "customer_number", strconv.FormatInt(int64(customer.CustomerNumber), 10)
 }
 
 func (customer *Customer) GetUidInfo() (string, string) {

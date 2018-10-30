@@ -6,6 +6,7 @@ import (
     "github.com/dgraph-io/dgo"
     "github.com/stretchr/testify/assert"
     "os"
+    "strconv"
     "testing"
 )
 
@@ -32,8 +33,8 @@ func newOffice(code string) *Office {
     }
 }
 
-func (office *Office) QueryBy() []interface{} {
-    return []interface{}{"office_code", office.OfficeCode}
+func (office *Office) QueryBy() (string, string) {
+    return "office_code", office.OfficeCode
 }
 
 func (office *Office) GetUidInfo() (index string, uid string) {
@@ -87,8 +88,8 @@ func (employee *Employee) DependentObjectHasUid() bool {
     return true
 }
 
-func (employee *Employee) QueryBy() []interface{} {
-    return []interface{}{"employee_number", employee.EmployeeNumber}
+func (employee *Employee) QueryBy() (string, string) {
+    return "employee_number", strconv.FormatInt(int64(employee.EmployeeNumber), 10)
 }
 
 func (employee *Employee) SetUid(uid string) {
@@ -99,6 +100,15 @@ func (employee *Employee) GetUidInfo() (index string, uid string) {
     index = fmt.Sprintf("employee_%d", employee.EmployeeNumber)
     uid = employee.Uid
     return
+}
+
+func (employee *Employee) Schemes() Schemas {
+    var schemes Schemas
+    schemes = schemes.Add(NewSchemaIntIndex("employee_number")).
+        Add(NewSchemaStringExactIndex("LastName")).
+        Add(NewSchemaStringExactIndex("FirstName"))
+
+    return schemes
 }
 
 // model without linked object
@@ -159,6 +169,9 @@ func TestRecursiveMutation(t *testing.T) {
     uidOfEmployee2, err := MutationObj(employee2, dgClient)
     assert.Nil(t, err)
     employee2.Uid = uidOfEmployee2
+
+    err = Alter(employee1.Schemes(), dgClient)
+    assert.Nil(t, err)
 
     q := `{
                employees(func: has(employee_number), orderasc: employee_number) {

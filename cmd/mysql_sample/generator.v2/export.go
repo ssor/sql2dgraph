@@ -61,6 +61,7 @@ func MutationObjs(files ...string) error {
         default:
             logger.Failedf("do not support file %s to import", file)
         }
+        logger.Success("import file ", file)
     }
     return nil
 }
@@ -87,6 +88,12 @@ func AlterSchemas(names ...string) error {
             logger.Failedf("do not support schema %s now", name)
 
         }
+        logger.Successf("alter %s schema", name)
     }
     return nil
+}
+
+func DropDB() error {
+    err := helper.DropDB(dgClient)
+    return err
 }
