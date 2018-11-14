@@ -13,6 +13,14 @@ func NewSchemaStringExactIndex(name string) *Schema {
     return newSchema(name, "string", "@index(exact)")
 }
 
+func NewSchemaStringTermIndex(name string) *Schema {
+    return newSchema(name, "string", "@index(term)")
+}
+
+func NewSchemaStringTrigramIndex(name string) *Schema {
+    return newSchema(name, "string", "@index(term,trigram)")
+}
+
 func NewSchemaString(name string) *Schema {
     return newSchema(name, "string", "")
 }

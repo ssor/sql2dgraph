@@ -226,25 +226,6 @@ func (customer *Customer) SetValue(index int, value interface{}) {
 
 }
 
-//
-//func (customer *Customer) updateDependentObjectUid(uidGetter func(string) (string, error)) error {
-//    if customer.Employee == nil {
-//        return nil
-//    }
-//
-//    index, _ := customer.Employee.GetUidInfo()
-//    uid, err := uidGetter(index)
-//    if err != nil {
-//        return err
-//    }
-//    if len(uid) <= 0 {
-//        logger.Failedf("get uid of %s failed", index)
-//    } else {
-//        customer.Employee.SetUid(uid)
-//    }
-//    return nil
-//}
-
 func (customer *Customer) DependentObjectHasUid() bool {
     if customer.Employee != nil {
         if len(customer.Employee.Uid) <= 0 {

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>区块链搜索</title>
+    <link rel="stylesheet" href="css/bulma.min.css">
+    <style>
+        .one-block {
+            background-color: rgba(128, 128, 128, 0.1);
+        }
+    </style>
+</head>
+<body>
+<section class="section">
+    <h1 class="title" style="font-size: 32px;">
+        区块链搜索
+    </h1>
+    <div class="container" style="margin-top: -57px;">
+
+        <div class="field">
+            <div class="control" style="">
+                <input id="input_keyword" class="input" type="text" style="width: 40%;margin-left: -85px;"
+                       placeholder="关键字"
+                       value="{{.keyword}}">
+
+                <button id="btn_search" class="button is-primary" style="width: 120px;">搜索</button>
+            </div>
+        </div>
+        <div id="result_tip" style="margin-left: -85px; font-size: 12px; color: gray;"></div>
+    </div>
+    <div class="container" style="margin-left: 178px;margin-top: 20px;">
+        <div id="block_container" class="container">
+
+        </div>
+        <div id="tx_container" class="container">
+
+        </div>
+
+    </div>
+</section>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/lodash.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+
+        $("#btn_search").click(function () {
+            console.log("try to search");
+            let keyword = $("#input_keyword").val();
+            console.log("keyword -> ", keyword);
+            if (keyword.length <= 0) {
+                return;
+            }
+            $("#block_container").empty();
+            $("#tx_container").empty();
+            queryHash(keyword);
+        });
+    });
+
+    function queryHash(keyword) {
+        $.getJSON("/api/v1/search_hash/" + keyword, function (result) {
+            console.log(result);
+            if (result.message === "OK") {
+                console.log("query success");
+                console.log(result.data);
+                let result_count = {
+                    tx_count: 0,
+                    block_count: 0
+                };
+                let blocks = result.data.blocks;
+                if (blocks == null) {
+                    console.log("no blocks in result");
+                } else {
+                    console.log("%d blocks returned", blocks.length);
+                    result_count.block_count = blocks.length;
+                    _.forEach(blocks, function (block) {
+                        $("#block_container").append(block_template({id: block.hash_id, height: block.height}));
+                    })
+                }
+                let txs = result.data.txs;
+                if (txs == null) {
+                    console.log("no txs in result");
+                } else {
+                    console.log("%d txs returned", txs.length);
+                    result_count.tx_count = txs.length;
+                    _.forEach(txs, function (tx) {
+                        let obj = {id: tx.hash_id, index: tx.index_in_block, height: tx.block_height};
+                        if (tx.block_detail != null) {
+                            obj.block_id = tx.block_detail.hash_id;
+                        }
+                        $("#tx_container").append(tx_template(obj));
+                    })
+                }
+                let compiled = _.template('找到相关的 ${tx_count} 个交易，${block_count}个区块');
+                let txt = compiled(result_count);
+                $("#result_tip").text(txt);
+            } else {
+                console.warn("failed query " + keyword)
+            }
+        });
+    }
+
+
+    function tx_template(obj) {
+        let compiled = _.template(' <div class="tile" style="margin-top: 10px;">\n' +
+                '                <article class="tile is-child notification is-info">\n' +
+                '                    <p class="is-size-6">哈希值(HASH)</p>\n' +
+                '                    <p class="is-size-4">${id}</p>\n' +
+                '                    <p class="is-size-6">在区块中的排序</p>\n' +
+                '                    <p class="is-size-4">${index}</p>\n' +
+                '                    <p class="is-size-6">所在区块高度(Height)</p>\n' +
+                '                    <p class="is-size-4">${height}</p>\n' +
+                '                    <p class="is-size-6">所在区块哈希值(HASH)</p>\n' +
+                '                    <p class="is-size-4">${block_id}</p>\n' +
+                '                </article>\n' +
+                '            </div>');
+        return compiled(obj);
+    }
+
+    function block_template(obj) {
+        let compiled = _.template(' <div class="tile" style="margin-top: 10px;">\n' +
+                '                <article class="tile is-child notification is-success">\n' +
+                '                    <p class="is-size-6">哈希值(HASH)</p>\n' +
+                '                    <p class="is-size-4">${id}</p>\n' +
+                '                    <p class="is-size-6">高度(Height)</p>\n' +
+                '                    <p class="is-size-4">${height}</p>\n' +
+                '                </article>\n' +
+                '            </div>');
+        return compiled(obj);
+    }
+</script>
+</body>
+</html>

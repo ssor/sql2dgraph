@@ -30,9 +30,12 @@ func MutationObj(obj Mutatable, client *dgo.Dgraph) (uid string, e error) {
     }
     // If uid can be found in local db, we will query use it
     uidExisted, err := GetUidByIndex(obj, client)
-    if err == nil {
-        obj.SetUid(uidExisted)
+    if err != nil {
+        e = err
+        return
     }
+
+    obj.SetUid(uidExisted)
 
     mu := &api.Mutation{
         CommitNow: true,

@@ -8,3 +8,12 @@ demo of graphQL by convert mysql sample data to rdf sets and push into dgraph
 
 
 
+## Start Dgraph
+
+```
+dgraph zero
+
+dgraph server --lru_mb 2048 --zero localhost:5080
+
+dgraph-ratel
+```
