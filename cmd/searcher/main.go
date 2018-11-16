@@ -14,6 +14,7 @@ func main() {
         })
     })
     r.GET("api/v1/search_hash/:kw", handler.QueryByHash)
+    r.GET("api/v1/search", handler.QueryAll)
     r.Static("/css", "./static/css")
     r.Static("/js", "./static/js")
     r.LoadHTMLGlob("templates/*")
@@ -30,7 +31,8 @@ func index(context *gin.Context) {
 }
 func search(context *gin.Context) {
     kw := context.Query("kw")
+    q := context.Query("q")
     context.HTML(http.StatusOK, "result.tmpl", gin.H{
-        "keyword": kw,
+        "keyword": kw + q,
     })
 }

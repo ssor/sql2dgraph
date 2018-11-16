@@ -20,7 +20,7 @@
 
         <div class="field">
             <div class="control" style="">
-                <input id="input_keyword" class="input" type="text" style="width: 40%;margin-left: -85px;"
+                <input id="input_keyword" class="input" type="text" style="width: 40%;margin-left: -230px;"
                        placeholder="关键字"
                        value="{{.keyword}}">
 
@@ -43,25 +43,38 @@
 <script type="text/javascript" src="js/lodash.min.js"></script>
 <script type="text/javascript">
     $(document).ready(function () {
+        try_search();
 
         $("#btn_search").click(function () {
-            console.log("try to search");
-            let keyword = $("#input_keyword").val();
-            console.log("keyword -> ", keyword);
-            if (keyword.length <= 0) {
-                return;
-            }
-            $("#block_container").empty();
-            $("#tx_container").empty();
-            queryHash(keyword);
+            try_search();
         });
     });
 
+    function try_search() {
+        console.log("try to search");
+        let keyword = $("#input_keyword").val();
+        keyword = _.replace(keyword, " ", "");
+        console.log("keyword -> ", keyword);
+        if (keyword.length <= 0) {
+            return;
+        }
+        $("#block_container").empty();
+        $("#tx_container").empty();
+        $("#result_tip").text("");
+        queryHash(keyword);
+    }
+
     function queryHash(keyword) {
-        $.getJSON("/api/v1/search_hash/" + keyword, function (result) {
+        keyword = _.replace(keyword, "(", "&")
+        keyword = _.replace(keyword, ")", "")
+        $.getJSON("/api/v1/search?q=" + keyword, function (result) {
             console.log(result);
             if (result.message === "OK") {
                 console.log("query success");
+                if (result.data == null) {
+                    updateSearchResultTip("no results got")
+                    return
+                }
                 console.log(result.data);
                 let result_count = {
                     tx_count: 0,
@@ -93,13 +106,17 @@
                 }
                 let compiled = _.template('找到相关的 ${tx_count} 个交易，${block_count}个区块');
                 let txt = compiled(result_count);
-                $("#result_tip").text(txt);
+                updateSearchResultTip(txt);
+                // $("#result_tip").text(txt);
             } else {
                 console.warn("failed query " + keyword)
             }
         });
     }
 
+    function updateSearchResultTip(tip) {
+        $("#result_tip").text(tip);
+    }
 
     function tx_template(obj) {
         let compiled = _.template(' <div class="tile" style="margin-top: 10px;">\n' +

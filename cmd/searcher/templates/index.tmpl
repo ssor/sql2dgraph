@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>区块链搜索</title>
+    <script type="text/javascript" src="js/lodash.min.js"></script>
     <link rel="stylesheet" href="css/bulma.min.css">
 </head>
 <body>
@@ -15,6 +16,12 @@
         <div class="field">
             <div class="control" style="text-align: center;margin-top: 100px;">
                 <input id="input_keyword" class="input" type="text" style="width: 50%;" placeholder="关键字">
+                <p style="margin-top: 10px; color: gray; font-size: 13px;">高级技巧：
+                    <span style="color: black; padding-left: 3px; padding-right: 6px; font-weight: 500;">(block=1-5)</span>
+                    搜索高度为1到5的区块,
+                    <span style="color: black; padding-left: 3px; padding-right: 6px; font-weight: 500;">(tx=1-5&block=1)</span>
+                    搜索区块1中的排序1到5的交易
+                </p>
             </div>
             <div class="control" style="text-align: center;margin-top: 20px;">
                 <button id="btn_search" class="button is-primary" style="width: 120px;">搜索</button>
@@ -42,11 +49,19 @@
         $("#btn_search").click(function () {
             console.log("try to search");
             let keyword = $("#input_keyword").val();
-            console.log("keyword -> ", keyword)
+            keyword = _.trim(keyword);
+            console.log("keyword -> ", keyword);
+            console.log("encoded keyword -> ", encodeURIComponent(keyword));
             if (keyword.length <= 0) {
                 return
             }
-            window.location.href = "/search?kw=" + keyword;
+            window.location.href = "/search?q=" + encodeURIComponent(keyword);
+            return
+            if(_.startsWith(keyword,"(")){
+                window.location.href = "/search?q=" + encodeURIComponent(keyword);
+            }else{
+                window.location.href = "/search?kw=" + encodeURIComponent(keyword);
+            }
         });
     });
 </script>

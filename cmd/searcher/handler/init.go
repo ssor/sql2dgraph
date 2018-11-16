@@ -13,7 +13,6 @@ var (
 )
 
 func init() {
-    logger.Info("init ...")
     client, err := helper.CreateDgClient("127.0.0.1:9080")
     if err != nil {
         panic(err)

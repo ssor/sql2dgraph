@@ -11,7 +11,8 @@ func TestQueryTxCount(t *testing.T) {
 }
 
 func TestQueryTxsInBlock(t *testing.T) {
-    txs, err := queryAllTxsInBlock(2, dgClient)
+    result, err := queryTxsInBlock(2, 0, 100, dgClient)
+    txs:=result.Txs
     assert.Nil(t, err)
     assert.NotNil(t, txs)
     assert.True(t, len(txs) > 1)
@@ -21,15 +22,17 @@ func TestQueryTxsInBlock(t *testing.T) {
 }
 
 func TestQueryAllBlocks(t *testing.T) {
-    blocks, err := queryAllBlocks(0, dgClient)
+    result, err := queryAllBlocks(0, dgClient)
     assert.Nil(t, err)
+    blocks := result.Blocks
     assert.NotNil(t, blocks)
     //spew.Dump(blocks)
     assert.True(t, len(blocks) > 0, "blocks count should be more than 0")
 }
 
 func TestQueryByHash(t *testing.T) {
-    txs, _ := queryAllTxsInBlock(2, dgClient)
+    result, _ := queryTxsInBlock(2, 0, 100, dgClient)
+    txs := result.Txs
     tx := txs[0]
     result, err := queryByHash(tx.HashID[:3], dgClient)
     assert.Nil(t, err)
@@ -37,11 +40,19 @@ func TestQueryByHash(t *testing.T) {
     assert.Equal(t, tx.HashID, result.Txs[0].HashID)
     //spew.Dump(result)
 
-    blocks, _ := queryAllBlocks(1, dgClient)
+    result, _ = queryAllBlocks(1, dgClient)
+    blocks:=result.Blocks
     block := blocks[0]
     result, err = queryByHash(block.HashID[:3], dgClient)
     assert.Nil(t, err)
     assert.NotNil(t, result.Blocks)
     assert.Equal(t, block.HashID, result.Blocks[0].HashID)
     //spew.Dump(result)
+}
+
+func TestQueryBlockRange(t *testing.T) {
+    result, err := queryBlockRange(1, 3, dgClient)
+    assert.Nil(t, err)
+    assert.NotNil(t, result.Blocks)
+    assert.Equal(t, 3, len(result.Blocks))
 }
